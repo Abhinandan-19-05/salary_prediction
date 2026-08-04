@@ -1,0 +1,1501 @@
+Degree,College_Tier,Skills,Certifications,Internship_Quality,Location,Experience_Years,Projects,Salary_LPA
+BCA,Tier 1,"Machine Learning, Power BI, AWS, SQL",None,Good,Bangalore,0,2,7.92
+B.Tech,Tier 2,"React, Machine Learning, Node.js, MongoDB, Deep Learning, Python",Oracle Java,Average,Pune,2,6,9.45
+MBA,Tier 1,"MySQL, Deep Learning, Linux, Java","Salesforce Administrator, AWS Solutions Architect, Microsoft Azure Fundamentals",None,Delhi,8,6,17.93
+BCA,Tier 1,"Azure, NLP, C++",AWS Solutions Architect,Average,Gurgaon,4,3,11.97
+B.Sc IT,Tier 3,"MySQL, PostgreSQL",Salesforce Administrator,Good,Pune,6,7,13.17
+B.Sc IT,Tier 3,"Machine Learning, Spark",None,Excellent,Noida,3,2,9.21
+M.Tech,Tier 2,"Django, TensorFlow, PyTorch, PostgreSQL, Node.js",Microsoft Power BI,None,Indore,7,9,15.16
+MBA,Tier 3,"Flask, Machine Learning, Power BI, CSS, HTML",None,Good,Hyderabad,1,3,7.24
+MBA,Tier 2,"Django, MySQL, Node.js, CSS, Deep Learning",None,Good,Hyderabad,7,5,15.52
+M.Tech,Tier 1,"Excel, Node.js, Python, AWS, TensorFlow","Salesforce Administrator, Google Data Analytics",Good,Hyderabad,3,9,13.46
+B.Sc CS,Tier 2,"JavaScript, Azure, PyTorch",None,Good,Gurgaon,0,2,6.83
+MCA,Tier 2,"TensorFlow, MongoDB, C++",None,Good,Hyderabad,7,3,14.58
+Diploma,Tier 3,"Deep Learning, CSS, Hadoop","Microsoft Azure Fundamentals, Salesforce Administrator, IBM Data Science",Average,Nagpur,4,8,11.35
+Diploma,Tier 1,"C++, Computer Vision, Python",Microsoft Azure Fundamentals,None,Indore,0,4,6.42
+B.Tech,Tier 3,"CSS, Machine Learning","Cisco CCNA, Microsoft Azure Fundamentals",Good,Indore,8,10,16.27
+Diploma,Tier 3,"SQL, Git, React","Oracle Java, Salesforce Administrator",Average,Indore,0,2,4.86
+M.Tech,Tier 3,"Machine Learning, Tableau",Salesforce Administrator,Average,Noida,1,5,6.86
+BCA,Tier 2,"SQL, Java, PostgreSQL, JavaScript, Python, C++",Google Data Analytics,Average,Gurgaon,2,7,10.1
+B.Sc CS,Tier 2,"Deep Learning, PyTorch, Linux, Node.js, NLP","Salesforce Administrator, Cisco CCNA, AWS Solutions Architect",None,Mumbai,0,10,8.59
+B.Tech,Tier 3,"Java, MongoDB","Salesforce Administrator, Google Data Analytics, AWS Cloud Practitioner",Excellent,Hyderabad,1,2,8.15
+B.Sc IT,Tier 2,"Machine Learning, MongoDB, MySQL, Java, Hadoop, C++","Salesforce Administrator, IBM Data Science, Google Data Analytics",Average,Indore,4,4,11.32
+B.Sc CS,Tier 3,"Node.js, Computer Vision, PyTorch, Azure",None,None,Ahmedabad,8,2,13.77
+B.Sc IT,Tier 2,"PyTorch, Flask, TensorFlow",None,Excellent,Chennai,3,3,10.69
+MCA,Tier 3,"Python, Git, Spark, JavaScript, NLP, TensorFlow",None,Excellent,Pune,3,2,10.09
+B.Sc CS,Tier 2,"Tableau, Docker, Computer Vision, PyTorch, Git, PostgreSQL","Salesforce Administrator, Cisco CCNA",Average,Bangalore,0.5,7,8.78
+B.Tech,Tier 1,"PostgreSQL, Deep Learning, Excel","Salesforce Administrator, Oracle Java, Microsoft Power BI",None,Hyderabad,1,9,9.44
+M.Tech,Tier 2,"React, Power BI, Java","IBM Data Science, AWS Cloud Practitioner",Excellent,Mumbai,2,2,10.25
+MBA,Tier 3,"PyTorch, Machine Learning, Hadoop",Google Data Analytics,Excellent,Bangalore,1,6,8.83
+MBA,Tier 3,"Deep Learning, Excel, Linux",None,Average,Bangalore,6,4,12.2
+Diploma,Tier 2,"Machine Learning, Python, Git",Oracle Java,Average,Hyderabad,3,6,10.89
+MBA,Tier 3,"Computer Vision, Python, SQL, Deep Learning, Excel, MongoDB","AWS Cloud Practitioner, AWS Solutions Architect",Good,Chennai,4,7,11.76
+BCA,Tier 2,"Tableau, Deep Learning, Java, Docker, React, Python",IBM Data Science,Average,Nagpur,4,10,11.96
+BCA,Tier 3,"CSS, NLP, Git, React","Oracle Java, Microsoft Power BI",Good,Mumbai,5,7,13.13
+B.Sc CS,Tier 3,"Django, JavaScript, Spark, Python","Microsoft Power BI, Microsoft Azure Fundamentals",Average,Ahmedabad,8,6,15.46
+Diploma,Tier 3,"HTML, Linux, TensorFlow, AWS, Excel, Git",None,Average,Nagpur,8,6,14.39
+B.Sc IT,Tier 3,"Linux, Tableau, Power BI",None,None,Gurgaon,8,2,14.36
+B.Sc IT,Tier 3,"HTML, Django, Machine Learning, Power BI, PostgreSQL",None,Excellent,Remote,0.5,7,7.07
+Diploma,Tier 1,"PyTorch, Hadoop, SQL","Google Data Analytics, Cisco CCNA, IBM Data Science",Good,Kolkata,8,6,18.9
+Diploma,Tier 3,"React, Spark, JavaScript, Node.js, Excel, AWS","Cisco CCNA, Microsoft Power BI, Oracle Java",Average,Nagpur,3,9,10.48
+B.Sc IT,Tier 2,"Docker, NLP",Microsoft Power BI,Average,Kolkata,0.5,3,6.35
+MBA,Tier 3,"C++, React, Computer Vision","Oracle Java, AWS Cloud Practitioner, AWS Solutions Architect",Excellent,Noida,8,1,16.76
+MBA,Tier 2,"NLP, Azure, Django, Hadoop","Salesforce Administrator, Microsoft Azure Fundamentals, Cisco CCNA",Average,Noida,6,1,13.69
+MBA,Tier 3,"PyTorch, Power BI, MySQL, JavaScript, Python","AWS Cloud Practitioner, AWS Solutions Architect, IBM Data Science",Average,Gurgaon,1,1,7.26
+M.Tech,Tier 2,"Computer Vision, Azure, TensorFlow, Django","Oracle Java, Microsoft Power BI",Excellent,Gurgaon,0,9,8.3
+M.Tech,Tier 2,"Azure, PostgreSQL",None,Good,Mumbai,2,1,8.67
+B.Sc IT,Tier 1,"MongoDB, Tableau","Microsoft Power BI, IBM Data Science, AWS Solutions Architect",Good,Indore,0.5,3,8.86
+BCA,Tier 2,"MongoDB, Git, PyTorch, Django","Microsoft Azure Fundamentals, AWS Solutions Architect, Microsoft Power BI",Good,Nagpur,2,2,9.45
+MCA,Tier 3,"Linux, SQL, PyTorch, MongoDB, Hadoop, Java","Salesforce Administrator, Oracle Java",Good,Hyderabad,7,6,14.81
+MBA,Tier 3,"React, Flask","Google Data Analytics, Oracle Java, AWS Solutions Architect",Good,Nagpur,3,10,10.96
+Diploma,Tier 2,"Deep Learning, Computer Vision, Hadoop, Machine Learning, C++, PyTorch","Microsoft Azure Fundamentals, Cisco CCNA, Microsoft Power BI",Good,Noida,4,1,12.19
+M.Tech,Tier 1,"Flask, Linux, Deep Learning","Microsoft Power BI, Salesforce Administrator",Good,Kolkata,2,2,9.64
+MBA,Tier 2,"Docker, HTML, PostgreSQL","Cisco CCNA, AWS Cloud Practitioner, Salesforce Administrator",Average,Noida,2,5,9.96
+M.Tech,Tier 2,"Flask, React, AWS, JavaScript, Computer Vision, PyTorch","Microsoft Power BI, Salesforce Administrator, Google Data Analytics",Average,Indore,2,6,9.47
+B.Sc CS,Tier 1,"Deep Learning, AWS, MongoDB, Azure, CSS","AWS Solutions Architect, Microsoft Azure Fundamentals",Average,Chennai,1,5,8.66
+B.Sc CS,Tier 2,"JavaScript, NLP",Cisco CCNA,None,Bangalore,8,5,16.17
+Diploma,Tier 2,"Deep Learning, Hadoop","AWS Solutions Architect, Salesforce Administrator, Microsoft Azure Fundamentals",Average,Ahmedabad,0,3,6.25
+MCA,Tier 1,"SQL, JavaScript, Azure","Microsoft Azure Fundamentals, Oracle Java, Salesforce Administrator",Excellent,Delhi,8,7,19.21
+B.Tech,Tier 3,"Azure, Tableau",Microsoft Power BI,Good,Pune,2,3,8.05
+B.Sc CS,Tier 1,"Docker, MySQL, HTML, NLP, Java",Microsoft Power BI,Good,Indore,6,2,14.54
+MCA,Tier 3,"Git, Linux, Tableau, React, SQL, JavaScript",Google Data Analytics,Excellent,Pune,0.5,1,6.57
+MCA,Tier 2,"PyTorch, NLP, Node.js, SQL, Hadoop, Docker","Oracle Java, Microsoft Power BI",Good,Gurgaon,6,2,15.0
+MBA,Tier 3,"Deep Learning, Python, C++, Machine Learning, Git, MongoDB",None,Excellent,Nagpur,3,10,9.94
+B.Sc CS,Tier 2,"PyTorch, Deep Learning, Excel, MongoDB, React","AWS Solutions Architect, Cisco CCNA, Google Data Analytics",Average,Chennai,0.5,3,7.63
+Diploma,Tier 2,"Spark, Azure, JavaScript, Java, Node.js",None,Average,Chennai,0.5,7,7.51
+B.Tech,Tier 3,"Node.js, React, Java, Tableau, CSS, Flask","Cisco CCNA, AWS Cloud Practitioner, AWS Solutions Architect",Average,Pune,3,8,11.03
+Diploma,Tier 1,"Linux, Machine Learning, Docker, Excel, NLP, JavaScript",None,Good,Hyderabad,2,2,9.96
+BCA,Tier 3,"HTML, PyTorch, Docker","Salesforce Administrator, Microsoft Power BI",Average,Gurgaon,6,4,13.36
+B.Sc CS,Tier 2,"CSS, AWS, Power BI, C++, Deep Learning, Azure","IBM Data Science, Microsoft Power BI, Oracle Java",None,Indore,3,10,11.33
+Diploma,Tier 3,"JavaScript, HTML, Flask, Computer Vision, Azure","Cisco CCNA, IBM Data Science, Oracle Java",None,Indore,2,10,8.53
+MBA,Tier 1,"Docker, PyTorch, Linux, Django, Git",Cisco CCNA,Excellent,Pune,7,10,17.88
+BCA,Tier 3,"SQL, CSS, PyTorch, Node.js, Python",Oracle Java,Excellent,Pune,0.5,8,8.63
+MCA,Tier 2,"PostgreSQL, C++, Hadoop, Computer Vision, Git","IBM Data Science, Cisco CCNA, Oracle Java",Good,Ahmedabad,0.5,4,7.88
+MCA,Tier 3,"React, SQL",None,Average,Indore,3,1,7.6
+B.Tech,Tier 2,"React, Power BI, Machine Learning, CSS","Google Data Analytics, Salesforce Administrator, AWS Solutions Architect",None,Noida,8,4,17.05
+B.Sc CS,Tier 2,"Node.js, Deep Learning, Git, Python","Microsoft Power BI, Google Data Analytics, AWS Cloud Practitioner",Average,Chennai,8,5,17.24
+MBA,Tier 3,"Hadoop, NLP, Tableau, Django, HTML",None,Average,Ahmedabad,4,10,10.2
+MCA,Tier 1,"Deep Learning, Python, MongoDB, Hadoop, Git",None,Excellent,Indore,6,5,15.33
+B.Sc IT,Tier 3,"Machine Learning, PostgreSQL, Tableau, MySQL","Google Data Analytics, AWS Solutions Architect",Excellent,Nagpur,0,5,6.84
+B.Tech,Tier 2,"C++, PyTorch, NLP","Oracle Java, Google Data Analytics",Average,Remote,7,6,15.53
+MCA,Tier 3,"PyTorch, Spark, HTML, Linux","IBM Data Science, AWS Solutions Architect",Average,Hyderabad,1,4,7.56
+MBA,Tier 3,"Flask, C++, Linux, Django, Python, Deep Learning",None,Average,Nagpur,3,10,9.08
+M.Tech,Tier 1,"HTML, Python, MySQL","Microsoft Azure Fundamentals, AWS Solutions Architect",Good,Gurgaon,3,7,12.07
+B.Tech,Tier 3,"HTML, SQL, Machine Learning, TensorFlow",Oracle Java,Average,Nagpur,7,7,14.39
+B.Sc CS,Tier 3,"Spark, HTML","Microsoft Power BI, AWS Cloud Practitioner, IBM Data Science",Average,Gurgaon,6,4,13.71
+BCA,Tier 3,"JavaScript, TensorFlow, PostgreSQL, Flask",None,Average,Mumbai,0.5,8,6.19
+B.Sc IT,Tier 3,"Python, Java, Linux, Computer Vision, Machine Learning, Power BI",AWS Solutions Architect,Excellent,Kolkata,2,10,9.67
+B.Sc IT,Tier 2,"Linux, TensorFlow, MySQL",None,Average,Pune,1,9,7.9
+B.Sc CS,Tier 1,"Power BI, Python","Microsoft Azure Fundamentals, IBM Data Science",None,Delhi,0,3,8.09
+BCA,Tier 3,"Node.js, Azure, Flask, CSS, MongoDB",None,Average,Mumbai,8,1,14.78
+MCA,Tier 2,"Java, HTML","Oracle Java, AWS Solutions Architect, Microsoft Azure Fundamentals",Good,Gurgaon,0.5,2,7.67
+B.Sc CS,Tier 1,"MySQL, PostgreSQL, MongoDB, JavaScript","Oracle Java, Microsoft Power BI",Average,Ahmedabad,5,2,13.39
+BCA,Tier 3,"AWS, Hadoop, Tableau, React, Node.js, Machine Learning","IBM Data Science, Cisco CCNA, Microsoft Azure Fundamentals",Average,Hyderabad,4,7,12.01
+MCA,Tier 2,"Git, PyTorch, HTML",None,None,Hyderabad,0.5,7,6.75
+M.Tech,Tier 3,"Java, MongoDB, JavaScript, Hadoop, Computer Vision, Git",None,Average,Nagpur,5,1,10.52
+MCA,Tier 2,"CSS, Tableau, Power BI, Git, HTML, Machine Learning",None,Average,Kolkata,4,2,10.86
+B.Sc IT,Tier 3,"Azure, Spark, MySQL, Hadoop, Git, PostgreSQL",None,Good,Nagpur,3,1,7.73
+MCA,Tier 3,"Python, Excel, Hadoop, Power BI","AWS Solutions Architect, Google Data Analytics, IBM Data Science",Good,Bangalore,0.5,9,8.22
+MBA,Tier 2,"Flask, NLP, AWS","AWS Solutions Architect, AWS Cloud Practitioner",None,Remote,8,1,15.92
+MCA,Tier 2,"HTML, MySQL, Node.js, React, Deep Learning",Salesforce Administrator,None,Noida,0.5,5,7.48
+Diploma,Tier 2,"Java, Machine Learning, Django, MySQL",None,None,Delhi,2,3,8.61
+MCA,Tier 2,"HTML, AWS","Google Data Analytics, Salesforce Administrator, Microsoft Azure Fundamentals",Good,Mumbai,7,9,17.33
+M.Tech,Tier 1,"React, Python","AWS Solutions Architect, IBM Data Science, Microsoft Power BI",Average,Noida,5,5,14.22
+B.Tech,Tier 3,"Linux, MySQL, Node.js","AWS Solutions Architect, Oracle Java",Excellent,Mumbai,5,10,13.9
+BCA,Tier 2,"AWS, Computer Vision, Machine Learning, Azure",AWS Solutions Architect,Good,Hyderabad,7,9,16.09
+M.Tech,Tier 2,"Machine Learning, SQL, Power BI","Microsoft Azure Fundamentals, Google Data Analytics",Good,Remote,0.5,3,8.5
+Diploma,Tier 2,"Azure, MongoDB, Node.js, Git, TensorFlow, PostgreSQL","IBM Data Science, Google Data Analytics",Average,Gurgaon,6,5,14.85
+B.Tech,Tier 2,"NLP, Node.js","AWS Cloud Practitioner, Salesforce Administrator, Google Data Analytics",Excellent,Hyderabad,0.5,10,9.94
+MBA,Tier 2,"Linux, AWS, Java, Node.js, PyTorch, MongoDB",IBM Data Science,Good,Kolkata,1,1,7.75
+M.Tech,Tier 3,"CSS, PostgreSQL",AWS Cloud Practitioner,Average,Gurgaon,6,9,13.42
+B.Sc CS,Tier 2,"Django, React, Azure, Computer Vision",None,Good,Nagpur,4,2,10.43
+MBA,Tier 2,"Hadoop, Power BI, Computer Vision, C++, MongoDB, Git",IBM Data Science,Average,Nagpur,5,3,12.0
+BCA,Tier 2,"PostgreSQL, Linux, Computer Vision, Spark, Power BI",None,Good,Noida,7,6,14.82
+MCA,Tier 1,"Computer Vision, Azure, HTML",Microsoft Azure Fundamentals,Excellent,Pune,0.5,5,9.44
+BCA,Tier 2,"Spark, AWS, CSS, Java, Git, Computer Vision",Oracle Java,None,Pune,8,3,16.02
+B.Tech,Tier 2,"Node.js, MySQL, NLP","Microsoft Azure Fundamentals, Salesforce Administrator, Google Data Analytics",Excellent,Remote,6,4,15.22
+Diploma,Tier 2,"Azure, Django, CSS, React",Microsoft Azure Fundamentals,Excellent,Pune,3,1,10.84
+M.Tech,Tier 2,"Docker, Hadoop",None,Average,Remote,1,5,7.4
+B.Sc CS,Tier 3,"PyTorch, Machine Learning","IBM Data Science, AWS Cloud Practitioner, Microsoft Azure Fundamentals",None,Kolkata,4,4,10.64
+BCA,Tier 2,"Computer Vision, PyTorch",None,Excellent,Nagpur,4,3,10.99
+MCA,Tier 3,"Docker, Spark, Power BI, Azure, HTML","AWS Cloud Practitioner, AWS Solutions Architect, Salesforce Administrator",Average,Pune,7,10,15.78
+BCA,Tier 3,"NLP, SQL, Java",Oracle Java,Good,Ahmedabad,6,2,12.16
+Diploma,Tier 2,"PostgreSQL, CSS",Google Data Analytics,Average,Bangalore,8,6,16.29
+MBA,Tier 1,"CSS, Flask",None,Excellent,Kolkata,7,9,16.9
+MBA,Tier 3,"PostgreSQL, Django","Microsoft Power BI, AWS Cloud Practitioner",Average,Hyderabad,4,4,10.83
+BCA,Tier 3,"Power BI, Java, Flask, JavaScript","Google Data Analytics, Cisco CCNA",Excellent,Gurgaon,1,3,7.61
+Diploma,Tier 1,"Java, Linux, Tableau",None,Average,Delhi,7,7,16.44
+Diploma,Tier 2,"NLP, Flask, Hadoop",None,Excellent,Chennai,3,2,10.5
+MBA,Tier 3,"TensorFlow, Django, Computer Vision, Excel, HTML","IBM Data Science, Microsoft Power BI, Oracle Java",None,Noida,0.5,7,7.2
+B.Sc CS,Tier 2,"SQL, C++, Computer Vision, Git","Microsoft Power BI, Cisco CCNA",Good,Noida,1,8,8.95
+B.Tech,Tier 3,"MySQL, React, Deep Learning, PostgreSQL",None,None,Nagpur,5,6,10.81
+B.Sc CS,Tier 3,"Hadoop, MySQL, Git","AWS Cloud Practitioner, Google Data Analytics, Salesforce Administrator",Average,Nagpur,4,6,10.53
+B.Tech,Tier 3,"Flask, Node.js, Azure, C++, MongoDB",Salesforce Administrator,Average,Chennai,3,4,9.51
+B.Tech,Tier 3,"CSS, Django, PyTorch, JavaScript, SQL","Microsoft Power BI, Cisco CCNA",Average,Ahmedabad,3,8,9.7
+B.Sc CS,Tier 3,"Excel, TensorFlow, Docker, Node.js, C++","IBM Data Science, AWS Solutions Architect",Good,Delhi,3,3,10.46
+B.Sc CS,Tier 3,"Machine Learning, SQL, Tableau, Linux, Power BI, PyTorch","AWS Cloud Practitioner, IBM Data Science, Microsoft Power BI",Good,Gurgaon,7,3,15.71
+BCA,Tier 1,"Docker, AWS, HTML, CSS, React","AWS Solutions Architect, Google Data Analytics, Cisco CCNA",Good,Gurgaon,6,9,16.94
+B.Sc CS,Tier 3,"React, CSS, PyTorch",None,Excellent,Kolkata,1,5,7.11
+M.Tech,Tier 3,"Flask, CSS, TensorFlow","AWS Solutions Architect, Microsoft Power BI",None,Kolkata,3,3,8.98
+BCA,Tier 2,"MongoDB, Power BI, Excel","AWS Cloud Practitioner, Salesforce Administrator",None,Nagpur,8,5,16.1
+MBA,Tier 3,"HTML, TensorFlow","Microsoft Power BI, Cisco CCNA",Average,Remote,5,5,11.9
+B.Tech,Tier 1,"HTML, Node.js, Tableau, Computer Vision, MySQL",IBM Data Science,Excellent,Chennai,4,7,13.33
+M.Tech,Tier 2,"Computer Vision, Machine Learning","AWS Solutions Architect, Microsoft Power BI, Microsoft Azure Fundamentals",Average,Hyderabad,0,5,7.95
+MBA,Tier 2,"Spark, Computer Vision, PyTorch","Microsoft Azure Fundamentals, Google Data Analytics",Average,Kolkata,6,8,14.78
+Diploma,Tier 1,"CSS, Node.js, Machine Learning, Tableau, MongoDB","AWS Cloud Practitioner, Salesforce Administrator",Average,Ahmedabad,6,5,15.19
+BCA,Tier 2,"AWS, Flask, Azure, Django","AWS Cloud Practitioner, Oracle Java",None,Kolkata,2,6,9.15
+BCA,Tier 2,"Azure, JavaScript, Deep Learning, Spark, MySQL",None,None,Hyderabad,5,6,12.49
+M.Tech,Tier 2,"Azure, Power BI, Tableau, MySQL","Salesforce Administrator, AWS Cloud Practitioner, Cisco CCNA",None,Indore,4,8,11.97
+B.Sc CS,Tier 3,"Power BI, Computer Vision, MySQL, TensorFlow, Excel, Django","IBM Data Science, Cisco CCNA",Good,Delhi,6,1,13.22
+BCA,Tier 3,"NLP, Linux, AWS, Docker, PostgreSQL, Python","Microsoft Power BI, Microsoft Azure Fundamentals, IBM Data Science",None,Gurgaon,1,9,8.63
+MBA,Tier 1,"Java, MongoDB, Docker",None,None,Gurgaon,4,7,12.0
+B.Sc IT,Tier 2,"PyTorch, HTML, Hadoop, AWS, Spark, Java",Salesforce Administrator,Average,Chennai,6,9,14.48
+B.Sc CS,Tier 2,"Computer Vision, JavaScript, Flask, Git, Azure, AWS","Cisco CCNA, Microsoft Azure Fundamentals",Excellent,Delhi,7,5,16.27
+MCA,Tier 3,"Docker, HTML, Computer Vision","IBM Data Science, Microsoft Power BI, Google Data Analytics",None,Nagpur,7,7,14.8
+MBA,Tier 3,"NLP, Java, Docker",None,Average,Gurgaon,3,8,9.21
+MCA,Tier 3,"Power BI, SQL, MySQL, AWS",Microsoft Azure Fundamentals,None,Kolkata,2,4,7.4
+MBA,Tier 2,"SQL, Git, Azure, Power BI, Python",Oracle Java,Good,Gurgaon,6,4,14.91
+MCA,Tier 2,"PyTorch, Azure",None,Good,Mumbai,7,1,15.16
+B.Sc CS,Tier 2,"PyTorch, Java, Spark","Cisco CCNA, Google Data Analytics, IBM Data Science",Excellent,Delhi,0,1,7.7
+BCA,Tier 3,"NLP, Node.js, PostgreSQL, JavaScript","Google Data Analytics, Cisco CCNA, Salesforce Administrator",None,Hyderabad,4,3,11.03
+MCA,Tier 3,"AWS, Computer Vision","Microsoft Azure Fundamentals, Google Data Analytics",Good,Nagpur,5,7,12.27
+BCA,Tier 2,"Excel, Power BI","IBM Data Science, Microsoft Azure Fundamentals, AWS Cloud Practitioner",Average,Mumbai,6,5,15.25
+MCA,Tier 2,"Python, Deep Learning, PostgreSQL, Flask, Docker, Machine Learning",None,Good,Gurgaon,3,3,10.46
+MCA,Tier 3,"Flask, MySQL, Machine Learning, Power BI","Google Data Analytics, Cisco CCNA, IBM Data Science",Excellent,Chennai,5,9,14.51
+B.Sc IT,Tier 3,"Hadoop, Linux, C++, CSS, Node.js, Spark","AWS Solutions Architect, Salesforce Administrator",None,Kolkata,7,4,13.87
+B.Sc CS,Tier 1,"Node.js, SQL, Git, Tableau, Docker, MongoDB","AWS Solutions Architect, Cisco CCNA, Oracle Java",None,Pune,7,7,17.26
+B.Tech,Tier 2,"AWS, Python, Django, Deep Learning",None,Good,Ahmedabad,0.5,1,6.57
+BCA,Tier 2,"PyTorch, TensorFlow",None,Excellent,Gurgaon,0,5,7.56
+B.Sc CS,Tier 3,"Flask, TensorFlow, Django, Node.js, Hadoop","Oracle Java, AWS Solutions Architect, IBM Data Science",Excellent,Kolkata,1,6,8.27
+MBA,Tier 2,"Spark, Python, Azure",None,Excellent,Gurgaon,7,7,16.18
+B.Sc IT,Tier 2,"Power BI, Deep Learning, Tableau, PyTorch",None,None,Nagpur,5,10,12.87
+B.Tech,Tier 2,"SQL, MySQL",None,Average,Nagpur,0,4,5.94
+MBA,Tier 2,"Tableau, Azure, Hadoop, TensorFlow, Java, Power BI","Microsoft Azure Fundamentals, IBM Data Science",Good,Remote,4,4,12.0
+B.Sc CS,Tier 3,"Machine Learning, React, NLP, Deep Learning, Java, JavaScript",Oracle Java,Good,Bangalore,4,7,11.99
+M.Tech,Tier 3,"Power BI, NLP, Django, Excel, Azure","Microsoft Azure Fundamentals, Salesforce Administrator, Google Data Analytics",Excellent,Pune,6,1,14.06
+MBA,Tier 2,"Django, Machine Learning, Deep Learning",IBM Data Science,Good,Gurgaon,4,2,11.59
+B.Sc IT,Tier 1,"Git, MySQL, Java, Hadoop, C++",Salesforce Administrator,Average,Mumbai,4,5,12.96
+B.Tech,Tier 2,"AWS, SQL, Azure","Microsoft Azure Fundamentals, Salesforce Administrator, Cisco CCNA",Excellent,Kolkata,4,5,12.98
+M.Tech,Tier 2,"CSS, TensorFlow, HTML, Node.js",None,Excellent,Indore,6,6,14.81
+M.Tech,Tier 2,"MongoDB, Hadoop",Google Data Analytics,None,Kolkata,8,10,16.57
+MCA,Tier 1,"Machine Learning, Django, MongoDB, Spark",Cisco CCNA,Good,Nagpur,4,5,12.66
+Diploma,Tier 3,"Node.js, Excel, AWS, Linux, Flask",Google Data Analytics,Good,Gurgaon,1,9,8.69
+B.Tech,Tier 2,"Spark, Git",None,Good,Noida,1,4,7.17
+B.Sc CS,Tier 1,"Node.js, Flask, Java, MySQL, PostgreSQL, Git","Cisco CCNA, AWS Cloud Practitioner, Salesforce Administrator",Good,Noida,0,1,8.23
+MCA,Tier 2,"Python, CSS, Spark, Docker","Google Data Analytics, AWS Solutions Architect, AWS Cloud Practitioner",Good,Mumbai,2,10,11.38
+M.Tech,Tier 2,"C++, Flask, Django, Node.js, MongoDB",Microsoft Azure Fundamentals,Average,Hyderabad,0,2,6.26
+MBA,Tier 2,"PostgreSQL, Python",AWS Solutions Architect,Average,Noida,4,10,12.73
+BCA,Tier 3,"Machine Learning, Tableau","Microsoft Power BI, AWS Cloud Practitioner, Cisco CCNA",Good,Delhi,7,10,16.21
+B.Sc CS,Tier 3,"Python, Tableau, MongoDB, Power BI","AWS Solutions Architect, Microsoft Power BI, Salesforce Administrator",Good,Ahmedabad,5,9,13.13
+B.Sc CS,Tier 3,"CSS, AWS","AWS Cloud Practitioner, AWS Solutions Architect",Average,Hyderabad,4,10,11.97
+MBA,Tier 3,"Python, PostgreSQL, Deep Learning, Linux","Cisco CCNA, Microsoft Azure Fundamentals, Google Data Analytics",Good,Noida,5,3,12.68
+MBA,Tier 1,"NLP, Linux, Machine Learning, Docker, C++, TensorFlow","Google Data Analytics, Oracle Java",Good,Nagpur,1,7,9.67
+BCA,Tier 1,"Node.js, Flask, Azure, Deep Learning",None,None,Pune,5,8,13.66
+MBA,Tier 1,"Flask, JavaScript",None,Good,Remote,4,7,12.06
+MBA,Tier 2,"AWS, TensorFlow",Salesforce Administrator,None,Noida,1,3,7.37
+MCA,Tier 2,"Excel, React","Oracle Java, Microsoft Power BI",Average,Hyderabad,4,5,12.39
+Diploma,Tier 2,"Node.js, SQL, Power BI","AWS Cloud Practitioner, Oracle Java",Average,Ahmedabad,5,6,13.24
+MBA,Tier 3,"Power BI, NLP, Computer Vision, MySQL, Docker, Tableau","IBM Data Science, Google Data Analytics, Microsoft Azure Fundamentals",Excellent,Delhi,6,10,15.93
+M.Tech,Tier 2,"Flask, SQL, PyTorch, MongoDB, Tableau",Salesforce Administrator,None,Indore,6,4,13.19
+MCA,Tier 3,"Spark, Hadoop","Cisco CCNA, Google Data Analytics, IBM Data Science",Average,Delhi,1,7,8.09
+BCA,Tier 2,"HTML, MongoDB, Django, JavaScript, CSS, Docker","Salesforce Administrator, AWS Cloud Practitioner, Oracle Java",Excellent,Indore,7,10,17.19
+BCA,Tier 1,"Git, Flask, Excel",None,Good,Nagpur,5,6,13.67
+MBA,Tier 1,"Deep Learning, Machine Learning",Cisco CCNA,Average,Gurgaon,8,9,17.65
+B.Tech,Tier 2,"React, PyTorch, C++, SQL",IBM Data Science,Average,Gurgaon,2,9,10.18
+Diploma,Tier 1,"Computer Vision, C++, NLP, Java, Linux",None,None,Chennai,0.5,3,7.58
+B.Sc IT,Tier 2,"Excel, Computer Vision, JavaScript, React, Node.js, Machine Learning","Google Data Analytics, Salesforce Administrator, IBM Data Science",Good,Noida,0,10,9.33
+Diploma,Tier 2,"Python, Docker, Tableau, Deep Learning, Azure",None,Good,Remote,7,3,14.82
+B.Sc IT,Tier 2,"Git, Hadoop, HTML, CSS","Oracle Java, Salesforce Administrator",Good,Chennai,4,8,12.52
+MCA,Tier 3,"C++, Git, Power BI, Computer Vision, SQL, Machine Learning","AWS Solutions Architect, Google Data Analytics",Average,Pune,7,7,15.07
+B.Sc CS,Tier 2,"Excel, HTML, PostgreSQL, JavaScript, Docker",Salesforce Administrator,None,Delhi,1,3,7.31
+Diploma,Tier 3,"Python, HTML, Power BI, Tableau","Salesforce Administrator, Cisco CCNA, Microsoft Azure Fundamentals",Good,Noida,6,8,14.32
+B.Tech,Tier 3,"NLP, Java, Deep Learning",Salesforce Administrator,Average,Remote,6,10,13.59
+Diploma,Tier 2,"MongoDB, SQL","Salesforce Administrator, IBM Data Science",Good,Remote,0,8,7.85
+MBA,Tier 1,"NLP, Hadoop, Java","Microsoft Power BI, IBM Data Science, Oracle Java",Excellent,Gurgaon,0.5,4,9.46
+M.Tech,Tier 3,"PostgreSQL, React, Excel, MySQL, Power BI, Tableau",AWS Cloud Practitioner,Good,Kolkata,3,10,10.39
+M.Tech,Tier 3,"NLP, MongoDB, Deep Learning, Hadoop",None,None,Remote,5,1,10.74
+B.Sc CS,Tier 3,"Machine Learning, Power BI, Docker","Microsoft Azure Fundamentals, Oracle Java",Average,Ahmedabad,3,7,9.93
+BCA,Tier 3,"Django, CSS","IBM Data Science, Cisco CCNA",Excellent,Chennai,8,1,16.12
+BCA,Tier 3,"PostgreSQL, Git, Docker, Flask, Hadoop",None,Good,Noida,2,7,8.77
+Diploma,Tier 2,"Computer Vision, JavaScript, MongoDB, Power BI","IBM Data Science, AWS Cloud Practitioner, Cisco CCNA",None,Remote,6,1,13.32
+B.Sc CS,Tier 2,"React, Tableau",Microsoft Power BI,None,Delhi,0.5,6,7.1
+M.Tech,Tier 3,"Java, Django, PostgreSQL","Microsoft Azure Fundamentals, Oracle Java",Good,Indore,0.5,1,5.46
+BCA,Tier 1,"CSS, Git, Node.js",None,None,Chennai,0.5,7,8.14
+Diploma,Tier 1,"C++, AWS, Linux, SQL, Computer Vision","Microsoft Power BI, Google Data Analytics",Average,Remote,1,3,8.62
+B.Tech,Tier 3,"Node.js, Flask, AWS",Google Data Analytics,Excellent,Ahmedabad,6,4,13.24
+BCA,Tier 1,"MongoDB, AWS","IBM Data Science, Oracle Java, Google Data Analytics",Good,Mumbai,3,2,11.9
+MCA,Tier 3,"Hadoop, Git","Microsoft Azure Fundamentals, Salesforce Administrator",Good,Delhi,0,4,6.19
+BCA,Tier 2,"C++, CSS, Python, Flask, Computer Vision, Power BI","Oracle Java, IBM Data Science, Microsoft Power BI",Good,Remote,6,2,14.17
+BCA,Tier 1,"Java, PyTorch, Linux","Salesforce Administrator, Microsoft Power BI, IBM Data Science",Good,Remote,5,7,15.2
+BCA,Tier 3,"MySQL, Power BI, Deep Learning, C++, NLP, Spark",Google Data Analytics,Good,Noida,8,2,15.06
+MBA,Tier 3,"Java, Machine Learning, C++","AWS Solutions Architect, Cisco CCNA, Microsoft Power BI",Good,Delhi,1,2,7.16
+B.Sc CS,Tier 3,"HTML, Flask, CSS","Google Data Analytics, IBM Data Science",None,Remote,3,2,8.97
+B.Tech,Tier 2,"Deep Learning, CSS, C++, Docker, MongoDB",None,Average,Kolkata,4,1,10.25
+B.Sc CS,Tier 2,"Azure, SQL, TensorFlow, MongoDB",None,Average,Kolkata,0,1,6.01
+B.Tech,Tier 2,"Flask, Django, PyTorch, Power BI, Excel",None,Good,Indore,5,4,12.12
+MBA,Tier 3,"Deep Learning, Spark, C++, MongoDB","AWS Solutions Architect, AWS Cloud Practitioner",None,Remote,7,1,13.8
+BCA,Tier 3,"Azure, Hadoop, NLP, Computer Vision",None,Good,Bangalore,4,4,10.29
+MCA,Tier 3,"Node.js, Flask, MongoDB","Microsoft Azure Fundamentals, Salesforce Administrator, AWS Solutions Architect",None,Noida,0,4,6.09
+B.Tech,Tier 3,"Azure, Git","Microsoft Power BI, AWS Solutions Architect, Cisco CCNA",Good,Mumbai,5,8,13.71
+B.Sc CS,Tier 3,"Java, PyTorch",Salesforce Administrator,Average,Chennai,6,2,12.43
+B.Sc CS,Tier 3,"C++, MongoDB, Java, React, Git",Microsoft Azure Fundamentals,Average,Chennai,5,6,11.57
+MCA,Tier 2,"Power BI, Azure, MongoDB",None,None,Pune,6,8,13.61
+BCA,Tier 2,"Node.js, NLP, Deep Learning",None,None,Remote,3,10,9.94
+M.Tech,Tier 1,"Flask, Django, CSS",None,Good,Delhi,1,1,8.7
+Diploma,Tier 2,"Machine Learning, SQL, Node.js, TensorFlow, Linux, Power BI",None,None,Remote,2,3,8.65
+MBA,Tier 2,"MongoDB, Deep Learning",None,None,Hyderabad,2,8,9.21
+BCA,Tier 3,"SQL, Java, Node.js, Excel","Oracle Java, Cisco CCNA, AWS Cloud Practitioner",Average,Noida,1,6,7.66
+B.Sc CS,Tier 2,"TensorFlow, Power BI, Java, MySQL, Machine Learning","Cisco CCNA, Oracle Java",Excellent,Gurgaon,0,2,7.88
+B.Sc CS,Tier 2,"Machine Learning, PostgreSQL, Linux, JavaScript, Hadoop, Python","IBM Data Science, Cisco CCNA, Microsoft Power BI",Good,Chennai,8,9,17.92
+MCA,Tier 1,"MySQL, Machine Learning, Python, TensorFlow","AWS Cloud Practitioner, Cisco CCNA",Good,Remote,8,4,18.67
+BCA,Tier 2,"Deep Learning, JavaScript, Spark",None,Good,Mumbai,8,7,16.5
+B.Sc CS,Tier 1,"Computer Vision, Linux, AWS, Docker, Flask, MongoDB",None,Good,Chennai,8,10,17.84
+B.Sc IT,Tier 3,"JavaScript, NLP, Excel, HTML, Java",None,None,Ahmedabad,2,1,6.48
+B.Tech,Tier 2,"Tableau, Linux, Power BI, Computer Vision, Docker, Excel","AWS Cloud Practitioner, Salesforce Administrator",None,Indore,1,2,7.65
+M.Tech,Tier 3,"Docker, Git, Django, MongoDB",None,Average,Chennai,1,3,6.38
+MBA,Tier 3,"PostgreSQL, Computer Vision, Excel, Docker, JavaScript","Microsoft Azure Fundamentals, Google Data Analytics",Average,Indore,3,3,8.53
+B.Tech,Tier 3,"Django, Hadoop, Azure, MongoDB, Java, Excel","Microsoft Azure Fundamentals, AWS Solutions Architect",Excellent,Pune,4,2,10.94
+M.Tech,Tier 1,"Spark, Docker","Cisco CCNA, AWS Cloud Practitioner",Average,Mumbai,0.5,6,8.76
+BCA,Tier 3,"Django, Node.js","Google Data Analytics, Oracle Java, Microsoft Azure Fundamentals",Excellent,Chennai,7,7,15.6
+Diploma,Tier 3,"PostgreSQL, Azure, Git, Machine Learning, Excel, Node.js",None,Good,Bangalore,3,1,9.07
+BCA,Tier 1,"TensorFlow, Django, Excel",None,Good,Hyderabad,4,10,13.89
+Diploma,Tier 3,"PostgreSQL, Excel, MySQL, TensorFlow, React",AWS Cloud Practitioner,None,Mumbai,2,7,8.8
+MCA,Tier 3,"Machine Learning, SQL, Java, Django","Google Data Analytics, AWS Cloud Practitioner, Salesforce Administrator",None,Hyderabad,3,10,10.83
+BCA,Tier 1,"PostgreSQL, NLP, C++","AWS Solutions Architect, Microsoft Power BI, Oracle Java",Average,Gurgaon,3,2,11.59
+MBA,Tier 1,"Flask, Excel, Node.js, Java, Deep Learning","Cisco CCNA, Microsoft Power BI, AWS Solutions Architect",Excellent,Ahmedabad,0,3,9.05
+BCA,Tier 1,"Linux, JavaScript, React, Azure",Salesforce Administrator,None,Noida,7,7,16.67
+Diploma,Tier 2,"HTML, NLP, C++","AWS Cloud Practitioner, Google Data Analytics, Salesforce Administrator",Excellent,Gurgaon,1,3,9.67
+B.Sc IT,Tier 1,"C++, Git, React, Tableau, Spark",Microsoft Power BI,Average,Indore,0.5,2,7.24
+MBA,Tier 2,"CSS, Node.js, PyTorch, Hadoop",None,Good,Ahmedabad,8,9,17.13
+BCA,Tier 2,"MongoDB, Azure, SQL",None,Good,Hyderabad,3,9,11.43
+MBA,Tier 2,"MongoDB, MySQL, HTML, Java, Excel","Oracle Java, Google Data Analytics",Good,Nagpur,5,1,12.05
+M.Tech,Tier 3,"AWS, HTML","IBM Data Science, AWS Cloud Practitioner",Average,Remote,3,5,9.33
+Diploma,Tier 3,"Hadoop, Machine Learning",Microsoft Power BI,Excellent,Gurgaon,4,5,11.83
+BCA,Tier 1,"PyTorch, Spark, React","Salesforce Administrator, IBM Data Science, Oracle Java",None,Remote,1,2,8.86
+MBA,Tier 1,"TensorFlow, MongoDB, Python, Excel, Tableau, Linux",None,Average,Gurgaon,0,6,8.0
+MCA,Tier 2,"CSS, Django, PostgreSQL, PyTorch, SQL",None,Average,Gurgaon,8,8,16.38
+Diploma,Tier 2,"Flask, Excel, Spark, TensorFlow","AWS Solutions Architect, Microsoft Power BI",None,Bangalore,1,10,9.38
+B.Sc IT,Tier 3,"Git, Tableau, Deep Learning","Salesforce Administrator, AWS Cloud Practitioner, Oracle Java",Good,Remote,0,8,7.36
+B.Sc CS,Tier 3,"Machine Learning, Deep Learning","Microsoft Power BI, Oracle Java",Excellent,Chennai,6,5,13.87
+MCA,Tier 3,"Django, MongoDB, SQL, Python, CSS, Git","Salesforce Administrator, Microsoft Power BI",Average,Hyderabad,6,2,12.94
+MCA,Tier 3,"Deep Learning, PostgreSQL, Docker, TensorFlow","Microsoft Azure Fundamentals, Google Data Analytics",Good,Mumbai,0,10,7.5
+M.Tech,Tier 3,"PostgreSQL, HTML","Microsoft Power BI, Oracle Java",Average,Indore,0,10,6.31
+B.Sc IT,Tier 2,"Git, JavaScript, PostgreSQL","IBM Data Science, Microsoft Power BI, Oracle Java",None,Nagpur,7,3,14.39
+Diploma,Tier 1,"AWS, Linux, JavaScript, Azure",IBM Data Science,Good,Mumbai,4,4,13.19
+MCA,Tier 2,"Flask, Deep Learning, MongoDB, NLP","AWS Solutions Architect, Cisco CCNA, AWS Cloud Practitioner",Excellent,Ahmedabad,8,10,17.82
+B.Sc IT,Tier 2,"CSS, NLP, React, Java, Hadoop",Google Data Analytics,Excellent,Chennai,5,10,14.74
+Diploma,Tier 1,"Azure, C++, HTML","Google Data Analytics, IBM Data Science",Good,Bangalore,6,5,15.46
+B.Sc CS,Tier 2,"HTML, Linux, Azure",None,None,Noida,5,7,12.18
+Diploma,Tier 2,"JavaScript, Tableau","AWS Cloud Practitioner, IBM Data Science",Good,Kolkata,2,1,8.93
+B.Sc IT,Tier 2,"NLP, Power BI, SQL, Django","Google Data Analytics, AWS Solutions Architect",Excellent,Delhi,3,8,12.63
+M.Tech,Tier 2,"Computer Vision, TensorFlow, HTML","Microsoft Azure Fundamentals, Google Data Analytics",Excellent,Remote,5,1,13.08
+B.Sc CS,Tier 2,"MongoDB, CSS",AWS Solutions Architect,Average,Nagpur,0,7,6.68
+MCA,Tier 3,"Java, MySQL, PyTorch, Git, SQL, PostgreSQL",None,None,Hyderabad,5,8,11.78
+MCA,Tier 2,"Tableau, Docker, Git",None,Average,Nagpur,0.5,9,6.82
+B.Sc CS,Tier 2,"CSS, AWS",None,Average,Remote,0.5,8,7.0
+B.Sc IT,Tier 3,"Tableau, Flask, Docker, React, NLP, Excel",None,Good,Mumbai,6,6,13.23
+B.Tech,Tier 3,"Spark, MongoDB","Google Data Analytics, AWS Solutions Architect, Oracle Java",Good,Indore,0.5,5,6.84
+Diploma,Tier 3,"Deep Learning, Node.js, Java, SQL",AWS Cloud Practitioner,Excellent,Chennai,4,7,12.14
+BCA,Tier 3,"Python, Hadoop",Google Data Analytics,Average,Gurgaon,8,5,15.78
+BCA,Tier 2,"Excel, SQL, Django, Node.js","Oracle Java, Cisco CCNA",Good,Nagpur,1,2,7.53
+B.Tech,Tier 3,"SQL, React, PyTorch","Cisco CCNA, Google Data Analytics, Microsoft Power BI",Average,Chennai,8,1,16.06
+B.Sc CS,Tier 2,"SQL, TensorFlow, React, Node.js, Java",None,Average,Chennai,0,9,7.72
+B.Sc IT,Tier 3,"CSS, Docker, MySQL, SQL","Microsoft Azure Fundamentals, Cisco CCNA, Google Data Analytics",Good,Nagpur,5,3,12.54
+B.Tech,Tier 1,"CSS, Hadoop, HTML","Google Data Analytics, AWS Solutions Architect, Oracle Java",Average,Mumbai,4,5,12.75
+B.Sc IT,Tier 2,"Django, Spark, Machine Learning, C++, Node.js","Cisco CCNA, AWS Solutions Architect, Oracle Java",Average,Chennai,0.5,8,8.8
+B.Tech,Tier 1,"Java, JavaScript, Python, Spark, C++","Salesforce Administrator, Microsoft Azure Fundamentals",Good,Gurgaon,4,6,13.83
+B.Sc IT,Tier 3,"JavaScript, Azure, MySQL, HTML","Cisco CCNA, AWS Solutions Architect",None,Nagpur,2,1,6.79
+MCA,Tier 2,"Docker, SQL, Java, TensorFlow",Cisco CCNA,None,Indore,5,2,11.7
+B.Sc IT,Tier 1,"Tableau, Node.js, Spark, Linux, Docker","AWS Solutions Architect, Oracle Java",None,Nagpur,8,2,16.97
+Diploma,Tier 2,"CSS, Power BI, HTML, Python, PyTorch, AWS",None,Good,Noida,8,8,17.82
+B.Sc CS,Tier 3,"AWS, Spark, Power BI",None,Average,Ahmedabad,8,6,15.0
+MBA,Tier 2,"PyTorch, Docker, Azure, Machine Learning, Deep Learning, Django","Microsoft Power BI, Cisco CCNA",Excellent,Pune,5,10,15.4
+MCA,Tier 3,"Hadoop, Computer Vision, Docker, AWS, JavaScript, PostgreSQL",Microsoft Azure Fundamentals,Average,Indore,3,6,9.57
+B.Sc CS,Tier 3,"CSS, JavaScript, Docker","AWS Solutions Architect, IBM Data Science",Good,Ahmedabad,8,7,16.22
+MCA,Tier 3,"Linux, Python, CSS, SQL, Django",AWS Cloud Practitioner,Good,Mumbai,3,3,10.28
+MCA,Tier 1,"Docker, Linux","Microsoft Azure Fundamentals, AWS Cloud Practitioner",Average,Gurgaon,0.5,10,9.87
+B.Sc IT,Tier 3,"Django, Machine Learning, CSS, Linux, Spark, Docker","AWS Cloud Practitioner, Oracle Java",Average,Remote,4,9,11.1
+MCA,Tier 2,"Spark, Machine Learning, PyTorch, PostgreSQL, Docker","Salesforce Administrator, Microsoft Azure Fundamentals",Good,Mumbai,3,8,11.78
+BCA,Tier 1,"AWS, CSS, SQL","AWS Cloud Practitioner, Oracle Java, Google Data Analytics",Good,Pune,1,10,11.3
+B.Tech,Tier 2,"Java, Power BI, PyTorch","AWS Cloud Practitioner, Microsoft Power BI",Average,Ahmedabad,7,6,15.07
+M.Tech,Tier 2,"CSS, C++, Linux",Oracle Java,Good,Noida,0.5,6,7.37
+B.Sc IT,Tier 3,"Flask, NLP, Tableau, Azure","Salesforce Administrator, AWS Cloud Practitioner, Cisco CCNA",Good,Gurgaon,2,10,10.27
+B.Sc IT,Tier 3,"Django, PyTorch, Linux, SQL","Microsoft Power BI, Salesforce Administrator, AWS Cloud Practitioner",Excellent,Remote,4,9,13.2
+Diploma,Tier 2,"TensorFlow, PostgreSQL, Tableau, Computer Vision",None,Excellent,Pune,7,9,15.86
+BCA,Tier 2,"Hadoop, Git, React",None,Average,Indore,5,2,11.65
+B.Sc CS,Tier 1,"Java, C++, Excel, Linux","Salesforce Administrator, AWS Solutions Architect",Good,Mumbai,3,7,12.24
+MBA,Tier 2,"Django, Git",None,Good,Nagpur,8,2,15.46
+B.Tech,Tier 3,"Flask, PyTorch",None,Average,Nagpur,3,10,8.79
+Diploma,Tier 2,"HTML, Excel",Google Data Analytics,Good,Remote,7,5,15.66
+B.Sc CS,Tier 2,"Python, JavaScript, Hadoop, Power BI",None,None,Ahmedabad,8,7,15.99
+BCA,Tier 2,"Tableau, React, TensorFlow, PostgreSQL",Google Data Analytics,None,Ahmedabad,3,4,9.46
+B.Tech,Tier 3,"Node.js, PostgreSQL, JavaScript, C++, NLP, Git",None,Average,Mumbai,8,8,16.05
+M.Tech,Tier 1,"SQL, NLP, MySQL",None,Excellent,Chennai,6,8,15.73
+MCA,Tier 3,"MongoDB, Flask, Linux","Oracle Java, Google Data Analytics",None,Mumbai,2,7,8.33
+M.Tech,Tier 1,"TensorFlow, HTML, Node.js, Flask","Cisco CCNA, AWS Solutions Architect",None,Ahmedabad,0.5,5,8.71
+B.Sc CS,Tier 3,"Deep Learning, AWS, TensorFlow",None,Good,Bangalore,7,1,14.36
+MBA,Tier 3,"PyTorch, Java, JavaScript","Salesforce Administrator, Cisco CCNA",Good,Pune,4,7,11.27
+MCA,Tier 1,"CSS, C++, Django, Flask, PyTorch, Python",Google Data Analytics,Good,Pune,6,3,14.88
+B.Sc CS,Tier 3,"Flask, Java, Machine Learning, Azure, HTML",AWS Solutions Architect,Average,Mumbai,0,4,5.77
+M.Tech,Tier 2,"TensorFlow, Java, PostgreSQL, Computer Vision, SQL","Microsoft Power BI, Google Data Analytics",Average,Noida,4,10,12.95
+BCA,Tier 2,"PyTorch, Machine Learning, CSS, Django, Flask","Cisco CCNA, Salesforce Administrator",Excellent,Bangalore,7,3,16.59
+B.Sc IT,Tier 1,"Tableau, Power BI, Excel, Flask",None,Good,Noida,4,2,12.08
+Diploma,Tier 2,"Excel, PostgreSQL, Spark, React, Python, Machine Learning",None,None,Ahmedabad,1,3,7.28
+B.Tech,Tier 3,"Java, Excel, Deep Learning",Salesforce Administrator,Excellent,Ahmedabad,8,1,15.58
+MCA,Tier 3,"Node.js, MySQL, HTML","Google Data Analytics, Microsoft Azure Fundamentals, Oracle Java",Average,Pune,8,3,15.82
+MCA,Tier 1,"PyTorch, Node.js, MySQL, MongoDB",None,Average,Noida,1,2,7.82
+MBA,Tier 3,"SQL, Excel, HTML, MySQL, Spark, Java",None,None,Nagpur,1,10,6.64
+B.Tech,Tier 3,"CSS, React, Flask, Hadoop, Java","Microsoft Azure Fundamentals, Cisco CCNA, Oracle Java",Good,Chennai,8,10,16.65
+B.Sc CS,Tier 2,"PyTorch, Hadoop, C++","Salesforce Administrator, Oracle Java",Average,Bangalore,0,10,8.12
+B.Tech,Tier 2,"Docker, Linux, Computer Vision","IBM Data Science, AWS Solutions Architect, Cisco CCNA",Average,Ahmedabad,3,5,11.05
+MBA,Tier 2,"Deep Learning, Git, Django, Azure, Tableau, React","Google Data Analytics, IBM Data Science, Microsoft Power BI",Good,Delhi,3,10,12.09
+MBA,Tier 3,"AWS, Machine Learning","Google Data Analytics, AWS Solutions Architect, Cisco CCNA",Good,Remote,4,9,12.41
+B.Tech,Tier 1,"Linux, C++",Cisco CCNA,Excellent,Noida,0.5,2,8.41
+M.Tech,Tier 1,"AWS, Django","Salesforce Administrator, Microsoft Power BI, IBM Data Science",Excellent,Bangalore,1,8,11.29
+B.Sc IT,Tier 3,"NLP, Tableau, Java, Linux, MySQL, CSS",Google Data Analytics,Good,Chennai,2,1,8.08
+BCA,Tier 3,"Flask, Git, Django, MongoDB, Tableau",None,Good,Hyderabad,0.5,9,6.63
+M.Tech,Tier 2,"Machine Learning, MySQL, Tableau, Node.js","AWS Cloud Practitioner, Microsoft Power BI, AWS Solutions Architect",Average,Hyderabad,7,2,15.65
+M.Tech,Tier 3,"Deep Learning, TensorFlow, JavaScript, Spark, Linux, MongoDB","Cisco CCNA, Oracle Java",Good,Remote,2,6,9.36
+Diploma,Tier 3,"Hadoop, Python, HTML, SQL, Deep Learning, C++","Microsoft Azure Fundamentals, Salesforce Administrator, Oracle Java",Average,Chennai,7,9,15.01
+MCA,Tier 2,"Django, Git","AWS Solutions Architect, Google Data Analytics",Average,Chennai,2,10,9.67
+B.Sc IT,Tier 2,"Machine Learning, AWS, Hadoop","Microsoft Azure Fundamentals, Salesforce Administrator",Average,Mumbai,8,6,16.86
+BCA,Tier 1,"Git, HTML",None,Good,Kolkata,0,8,7.57
+M.Tech,Tier 2,"Hadoop, Deep Learning, HTML, Excel, Azure, CSS","Oracle Java, Microsoft Azure Fundamentals",Good,Pune,0,9,8.15
+Diploma,Tier 3,"CSS, Flask","Google Data Analytics, Cisco CCNA, AWS Cloud Practitioner",Good,Gurgaon,4,1,10.41
+B.Sc IT,Tier 2,"Computer Vision, Flask","Google Data Analytics, Microsoft Power BI",Average,Gurgaon,8,6,16.57
+Diploma,Tier 2,"Docker, Azure, Flask, Hadoop, Django","Cisco CCNA, Google Data Analytics",Good,Ahmedabad,2,2,9.32
+B.Sc IT,Tier 2,"Tableau, Power BI, Linux, AWS, HTML",None,None,Gurgaon,1,9,8.28
+M.Tech,Tier 3,"Deep Learning, JavaScript, Hadoop, MongoDB",None,Average,Indore,1,1,4.97
+MCA,Tier 2,"Node.js, AWS","Microsoft Power BI, IBM Data Science",Average,Kolkata,3,6,10.22
+BCA,Tier 2,"Tableau, MongoDB, TensorFlow, PostgreSQL, Spark, JavaScript",Microsoft Power BI,Average,Nagpur,7,8,15.32
+Diploma,Tier 3,"MySQL, NLP, Node.js, PostgreSQL, Power BI",IBM Data Science,Average,Ahmedabad,8,7,15.85
+BCA,Tier 1,"Machine Learning, Computer Vision, PostgreSQL, NLP","Oracle Java, Microsoft Power BI",Excellent,Remote,4,10,14.52
+Diploma,Tier 2,"Hadoop, Python, Power BI",Microsoft Power BI,Excellent,Indore,0.5,4,7.52
+BCA,Tier 1,"JavaScript, Java, Python, Azure, Django",None,None,Ahmedabad,1,2,7.75
+MBA,Tier 2,"AWS, NLP, Node.js",Google Data Analytics,Good,Pune,0,1,6.86
+M.Tech,Tier 3,"Hadoop, JavaScript, PyTorch, Deep Learning, Node.js",Salesforce Administrator,None,Ahmedabad,6,10,13.28
+MCA,Tier 3,"JavaScript, Machine Learning, Linux, C++, Node.js","IBM Data Science, Oracle Java",Average,Delhi,0,1,5.77
+B.Sc CS,Tier 2,"JavaScript, Python, Docker, PyTorch, HTML","Microsoft Power BI, AWS Cloud Practitioner, Oracle Java",Average,Delhi,8,4,17.65
+M.Tech,Tier 1,"React, Django, Machine Learning, Excel, Docker, AWS","Oracle Java, Microsoft Azure Fundamentals, Google Data Analytics",None,Nagpur,2,9,11.56
+MCA,Tier 2,"Linux, Deep Learning, React, Tableau, C++, Excel",Microsoft Power BI,None,Gurgaon,8,8,16.42
+Diploma,Tier 1,"Power BI, Java",None,None,Hyderabad,3,5,10.48
+Diploma,Tier 3,"C++, Power BI, Python","Microsoft Azure Fundamentals, IBM Data Science, Salesforce Administrator",Average,Remote,6,6,13.81
+B.Tech,Tier 2,"Java, Deep Learning, Azure","AWS Solutions Architect, Cisco CCNA, Salesforce Administrator",None,Delhi,5,1,12.12
+B.Sc IT,Tier 2,"Machine Learning, AWS, Java, Tableau, Node.js",None,Good,Mumbai,6,7,15.03
+MCA,Tier 3,"PostgreSQL, AWS, Java",None,Average,Nagpur,3,4,8.16
+B.Tech,Tier 3,"SQL, Machine Learning, PostgreSQL","IBM Data Science, AWS Cloud Practitioner, AWS Solutions Architect",Good,Ahmedabad,0.5,7,7.89
+B.Tech,Tier 3,"Linux, Docker, HTML, TensorFlow, MySQL, Power BI","AWS Solutions Architect, Microsoft Azure Fundamentals",None,Hyderabad,8,6,16.53
+B.Tech,Tier 1,"Docker, JavaScript, Linux",None,None,Mumbai,4,9,13.04
+M.Tech,Tier 3,"AWS, Tableau, Python, Docker, Django","Google Data Analytics, Microsoft Power BI",Excellent,Gurgaon,6,9,15.14
+Diploma,Tier 1,"JavaScript, Flask, Computer Vision","Microsoft Power BI, Google Data Analytics, AWS Cloud Practitioner",Good,Gurgaon,3,5,12.34
+Diploma,Tier 1,"Django, AWS, Excel, Python, MySQL, Flask",IBM Data Science,Good,Nagpur,7,7,16.19
+Diploma,Tier 3,"MySQL, NLP, Computer Vision","IBM Data Science, AWS Solutions Architect, AWS Cloud Practitioner",Good,Hyderabad,0,3,6.08
+B.Tech,Tier 2,"Tableau, SQL, Java, MongoDB, PostgreSQL","Cisco CCNA, Microsoft Power BI, AWS Cloud Practitioner",Average,Ahmedabad,0.5,1,7.53
+B.Sc IT,Tier 3,"Node.js, Linux",None,Average,Indore,5,6,11.29
+B.Tech,Tier 3,"CSS, Java, AWS, C++","AWS Solutions Architect, Microsoft Azure Fundamentals",Excellent,Hyderabad,0.5,4,7.63
+B.Sc IT,Tier 1,"MongoDB, PostgreSQL, Excel","AWS Solutions Architect, IBM Data Science, Cisco CCNA",Average,Nagpur,5,2,12.92
+B.Sc CS,Tier 2,"Computer Vision, Git, Excel, JavaScript, MySQL, Node.js","IBM Data Science, Salesforce Administrator",Excellent,Noida,5,6,14.31
+B.Sc IT,Tier 2,"PyTorch, AWS, Deep Learning, Flask, Node.js, Linux","AWS Cloud Practitioner, Salesforce Administrator, Google Data Analytics",Good,Kolkata,1,5,8.61
+B.Sc IT,Tier 2,"Python, Azure, Spark, Docker","Salesforce Administrator, Google Data Analytics",None,Gurgaon,4,3,11.29
+M.Tech,Tier 3,"Machine Learning, Deep Learning, Linux","AWS Solutions Architect, Oracle Java",Good,Mumbai,0.5,6,7.69
+B.Sc CS,Tier 2,"Spark, SQL, MySQL, PostgreSQL, NLP, Java","AWS Solutions Architect, AWS Cloud Practitioner, Oracle Java",Average,Noida,5,2,13.32
+B.Sc IT,Tier 3,"PyTorch, Python, PostgreSQL, Azure, Hadoop, Django",None,Average,Bangalore,4,9,11.31
+M.Tech,Tier 2,"Power BI, Java, Git","Cisco CCNA, AWS Solutions Architect, Salesforce Administrator",Average,Remote,5,3,12.63
+BCA,Tier 2,"JavaScript, Django","AWS Solutions Architect, Oracle Java",Good,Remote,1,3,8.03
+B.Sc IT,Tier 2,"Tableau, JavaScript, MySQL, AWS, CSS, Machine Learning",AWS Solutions Architect,Average,Noida,4,10,12.04
+MBA,Tier 2,"Tableau, Computer Vision, Flask, MySQL",None,Good,Pune,4,10,12.42
+Diploma,Tier 3,"Java, PyTorch, Spark, Machine Learning, Tableau","Google Data Analytics, AWS Solutions Architect",None,Bangalore,2,10,9.93
+MCA,Tier 1,"NLP, Node.js","AWS Cloud Practitioner, IBM Data Science, AWS Solutions Architect",Good,Mumbai,2,9,12.02
+MCA,Tier 2,"AWS, Power BI, Docker, Hadoop, Git, Python","Salesforce Administrator, AWS Cloud Practitioner, Google Data Analytics",None,Delhi,2,10,10.82
+Diploma,Tier 3,"C++, Django","IBM Data Science, AWS Solutions Architect",None,Nagpur,5,4,11.48
+BCA,Tier 3,"Hadoop, MySQL, JavaScript, C++, Excel",Salesforce Administrator,Excellent,Kolkata,0,1,5.35
+MCA,Tier 2,"AWS, Excel, Python, Flask, Git","IBM Data Science, Microsoft Power BI",Average,Kolkata,3,1,10.08
+MBA,Tier 3,"JavaScript, Deep Learning",Google Data Analytics,Average,Noida,1,2,6.48
+B.Sc IT,Tier 2,"Power BI, React, NLP, MySQL, Computer Vision, Node.js",Microsoft Azure Fundamentals,Good,Ahmedabad,7,4,15.81
+MCA,Tier 3,"PyTorch, Power BI, React, Azure, TensorFlow, PostgreSQL",IBM Data Science,None,Kolkata,0.5,3,5.92
+B.Sc CS,Tier 3,"TensorFlow, React, NLP, Node.js","Google Data Analytics, Microsoft Azure Fundamentals",None,Pune,0,10,7.12
+B.Sc IT,Tier 2,"Git, Python, Flask",None,Good,Gurgaon,1,9,9.0
+Diploma,Tier 3,"Excel, Hadoop, Django, HTML","Google Data Analytics, Salesforce Administrator, AWS Solutions Architect",Average,Noida,0,5,6.65
+B.Sc IT,Tier 3,"Azure, Tableau, C++",Cisco CCNA,Excellent,Gurgaon,4,8,12.24
+MBA,Tier 2,"MySQL, AWS","IBM Data Science, Oracle Java, Microsoft Power BI",Excellent,Ahmedabad,8,9,18.33
+B.Tech,Tier 2,"Node.js, Spark, TensorFlow, Java, Machine Learning","AWS Cloud Practitioner, Oracle Java, Microsoft Power BI",Good,Bangalore,2,5,10.84
+MCA,Tier 3,"Node.js, Excel, React, NLP",None,Good,Pune,6,8,13.19
+BCA,Tier 1,"TensorFlow, Docker, JavaScript, Power BI, Django, React","Cisco CCNA, AWS Cloud Practitioner",None,Ahmedabad,2,8,10.59
+M.Tech,Tier 3,"Docker, AWS, SQL",None,None,Gurgaon,4,2,10.02
+MBA,Tier 3,"MySQL, Excel, Django, JavaScript, Hadoop, Java",IBM Data Science,Good,Nagpur,1,3,6.67
+B.Sc CS,Tier 3,"React, NLP","Cisco CCNA, Microsoft Power BI",Good,Hyderabad,1,4,7.1
+MCA,Tier 1,"Hadoop, HTML, JavaScript, Linux, Python","Microsoft Azure Fundamentals, Salesforce Administrator, Microsoft Power BI",Good,Gurgaon,5,8,14.93
+B.Tech,Tier 2,"Deep Learning, MySQL, PostgreSQL, JavaScript, Tableau, Java",Google Data Analytics,None,Chennai,0,3,6.25
+MCA,Tier 2,"Java, SQL","Google Data Analytics, Salesforce Administrator, IBM Data Science",Average,Nagpur,8,10,17.54
+B.Sc CS,Tier 3,"Flask, Java, C++, Azure, NLP, Computer Vision","Oracle Java, AWS Solutions Architect",Good,Kolkata,0.5,5,6.52
+BCA,Tier 3,"Computer Vision, CSS, React, Tableau",AWS Cloud Practitioner,None,Indore,7,2,12.93
+MCA,Tier 2,"Deep Learning, CSS, MongoDB, MySQL","Google Data Analytics, Cisco CCNA",Good,Nagpur,6,8,14.71
+B.Sc IT,Tier 3,"Python, SQL, Node.js",None,Good,Mumbai,8,7,16.16
+M.Tech,Tier 2,"Python, PostgreSQL, Tableau","Microsoft Power BI, AWS Solutions Architect",Average,Kolkata,7,6,15.57
+BCA,Tier 3,"Django, AWS, MongoDB, MySQL",None,Excellent,Mumbai,4,6,11.92
+Diploma,Tier 3,"PostgreSQL, Power BI","Google Data Analytics, Cisco CCNA, Oracle Java",Good,Chennai,6,7,14.63
+B.Tech,Tier 3,"MongoDB, AWS, Git, Computer Vision",None,Average,Nagpur,4,6,9.37
+B.Sc CS,Tier 2,"Computer Vision, Django",Oracle Java,None,Hyderabad,3,6,10.36
+MCA,Tier 2,"TensorFlow, Machine Learning, Flask, Node.js, Spark","Microsoft Azure Fundamentals, Microsoft Power BI",None,Chennai,0,4,7.41
+Diploma,Tier 2,"TensorFlow, CSS, Power BI, Tableau, Computer Vision","Salesforce Administrator, Microsoft Power BI, Oracle Java",Average,Remote,0.5,9,8.88
+B.Sc CS,Tier 2,"Node.js, Django",None,None,Bangalore,8,2,15.43
+B.Tech,Tier 1,"Python, MongoDB, Azure, NLP",IBM Data Science,Average,Delhi,3,9,11.82
+Diploma,Tier 3,"Power BI, Excel, Deep Learning, SQL",None,Excellent,Kolkata,7,2,13.91
+M.Tech,Tier 2,"Power BI, Docker, Linux, NLP",Google Data Analytics,None,Ahmedabad,4,9,11.74
+B.Sc CS,Tier 1,"SQL, Django",None,None,Noida,1,10,9.49
+Diploma,Tier 3,"Computer Vision, Spark, Tableau, Docker",None,Excellent,Remote,6,10,13.83
+Diploma,Tier 1,"Git, PostgreSQL, Docker, Azure","Cisco CCNA, Microsoft Azure Fundamentals, AWS Solutions Architect",None,Ahmedabad,3,6,11.54
+M.Tech,Tier 3,"Node.js, HTML, Python, C++","AWS Solutions Architect, IBM Data Science, Microsoft Azure Fundamentals",Average,Pune,3,6,10.45
+B.Sc CS,Tier 2,"Spark, Docker, Linux, SQL, Computer Vision",None,Good,Kolkata,6,7,14.24
+B.Sc IT,Tier 3,"Excel, HTML, Django, C++, Computer Vision, Tableau","Oracle Java, IBM Data Science, Microsoft Power BI",Good,Pune,0.5,10,8.29
+BCA,Tier 2,"Computer Vision, JavaScript, SQL, Spark, Node.js",Microsoft Power BI,Excellent,Hyderabad,8,2,17.34
+MBA,Tier 2,"C++, Tableau",AWS Cloud Practitioner,Good,Nagpur,1,8,8.08
+MBA,Tier 3,"Tableau, Git, TensorFlow, Computer Vision, NLP","Oracle Java, IBM Data Science",Excellent,Ahmedabad,0,10,7.99
+MBA,Tier 3,"Java, Flask, TensorFlow, JavaScript",None,None,Kolkata,4,2,9.56
+B.Tech,Tier 2,"Django, PostgreSQL, Computer Vision, Docker, PyTorch, Linux","Oracle Java, Microsoft Azure Fundamentals, IBM Data Science",None,Pune,2,9,10.28
+M.Tech,Tier 3,"NLP, Hadoop, Git",Google Data Analytics,None,Nagpur,0,3,4.72
+Diploma,Tier 3,"C++, Power BI, PostgreSQL","Cisco CCNA, Oracle Java, Microsoft Power BI",None,Kolkata,5,9,12.82
+MBA,Tier 2,"React, MySQL, Python","Microsoft Azure Fundamentals, Microsoft Power BI, Salesforce Administrator",Excellent,Ahmedabad,4,1,12.98
+Diploma,Tier 3,"MongoDB, HTML",None,None,Indore,7,5,12.81
+BCA,Tier 2,"C++, Machine Learning, HTML, PostgreSQL, AWS, Git",None,Good,Kolkata,8,5,16.36
+M.Tech,Tier 2,"HTML, Node.js","IBM Data Science, Oracle Java, Google Data Analytics",Excellent,Remote,3,5,11.57
+MCA,Tier 3,"Deep Learning, Java, PostgreSQL, HTML, MongoDB, Excel",None,Good,Delhi,8,1,14.44
+BCA,Tier 1,"Hadoop, Linux","Microsoft Power BI, Google Data Analytics",Good,Delhi,3,1,11.59
+B.Sc CS,Tier 3,"Git, Node.js, Flask",Microsoft Power BI,Good,Mumbai,6,3,13.5
+B.Tech,Tier 2,"Power BI, MySQL",Cisco CCNA,Good,Noida,5,4,13.11
+B.Sc CS,Tier 2,"Java, PostgreSQL, Deep Learning, Azure",None,None,Gurgaon,5,8,12.3
+B.Sc IT,Tier 2,"HTML, Deep Learning, Power BI, CSS, Hadoop","AWS Cloud Practitioner, Microsoft Power BI, Oracle Java",Average,Nagpur,4,9,12.48
+B.Tech,Tier 1,"PostgreSQL, Flask, Hadoop, React, MySQL, PyTorch","IBM Data Science, Microsoft Power BI",Average,Hyderabad,3,10,12.59
+B.Sc IT,Tier 3,"Azure, Tableau, CSS, Computer Vision, Git, Docker",IBM Data Science,Good,Nagpur,0,2,4.66
+BCA,Tier 2,"Flask, Machine Learning, AWS, NLP, Deep Learning",AWS Cloud Practitioner,None,Hyderabad,0,10,7.71
+B.Sc IT,Tier 3,"Docker, SQL",None,Excellent,Pune,5,10,13.6
+B.Sc CS,Tier 3,"Deep Learning, NLP, Node.js",None,Good,Delhi,5,6,11.76
+BCA,Tier 2,"Django, Computer Vision",None,Average,Delhi,1,8,7.47
+B.Sc IT,Tier 3,"PostgreSQL, HTML, SQL",Salesforce Administrator,Good,Mumbai,8,2,15.86
+MCA,Tier 1,"C++, MongoDB","Cisco CCNA, AWS Cloud Practitioner",Excellent,Pune,0,1,8.41
+MCA,Tier 1,"TensorFlow, Django, MongoDB, Python","Cisco CCNA, Oracle Java, Microsoft Azure Fundamentals",Excellent,Remote,0.5,9,10.43
+MBA,Tier 3,"SQL, MongoDB, JavaScript, PyTorch, Flask","Microsoft Power BI, Oracle Java",None,Nagpur,0.5,6,6.33
+M.Tech,Tier 1,"Azure, NLP, PostgreSQL, Tableau, Excel",None,Excellent,Nagpur,2,5,10.25
+BCA,Tier 3,"HTML, C++, TensorFlow, PostgreSQL","Microsoft Azure Fundamentals, Google Data Analytics, AWS Cloud Practitioner",None,Indore,8,4,15.14
+BCA,Tier 3,"HTML, JavaScript, Spark, Linux","AWS Cloud Practitioner, Salesforce Administrator, Google Data Analytics",None,Remote,0,7,5.82
+Diploma,Tier 3,"Power BI, AWS, MongoDB, Machine Learning, C++, Java",Cisco CCNA,Good,Gurgaon,8,1,15.34
+B.Sc CS,Tier 1,"TensorFlow, NLP",None,Average,Pune,8,2,16.82
+BCA,Tier 1,"Linux, MySQL, Machine Learning, C++, PyTorch, Tableau","IBM Data Science, Oracle Java, Google Data Analytics",None,Nagpur,8,9,17.74
+B.Sc IT,Tier 3,"Excel, Computer Vision, C++, SQL, Deep Learning, Power BI","Google Data Analytics, IBM Data Science, Microsoft Power BI",None,Mumbai,8,1,15.23
+MBA,Tier 3,"TensorFlow, HTML",None,None,Pune,0.5,10,6.89
+MBA,Tier 3,"Docker, Power BI, Tableau, PostgreSQL, Deep Learning","Oracle Java, Microsoft Azure Fundamentals, AWS Solutions Architect",Good,Bangalore,8,3,16.82
+BCA,Tier 3,"Flask, React, Python, JavaScript",Microsoft Azure Fundamentals,None,Kolkata,0.5,10,6.61
+B.Sc IT,Tier 2,"Deep Learning, Java, Tableau",None,Good,Nagpur,6,8,13.38
+B.Tech,Tier 1,"NLP, Tableau, React, Deep Learning","Cisco CCNA, AWS Cloud Practitioner",None,Bangalore,7,3,15.91
+B.Tech,Tier 2,"C++, TensorFlow",Cisco CCNA,Good,Chennai,5,4,13.1
+M.Tech,Tier 2,"Computer Vision, Machine Learning",None,Average,Noida,2,7,9.44
+BCA,Tier 2,"Java, TensorFlow, React, Power BI, Tableau","Google Data Analytics, Oracle Java, Salesforce Administrator",None,Indore,2,6,10.13
+B.Sc IT,Tier 2,"Docker, MongoDB",None,Average,Hyderabad,6,8,14.02
+M.Tech,Tier 2,"MySQL, Excel, Linux, PostgreSQL",Salesforce Administrator,Excellent,Hyderabad,5,9,14.19
+B.Sc IT,Tier 2,"Deep Learning, Python, AWS, React, Hadoop",Microsoft Azure Fundamentals,Average,Ahmedabad,2,10,10.4
+B.Tech,Tier 2,"Java, HTML",None,Average,Noida,6,2,12.85
+B.Sc IT,Tier 1,"Docker, AWS","Microsoft Azure Fundamentals, Google Data Analytics, Cisco CCNA",Average,Nagpur,0.5,1,8.08
+MCA,Tier 1,"Hadoop, MongoDB, AWS, Python, Node.js","Google Data Analytics, Oracle Java, AWS Solutions Architect",Good,Chennai,6,1,16.06
+BCA,Tier 2,"CSS, Java, NLP, React","Salesforce Administrator, Microsoft Azure Fundamentals",Good,Hyderabad,8,6,17.54
+B.Tech,Tier 2,"TensorFlow, Java, SQL, Django","Cisco CCNA, AWS Cloud Practitioner",Average,Pune,7,2,15.26
+B.Sc IT,Tier 1,"Machine Learning, JavaScript, SQL, PostgreSQL","Microsoft Azure Fundamentals, Salesforce Administrator, Google Data Analytics",Average,Delhi,7,7,17.18
+BCA,Tier 2,"HTML, CSS, Spark, SQL, Docker","Cisco CCNA, IBM Data Science",Good,Indore,0.5,4,7.99
+Diploma,Tier 1,"TensorFlow, Excel, NLP, C++, SQL",Microsoft Power BI,None,Pune,6,3,14.97
+B.Tech,Tier 2,"PyTorch, Power BI, HTML, Flask, React, Node.js",None,Average,Hyderabad,0,4,7.23
+M.Tech,Tier 2,"PostgreSQL, Linux, Computer Vision, HTML","Cisco CCNA, Microsoft Power BI, Salesforce Administrator",None,Remote,3,3,10.49
+B.Sc IT,Tier 2,"Azure, Hadoop, Java, Power BI","Microsoft Power BI, Cisco CCNA",Excellent,Ahmedabad,1,9,9.34
+B.Sc CS,Tier 3,"Excel, Machine Learning, SQL",None,Excellent,Ahmedabad,1,8,7.66
+B.Sc CS,Tier 2,"Git, Computer Vision","Google Data Analytics, IBM Data Science",Average,Pune,7,5,14.87
+B.Tech,Tier 2,"Azure, Power BI, Node.js, PyTorch, Computer Vision",AWS Cloud Practitioner,Excellent,Kolkata,7,6,16.5
+MCA,Tier 2,"Azure, MongoDB, Git, Power BI","IBM Data Science, AWS Solutions Architect, Salesforce Administrator",Average,Bangalore,1,9,9.12
+B.Tech,Tier 2,"Node.js, Flask, C++","AWS Cloud Practitioner, Microsoft Azure Fundamentals",Good,Mumbai,3,4,10.62
+Diploma,Tier 3,"CSS, Django",Cisco CCNA,Average,Ahmedabad,7,1,13.41
+M.Tech,Tier 2,"Flask, Django, Python, NLP, Node.js",None,Average,Gurgaon,5,8,12.89
+MBA,Tier 3,"Power BI, Spark, MongoDB, MySQL, C++",Microsoft Azure Fundamentals,Average,Kolkata,4,2,10.18
+MBA,Tier 1,"PostgreSQL, PyTorch, Deep Learning, React, Excel","Google Data Analytics, Microsoft Azure Fundamentals, AWS Solutions Architect",Excellent,Delhi,7,8,18.09
+MCA,Tier 3,"HTML, JavaScript, AWS, Node.js",AWS Cloud Practitioner,Good,Pune,3,5,10.36
+Diploma,Tier 1,"React, Excel, HTML, PyTorch",AWS Cloud Practitioner,None,Delhi,6,2,14.65
+M.Tech,Tier 2,"React, Hadoop, Deep Learning, PostgreSQL, Git, HTML",None,Average,Indore,8,1,15.2
+B.Sc CS,Tier 2,"Computer Vision, Node.js, TensorFlow",IBM Data Science,None,Delhi,4,7,12.04
+M.Tech,Tier 1,"CSS, PostgreSQL, PyTorch, C++",Google Data Analytics,Good,Ahmedabad,1,9,9.42
+M.Tech,Tier 3,"Deep Learning, Git, Docker, Flask",None,Good,Chennai,1,1,5.89
+MCA,Tier 2,"React, Computer Vision, PyTorch, Excel, SQL",Google Data Analytics,Good,Mumbai,7,10,17.04
+BCA,Tier 2,"SQL, Spark",AWS Cloud Practitioner,Average,Delhi,4,3,11.62
+M.Tech,Tier 1,"Python, AWS, Spark, SQL",Google Data Analytics,Excellent,Pune,2,5,11.13
+B.Sc CS,Tier 3,"Docker, Azure, Linux, SQL, C++",None,Good,Remote,5,1,10.95
+B.Tech,Tier 3,"MongoDB, Java, HTML, SQL, Deep Learning, TensorFlow",None,Average,Bangalore,0.5,2,6.42
+B.Sc IT,Tier 2,"Excel, Git, Flask",None,None,Indore,3,10,9.65
+B.Sc CS,Tier 3,"Machine Learning, CSS, MongoDB, C++, SQL, Hadoop",None,Good,Indore,2,5,7.52
+B.Tech,Tier 3,"PyTorch, Tableau","IBM Data Science, Google Data Analytics, Microsoft Azure Fundamentals",Good,Hyderabad,1,6,8.73
+MBA,Tier 2,"React, SQL, Azure","AWS Solutions Architect, Cisco CCNA",None,Pune,6,6,14.6
+B.Tech,Tier 1,"SQL, Django, NLP, Node.js, MySQL","Cisco CCNA, Microsoft Azure Fundamentals",Good,Delhi,5,4,14.96
+Diploma,Tier 3,"Excel, Python, Git, HTML",None,Average,Kolkata,0.5,2,4.84
+MBA,Tier 3,"AWS, PyTorch",AWS Solutions Architect,Average,Mumbai,4,4,10.84
+MBA,Tier 1,"AWS, HTML, Deep Learning, Azure, Docker","Oracle Java, IBM Data Science",Average,Ahmedabad,5,8,14.41
+B.Sc CS,Tier 3,"SQL, Deep Learning","Cisco CCNA, Microsoft Azure Fundamentals, IBM Data Science",Excellent,Bangalore,0.5,1,8.03
+Diploma,Tier 3,"Django, MySQL, Git","Google Data Analytics, Microsoft Power BI",Good,Hyderabad,0.5,9,7.82
+Diploma,Tier 2,"HTML, CSS, Deep Learning, JavaScript, Computer Vision",None,Excellent,Bangalore,5,2,12.88
+M.Tech,Tier 3,"Node.js, Java, Excel, JavaScript, Git","Google Data Analytics, Cisco CCNA",Average,Delhi,5,8,12.86
+Diploma,Tier 3,"MongoDB, HTML, TensorFlow, JavaScript, Excel, CSS",None,Average,Gurgaon,8,7,15.47
+M.Tech,Tier 3,"Computer Vision, Java, Python, MongoDB",None,None,Chennai,4,10,10.13
+M.Tech,Tier 2,"Flask, React, Java, Git, Machine Learning",Microsoft Azure Fundamentals,Good,Ahmedabad,0.5,2,7.52
+BCA,Tier 2,"JavaScript, Computer Vision",None,Average,Noida,8,9,16.75
+MCA,Tier 1,"MongoDB, Python, Computer Vision, Django, SQL","AWS Solutions Architect, Microsoft Azure Fundamentals, Google Data Analytics",Average,Remote,4,3,13.11
+M.Tech,Tier 3,"HTML, PostgreSQL, Hadoop",None,Excellent,Kolkata,2,5,8.02
+MCA,Tier 3,"Linux, Machine Learning, MySQL, AWS, C++",None,Good,Delhi,0.5,10,7.7
+Diploma,Tier 2,"Linux, C++, PostgreSQL, Spark","Salesforce Administrator, Microsoft Power BI",Average,Kolkata,4,4,11.11
+MCA,Tier 3,"Git, Azure, JavaScript, Excel, TensorFlow",None,Good,Kolkata,1,10,7.4
+Diploma,Tier 2,"Linux, MySQL, Hadoop, Azure, React, MongoDB",None,Good,Chennai,6,3,13.29
+MCA,Tier 3,"Computer Vision, Hadoop, Spark, PyTorch, C++",Oracle Java,Average,Delhi,1,5,7.19
+B.Sc IT,Tier 2,"Power BI, Tableau",None,Average,Delhi,6,8,14.16
+MBA,Tier 2,"Tableau, Excel","Google Data Analytics, AWS Cloud Practitioner",Average,Remote,3,9,10.63
+B.Tech,Tier 3,"Linux, Python, Java, Hadoop, TensorFlow",None,Average,Delhi,0.5,7,6.95
+BCA,Tier 2,"Machine Learning, SQL, MongoDB",None,Good,Ahmedabad,7,5,15.05
+BCA,Tier 2,"Azure, Linux","IBM Data Science, Oracle Java",Excellent,Indore,2,7,9.77
+BCA,Tier 1,"Node.js, React, Deep Learning, Hadoop",None,Average,Chennai,0.5,6,8.25
+Diploma,Tier 3,"TensorFlow, Linux, PyTorch, Power BI","Cisco CCNA, IBM Data Science",Excellent,Bangalore,8,1,17.09
+B.Tech,Tier 3,"Deep Learning, JavaScript, Django","IBM Data Science, AWS Solutions Architect",Good,Mumbai,6,7,13.46
+MBA,Tier 3,"NLP, C++, PyTorch, Spark",Microsoft Power BI,Average,Pune,6,6,13.43
+MBA,Tier 3,"Hadoop, C++, Spark, Azure","Cisco CCNA, Oracle Java, Salesforce Administrator",Average,Noida,0.5,3,6.7
+BCA,Tier 2,"AWS, Spark, JavaScript, PyTorch, Computer Vision, Node.js",None,Good,Nagpur,1,8,8.59
+B.Sc CS,Tier 1,"PostgreSQL, NLP, Computer Vision",None,None,Mumbai,7,3,15.6
+MBA,Tier 3,"Node.js, HTML, Hadoop, AWS",Microsoft Power BI,None,Ahmedabad,4,5,9.9
+MBA,Tier 2,"TensorFlow, Django, Spark, MongoDB, Machine Learning",None,Excellent,Kolkata,8,4,17.11
+Diploma,Tier 1,"Java, Django, MySQL","Microsoft Power BI, Google Data Analytics, AWS Cloud Practitioner",Excellent,Pune,8,2,17.86
+MBA,Tier 3,"Spark, Git, HTML, SQL, Machine Learning",Microsoft Azure Fundamentals,Excellent,Remote,3,5,10.65
+MBA,Tier 1,"MySQL, Tableau, Spark","Microsoft Azure Fundamentals, Oracle Java",None,Remote,1,1,7.94
+MCA,Tier 2,"PyTorch, Machine Learning, Flask, MongoDB, Git","AWS Solutions Architect, AWS Cloud Practitioner, Microsoft Azure Fundamentals",None,Chennai,5,4,13.36
+MBA,Tier 3,"C++, SQL, JavaScript, Java",None,Average,Mumbai,6,6,13.4
+B.Tech,Tier 1,"MySQL, Django, NLP, TensorFlow, Git, Flask",Salesforce Administrator,None,Pune,3,3,10.8
+M.Tech,Tier 3,"C++, Computer Vision, Docker","Google Data Analytics, Microsoft Power BI, AWS Cloud Practitioner",Average,Pune,6,5,13.85
+MBA,Tier 2,"MySQL, Spark, Azure, PyTorch","Salesforce Administrator, IBM Data Science",Average,Pune,4,8,12.56
+B.Sc CS,Tier 2,"Java, Tableau, Power BI, Machine Learning, Excel",None,Average,Pune,6,7,13.67
+Diploma,Tier 1,"Docker, JavaScript, HTML, Node.js","AWS Solutions Architect, Google Data Analytics, AWS Cloud Practitioner",Average,Mumbai,3,3,12.43
+MCA,Tier 2,"Tableau, MongoDB, Python, CSS, Azure, TensorFlow",Oracle Java,Excellent,Mumbai,6,2,15.24
+B.Tech,Tier 2,"Django, Flask",None,Excellent,Pune,0,2,6.66
+Diploma,Tier 2,"MySQL, Git, Python, Computer Vision",None,Good,Gurgaon,4,10,12.03
+B.Tech,Tier 3,"Computer Vision, Linux, Java, AWS",None,Good,Ahmedabad,5,2,10.9
+B.Sc CS,Tier 2,"C++, Python, Hadoop, Tableau, Excel","Oracle Java, Microsoft Power BI, IBM Data Science",Good,Nagpur,1,2,7.85
+MBA,Tier 3,"TensorFlow, Git, MySQL, Power BI","AWS Solutions Architect, IBM Data Science",Good,Gurgaon,6,7,14.23
+MBA,Tier 1,"Linux, Flask, MySQL, Excel, React","AWS Solutions Architect, AWS Cloud Practitioner, Microsoft Power BI",Average,Gurgaon,2,3,11.03
+BCA,Tier 2,"C++, PyTorch, Linux, HTML, NLP",Google Data Analytics,Good,Delhi,2,9,10.13
+B.Tech,Tier 2,"CSS, SQL","Oracle Java, AWS Solutions Architect, Microsoft Azure Fundamentals",Good,Ahmedabad,3,6,11.0
+BCA,Tier 3,"SQL, AWS","Google Data Analytics, Salesforce Administrator, Oracle Java",Average,Hyderabad,5,5,12.51
+Diploma,Tier 3,"MySQL, Linux, Deep Learning, Computer Vision, PyTorch",Microsoft Azure Fundamentals,None,Indore,8,5,14.97
+BCA,Tier 2,"Python, Django",None,None,Nagpur,6,8,13.49
+Diploma,Tier 2,"Flask, Docker, Git, TensorFlow, Hadoop, Django","AWS Solutions Architect, Google Data Analytics",None,Mumbai,0.5,1,7.45
+B.Sc IT,Tier 3,"HTML, PostgreSQL, Power BI",Oracle Java,Excellent,Remote,7,4,14.44
+Diploma,Tier 1,"Python, SQL, Excel, TensorFlow, Power BI","Cisco CCNA, Salesforce Administrator, AWS Cloud Practitioner",Excellent,Ahmedabad,2,4,11.74
+MBA,Tier 1,"SQL, PostgreSQL","Oracle Java, Cisco CCNA, IBM Data Science",Good,Indore,7,5,16.24
+MBA,Tier 2,"AWS, MySQL, Git, Spark, HTML, Machine Learning",None,Good,Noida,8,6,16.75
+MCA,Tier 3,"TensorFlow, HTML, SQL, MySQL, PostgreSQL","Cisco CCNA, Oracle Java",None,Delhi,2,8,8.84
+B.Sc IT,Tier 2,"PyTorch, Git, Computer Vision, MySQL, Docker, TensorFlow","Google Data Analytics, Microsoft Power BI, IBM Data Science",Good,Noida,4,8,13.75
+B.Sc CS,Tier 3,"Docker, AWS, C++, Git","Google Data Analytics, Salesforce Administrator, AWS Solutions Architect",None,Gurgaon,0.5,7,7.84
+Diploma,Tier 2,"JavaScript, Java, Python","Microsoft Power BI, IBM Data Science",Good,Pune,7,1,15.56
+M.Tech,Tier 2,"Machine Learning, SQL, JavaScript, PyTorch, HTML, Deep Learning","IBM Data Science, AWS Cloud Practitioner",Good,Kolkata,3,3,11.2
+BCA,Tier 3,"Linux, Node.js, Spark, Azure, SQL",None,Good,Ahmedabad,0.5,9,6.39
+BCA,Tier 1,"Hadoop, Tableau","Google Data Analytics, Microsoft Power BI",Good,Remote,7,8,17.23
+BCA,Tier 1,"Computer Vision, Spark, Power BI, SQL",Cisco CCNA,Excellent,Remote,0,4,8.98
+Diploma,Tier 2,"Excel, C++, Deep Learning, Flask, Docker, Azure","IBM Data Science, Microsoft Azure Fundamentals, AWS Solutions Architect",Good,Kolkata,5,4,12.99
+MBA,Tier 2,"TensorFlow, Node.js, Hadoop, CSS, Linux","AWS Cloud Practitioner, Cisco CCNA",None,Bangalore,7,2,14.88
+M.Tech,Tier 2,"React, Java, Django",None,Good,Nagpur,1,10,7.76
+MCA,Tier 2,"Hadoop, NLP, AWS, PyTorch, Computer Vision, Flask",None,Excellent,Kolkata,8,3,16.75
+Diploma,Tier 3,"MySQL, Linux, PyTorch, PostgreSQL, Node.js, Docker","Oracle Java, Microsoft Azure Fundamentals",Excellent,Hyderabad,0,9,7.98
+B.Sc CS,Tier 2,"NLP, Tableau, C++, CSS, JavaScript, PyTorch","Google Data Analytics, AWS Cloud Practitioner",None,Remote,7,10,15.66
+MCA,Tier 3,"SQL, AWS, Java, Spark, Flask, Deep Learning","AWS Solutions Architect, AWS Cloud Practitioner",Good,Hyderabad,6,5,14.02
+B.Tech,Tier 2,"Linux, AWS, MongoDB",IBM Data Science,Average,Nagpur,8,3,15.71
+B.Sc IT,Tier 1,"MongoDB, Tableau, Spark, Azure, Flask, Node.js",None,None,Noida,5,2,12.29
+MBA,Tier 3,"Tableau, Node.js, C++, Flask, Git","Salesforce Administrator, Oracle Java, Cisco CCNA",Average,Gurgaon,5,8,13.14
+Diploma,Tier 3,"Spark, Excel, Power BI, CSS, HTML","Google Data Analytics, AWS Solutions Architect, IBM Data Science",Average,Gurgaon,0,3,6.64
+M.Tech,Tier 3,"MySQL, Hadoop","AWS Solutions Architect, Salesforce Administrator, Google Data Analytics",Good,Bangalore,7,3,14.62
+MCA,Tier 3,"NLP, HTML, Python, Linux",Google Data Analytics,Good,Noida,0,5,6.49
+B.Sc IT,Tier 1,"Python, SQL, JavaScript, Flask, C++",None,Average,Ahmedabad,3,10,11.55
+M.Tech,Tier 3,"Spark, AWS, MySQL, Power BI, Azure",Salesforce Administrator,Good,Remote,6,8,13.5
+M.Tech,Tier 1,"Git, MySQL, React, Django, Machine Learning, Spark","Salesforce Administrator, AWS Cloud Practitioner",Excellent,Gurgaon,3,2,12.87
+B.Tech,Tier 2,"JavaScript, PostgreSQL, SQL, C++",Salesforce Administrator,Good,Bangalore,8,9,17.29
+Diploma,Tier 2,"SQL, Git",AWS Cloud Practitioner,Average,Mumbai,2,10,9.99
+M.Tech,Tier 2,"HTML, Hadoop",None,Average,Pune,5,1,11.91
+M.Tech,Tier 2,"SQL, JavaScript",Microsoft Power BI,None,Delhi,0.5,3,6.71
+MBA,Tier 3,"MySQL, Computer Vision",AWS Cloud Practitioner,Good,Delhi,5,2,11.37
+MBA,Tier 3,"Django, Spark, TensorFlow, SQL",None,Average,Remote,8,10,15.54
+MBA,Tier 3,"Java, Computer Vision, Node.js, JavaScript","AWS Solutions Architect, Cisco CCNA, AWS Cloud Practitioner",Average,Mumbai,0,5,6.65
+BCA,Tier 2,"PostgreSQL, Linux, Power BI, NLP, MongoDB, React","AWS Solutions Architect, Microsoft Azure Fundamentals, Oracle Java",Excellent,Chennai,7,3,16.88
+MBA,Tier 3,"Node.js, Java, Python, Spark, PyTorch, MySQL","Google Data Analytics, AWS Cloud Practitioner",None,Gurgaon,3,10,10.45
+MBA,Tier 3,"MongoDB, Spark, CSS","AWS Cloud Practitioner, Google Data Analytics",Good,Ahmedabad,0.5,5,6.14
+BCA,Tier 3,"Deep Learning, TensorFlow, React, Tableau, MySQL, CSS","IBM Data Science, Microsoft Power BI",Excellent,Indore,6,5,13.7
+M.Tech,Tier 2,"MySQL, Computer Vision, Python, PyTorch, Docker",AWS Cloud Practitioner,Good,Bangalore,0,3,7.41
+Diploma,Tier 3,"C++, Linux, PostgreSQL, Hadoop, PyTorch, JavaScript",None,Excellent,Nagpur,6,2,12.45
+MBA,Tier 3,"Django, Excel, Spark, Azure",None,None,Chennai,2,8,7.21
+B.Tech,Tier 3,"Tableau, C++, Spark, MySQL","Microsoft Azure Fundamentals, Salesforce Administrator",Excellent,Chennai,0,5,6.74
+B.Sc IT,Tier 1,"SQL, Hadoop, Deep Learning, MongoDB, CSS","Google Data Analytics, Microsoft Azure Fundamentals, IBM Data Science",Good,Nagpur,8,10,18.33
+B.Sc CS,Tier 3,"Deep Learning, PyTorch, MongoDB",Salesforce Administrator,Good,Delhi,2,1,8.49
+MCA,Tier 3,"Python, React, PostgreSQL, Git, Java","Oracle Java, Salesforce Administrator",Average,Nagpur,7,8,14.6
+B.Tech,Tier 3,"Java, Deep Learning, PyTorch","Salesforce Administrator, Cisco CCNA, Google Data Analytics",None,Mumbai,4,2,11.13
+B.Tech,Tier 3,"Docker, React, C++",Microsoft Azure Fundamentals,None,Delhi,0.5,2,5.48
+MBA,Tier 3,"Linux, PostgreSQL, Computer Vision, Spark, Deep Learning, Machine Learning",None,Average,Chennai,0,6,5.42
+B.Sc IT,Tier 3,"MySQL, Node.js, Azure, SQL, PostgreSQL, TensorFlow",None,None,Bangalore,0,7,5.96
+BCA,Tier 3,"PyTorch, Linux","AWS Cloud Practitioner, Microsoft Power BI, Cisco CCNA",Good,Hyderabad,0.5,1,6.96
+MCA,Tier 3,"SQL, MySQL, Azure, React, Machine Learning",None,Average,Gurgaon,5,10,12.72
+M.Tech,Tier 3,"Node.js, CSS","Microsoft Azure Fundamentals, AWS Solutions Architect",None,Ahmedabad,0.5,10,7.19
+B.Sc IT,Tier 3,"PostgreSQL, CSS, Deep Learning","Oracle Java, Cisco CCNA",Good,Gurgaon,1,4,7.04
+B.Tech,Tier 1,"MongoDB, React, CSS, PostgreSQL","Microsoft Power BI, Google Data Analytics",None,Delhi,8,6,17.49
+B.Tech,Tier 2,"Java, Machine Learning, CSS",None,Average,Mumbai,2,4,9.09
+M.Tech,Tier 1,"Docker, Node.js, MySQL, Computer Vision, Hadoop","Microsoft Power BI, Oracle Java",Average,Hyderabad,6,1,14.95
+B.Tech,Tier 3,"Node.js, MySQL, Tableau",Cisco CCNA,Good,Chennai,5,4,11.75
+B.Tech,Tier 2,"Flask, Python",None,None,Gurgaon,2,10,9.81
+M.Tech,Tier 1,"Tableau, NLP",Microsoft Azure Fundamentals,Excellent,Indore,1,6,9.7
+B.Sc IT,Tier 1,"Excel, Spark","AWS Solutions Architect, AWS Cloud Practitioner",Excellent,Pune,5,2,14.24
+B.Sc IT,Tier 2,"Flask, Linux, Git",Salesforce Administrator,Excellent,Ahmedabad,5,2,12.37
+B.Sc CS,Tier 3,"JavaScript, Django, Docker","IBM Data Science, Oracle Java",Excellent,Mumbai,0,10,8.09
+MCA,Tier 3,"Machine Learning, Java, PostgreSQL, Linux","Google Data Analytics, Cisco CCNA",Average,Hyderabad,6,10,13.66
+MBA,Tier 3,"Flask, HTML, CSS, Node.js, Excel, Computer Vision","Salesforce Administrator, Cisco CCNA",Good,Gurgaon,6,5,13.83
+B.Tech,Tier 2,"Node.js, Hadoop, Machine Learning","Microsoft Azure Fundamentals, Microsoft Power BI, Salesforce Administrator",Excellent,Ahmedabad,1,6,9.4
+BCA,Tier 1,"NLP, Node.js","Microsoft Azure Fundamentals, AWS Cloud Practitioner",Average,Ahmedabad,4,7,12.8
+MBA,Tier 2,"Computer Vision, Deep Learning, Django, Python, Excel","Microsoft Azure Fundamentals, Microsoft Power BI, IBM Data Science",None,Hyderabad,3,9,11.51
+BCA,Tier 3,"SQL, C++, Flask",None,Good,Chennai,2,6,7.95
+MCA,Tier 1,"Power BI, Hadoop, Azure, Docker, AWS, JavaScript","AWS Cloud Practitioner, Microsoft Power BI",Average,Chennai,5,7,14.97
+B.Tech,Tier 2,"Azure, Power BI, Hadoop, Django, Machine Learning, Linux",Cisco CCNA,Average,Ahmedabad,7,8,15.67
+Diploma,Tier 2,"Computer Vision, Hadoop",Oracle Java,Good,Indore,5,4,12.19
+B.Tech,Tier 2,"Hadoop, Power BI, NLP, AWS, Python, HTML","IBM Data Science, Microsoft Azure Fundamentals",Average,Nagpur,5,9,13.35
+B.Tech,Tier 2,"PyTorch, Power BI",IBM Data Science,Good,Remote,8,10,17.62
+MBA,Tier 3,"Django, C++, JavaScript","Microsoft Azure Fundamentals, Cisco CCNA, AWS Cloud Practitioner",Average,Gurgaon,3,2,9.12
+B.Sc CS,Tier 1,"HTML, Python, Excel, Tableau, C++, Django","Microsoft Azure Fundamentals, Salesforce Administrator",Average,Kolkata,0.5,8,8.36
+B.Tech,Tier 1,"Django, Excel, SQL, Power BI, JavaScript","Cisco CCNA, AWS Solutions Architect, Microsoft Azure Fundamentals",Excellent,Mumbai,1,4,10.66
+Diploma,Tier 1,"NLP, MongoDB, Tableau, CSS, Docker, Git","Microsoft Power BI, Microsoft Azure Fundamentals, AWS Cloud Practitioner",Excellent,Gurgaon,0.5,7,10.5
+B.Sc IT,Tier 2,"TensorFlow, HTML, Node.js, Hadoop, MongoDB, Java",None,Average,Gurgaon,4,5,11.34
+B.Sc CS,Tier 2,"TensorFlow, MySQL, AWS","Cisco CCNA, Oracle Java, IBM Data Science",None,Ahmedabad,0.5,7,8.2
+B.Tech,Tier 2,"Deep Learning, TensorFlow, PostgreSQL","AWS Solutions Architect, Microsoft Azure Fundamentals",Excellent,Noida,7,2,16.5
+BCA,Tier 3,"Azure, PyTorch, Computer Vision, React, Node.js, Excel","Microsoft Azure Fundamentals, AWS Cloud Practitioner",Average,Hyderabad,6,7,13.89
+MBA,Tier 3,"Java, Python, Deep Learning, SQL, Docker",IBM Data Science,Good,Gurgaon,6,8,13.82
+B.Sc IT,Tier 3,"Power BI, HTML, Spark, Deep Learning, Excel",AWS Cloud Practitioner,Good,Pune,3,2,9.28
+MBA,Tier 1,"Git, Deep Learning",Cisco CCNA,Average,Mumbai,0,9,8.02
+B.Tech,Tier 3,"PostgreSQL, Git, Docker, TensorFlow, SQL, Django","Cisco CCNA, AWS Cloud Practitioner",Good,Bangalore,5,4,13.43
+M.Tech,Tier 3,"C++, Python, React",None,Excellent,Chennai,2,2,8.12
+BCA,Tier 3,"AWS, Excel, Java","Salesforce Administrator, AWS Solutions Architect, Oracle Java",Average,Kolkata,2,10,8.96
+MBA,Tier 3,"Machine Learning, Tableau",None,Average,Pune,0,7,5.8
+B.Tech,Tier 2,"Machine Learning, C++, Git, Spark, Deep Learning","AWS Cloud Practitioner, AWS Solutions Architect",Excellent,Noida,3,10,12.4
+BCA,Tier 3,"Excel, Deep Learning, SQL, MySQL, Computer Vision, PostgreSQL","Google Data Analytics, IBM Data Science, AWS Solutions Architect",Good,Indore,4,8,11.12
+B.Tech,Tier 3,"Node.js, Django, CSS, PostgreSQL, AWS, Machine Learning",None,Average,Ahmedabad,0.5,5,5.79
+MBA,Tier 3,"C++, Java, Power BI, Flask, HTML, NLP",Google Data Analytics,Average,Nagpur,0,4,5.47
+Diploma,Tier 3,"Power BI, Deep Learning, Computer Vision, PostgreSQL",None,Good,Noida,3,1,8.48
+M.Tech,Tier 2,"JavaScript, Java, PyTorch",Microsoft Azure Fundamentals,Good,Noida,7,6,15.33
+B.Tech,Tier 1,"C++, Tableau, Java, PostgreSQL, Power BI",Google Data Analytics,None,Ahmedabad,7,4,15.19
+BCA,Tier 2,"NLP, Excel, AWS, Tableau, Machine Learning","Google Data Analytics, Microsoft Azure Fundamentals, Salesforce Administrator",Average,Gurgaon,2,5,10.46
+Diploma,Tier 1,"Django, Excel, HTML, Node.js","Salesforce Administrator, Oracle Java, Cisco CCNA",None,Remote,6,1,14.96
+MBA,Tier 3,"MySQL, JavaScript, Power BI, AWS",Microsoft Power BI,Average,Delhi,6,5,13.08
+Diploma,Tier 1,"Docker, HTML, Tableau",Microsoft Azure Fundamentals,None,Kolkata,4,8,12.35
+MBA,Tier 3,"Django, HTML, NLP, PostgreSQL",None,Average,Bangalore,0.5,7,6.78
+B.Sc CS,Tier 1,"Deep Learning, Azure, PyTorch, AWS, Flask","IBM Data Science, AWS Cloud Practitioner, Salesforce Administrator",Average,Noida,2,4,10.83
+M.Tech,Tier 3,"Docker, Git",Microsoft Power BI,Good,Nagpur,1,5,6.55
+B.Sc CS,Tier 1,"PostgreSQL, Docker","Oracle Java, AWS Solutions Architect, Microsoft Power BI",Excellent,Noida,1,7,10.65
+MCA,Tier 2,"Git, TensorFlow, Django, MongoDB, NLP, AWS","AWS Solutions Architect, Salesforce Administrator, IBM Data Science",Good,Remote,4,3,12.17
+B.Sc IT,Tier 3,"Docker, NLP, Python, Excel, Spark","AWS Cloud Practitioner, AWS Solutions Architect, Salesforce Administrator",Good,Noida,7,7,15.85
+MBA,Tier 1,"Excel, Docker, Power BI, Tableau","Google Data Analytics, AWS Solutions Architect, Microsoft Azure Fundamentals",Good,Mumbai,1,4,9.81
+B.Sc CS,Tier 3,"Deep Learning, TensorFlow, Hadoop","Cisco CCNA, AWS Solutions Architect, Oracle Java",Good,Hyderabad,3,2,9.93
+MCA,Tier 1,"MongoDB, Machine Learning","Cisco CCNA, AWS Solutions Architect, AWS Cloud Practitioner",None,Remote,0,10,9.14
+B.Tech,Tier 1,"Linux, Python, Django, MySQL, CSS, Azure","Cisco CCNA, Salesforce Administrator",Good,Ahmedabad,5,6,14.17
+M.Tech,Tier 3,"Flask, Git, Django","AWS Cloud Practitioner, IBM Data Science, Oracle Java",Average,Hyderabad,0,8,7.12
+MBA,Tier 3,"Python, MySQL, SQL","Microsoft Azure Fundamentals, IBM Data Science",Average,Nagpur,6,9,13.46
+B.Sc IT,Tier 1,"Python, PostgreSQL, Flask, Hadoop",None,Excellent,Indore,4,8,12.83
+Diploma,Tier 2,"Linux, C++, Flask, React, HTML, Git",None,Good,Delhi,8,4,16.51
+B.Tech,Tier 1,"NLP, Spark","Google Data Analytics, Cisco CCNA, AWS Cloud Practitioner",Average,Kolkata,2,4,9.86
+BCA,Tier 1,"Excel, PyTorch","Oracle Java, Microsoft Power BI",Average,Delhi,6,2,15.07
+Diploma,Tier 1,"Hadoop, Machine Learning, PyTorch, MongoDB",None,Good,Noida,5,9,15.02
+MBA,Tier 3,"Deep Learning, SQL, NLP",None,None,Chennai,8,4,14.74
+BCA,Tier 2,"Hadoop, Computer Vision, Django",None,Average,Ahmedabad,7,4,14.45
+MBA,Tier 2,"Linux, Git, PyTorch, Power BI",AWS Solutions Architect,Average,Kolkata,6,6,13.59
+MCA,Tier 3,"Git, Node.js, Power BI, MySQL, NLP",AWS Cloud Practitioner,Good,Delhi,7,2,14.12
+Diploma,Tier 3,"HTML, NLP, Docker","AWS Cloud Practitioner, IBM Data Science, AWS Solutions Architect",Excellent,Mumbai,2,1,9.82
+B.Sc CS,Tier 3,"NLP, Spark, Git, PyTorch, Hadoop",AWS Cloud Practitioner,Good,Chennai,5,8,12.94
+MBA,Tier 2,"AWS, NLP, TensorFlow, Docker, Tableau, Spark","AWS Solutions Architect, Google Data Analytics, Cisco CCNA",Good,Ahmedabad,0,5,7.86
+B.Sc CS,Tier 2,"Docker, HTML, NLP, TensorFlow, Power BI",Microsoft Azure Fundamentals,Excellent,Mumbai,0,6,8.68
+BCA,Tier 3,"Django, React, Git",AWS Cloud Practitioner,None,Gurgaon,1,1,5.82
+M.Tech,Tier 2,"PostgreSQL, AWS, Django",AWS Cloud Practitioner,None,Noida,6,5,13.89
+B.Sc CS,Tier 3,"Azure, Docker, Linux, Git, C++","Oracle Java, Microsoft Power BI, IBM Data Science",Good,Chennai,0,2,5.87
+BCA,Tier 2,"Machine Learning, Python, MongoDB, Hadoop, Spark, HTML","AWS Solutions Architect, Google Data Analytics",Average,Nagpur,5,5,12.82
+BCA,Tier 2,"Excel, Django, Spark, Docker, Python, TensorFlow","AWS Solutions Architect, Salesforce Administrator, Oracle Java",Good,Nagpur,0.5,3,8.36
+B.Sc CS,Tier 1,"Linux, Computer Vision, SQL, Java, Power BI",Google Data Analytics,None,Delhi,0,2,7.83
+MCA,Tier 2,"Excel, React, Git, Python, Machine Learning, NLP",None,Excellent,Kolkata,3,9,11.59
+Diploma,Tier 3,"PyTorch, Flask, MySQL, JavaScript, CSS, Tableau",None,Good,Bangalore,2,1,7.54
+MCA,Tier 3,"Power BI, MySQL, JavaScript",IBM Data Science,Average,Indore,8,7,14.67
+MCA,Tier 2,"Django, Node.js, C++","Oracle Java, Google Data Analytics",Good,Hyderabad,3,4,11.21
+B.Sc CS,Tier 2,"Computer Vision, Linux, React","AWS Cloud Practitioner, Microsoft Azure Fundamentals, Salesforce Administrator",Average,Kolkata,0.5,9,8.21
+M.Tech,Tier 3,"PyTorch, Computer Vision, Azure, Deep Learning",Microsoft Azure Fundamentals,Average,Hyderabad,5,4,11.53
+BCA,Tier 3,"Excel, CSS","Cisco CCNA, AWS Solutions Architect",Good,Indore,8,5,15.4
+BCA,Tier 3,"Computer Vision, Azure, Django",IBM Data Science,Excellent,Nagpur,7,9,15.09
+MBA,Tier 2,"Deep Learning, Python, Git",Google Data Analytics,None,Ahmedabad,3,1,9.62
+M.Tech,Tier 3,"Git, MySQL, React","Google Data Analytics, Cisco CCNA, Salesforce Administrator",Good,Kolkata,3,5,10.55
+B.Sc IT,Tier 2,"NLP, React","AWS Solutions Architect, Salesforce Administrator",None,Mumbai,0.5,3,7.43
+BCA,Tier 3,"PyTorch, HTML, Linux, Python, React, Git",Cisco CCNA,Average,Nagpur,7,2,13.46
+B.Sc IT,Tier 3,"Docker, React","Microsoft Azure Fundamentals, AWS Cloud Practitioner",Good,Pune,7,4,14.57
+M.Tech,Tier 3,"Flask, Java, React, HTML, Django, Excel","AWS Solutions Architect, IBM Data Science",Excellent,Mumbai,7,2,14.99
+Diploma,Tier 2,"Python, AWS, PostgreSQL","Microsoft Azure Fundamentals, Microsoft Power BI, IBM Data Science",Good,Bangalore,6,10,16.6
+B.Tech,Tier 2,"Node.js, Computer Vision, NLP, Flask, SQL, Python","Google Data Analytics, Oracle Java",Average,Hyderabad,5,8,13.7
+B.Sc CS,Tier 2,"Python, Power BI, Azure, Git, Deep Learning",Cisco CCNA,Average,Delhi,4,7,12.49
+MCA,Tier 1,"Git, Spark, Node.js, Excel, Power BI","Oracle Java, AWS Cloud Practitioner",Average,Indore,2,2,9.39
+B.Tech,Tier 1,"AWS, Computer Vision, TensorFlow, Java, Excel",Cisco CCNA,Excellent,Delhi,0.5,7,9.89
+Diploma,Tier 3,"Computer Vision, Azure, TensorFlow","Salesforce Administrator, Oracle Java, AWS Solutions Architect",None,Hyderabad,0,3,5.66
+B.Tech,Tier 3,"Java, Git, Spark","Oracle Java, AWS Cloud Practitioner",Average,Delhi,3,8,9.58
+MBA,Tier 2,"AWS, CSS, Excel",Microsoft Power BI,Good,Delhi,2,7,9.6
+BCA,Tier 3,"MySQL, Excel, Tableau, MongoDB, PostgreSQL, Linux",Microsoft Azure Fundamentals,None,Noida,0,5,5.79
+B.Sc CS,Tier 2,"Tableau, C++, Hadoop, Java, Django, React","Microsoft Azure Fundamentals, Salesforce Administrator",Average,Gurgaon,0,9,7.68
+B.Tech,Tier 2,"Flask, Deep Learning, Docker, React",IBM Data Science,Excellent,Pune,0,1,6.85
+M.Tech,Tier 2,"Deep Learning, PyTorch, MySQL, SQL, React",Microsoft Power BI,Excellent,Chennai,4,5,12.41
+B.Tech,Tier 3,"Computer Vision, Flask, AWS","Salesforce Administrator, IBM Data Science",Average,Delhi,2,10,9.18
+BCA,Tier 1,"SQL, Java, MongoDB, PostgreSQL, Tableau, Linux","AWS Solutions Architect, Salesforce Administrator, Microsoft Power BI",Good,Delhi,6,4,15.98
+B.Sc CS,Tier 1,"React, JavaScript, Docker","Salesforce Administrator, IBM Data Science",Excellent,Gurgaon,0.5,7,9.82
+MBA,Tier 2,"Linux, Python, Excel, MySQL, Deep Learning, Docker",Microsoft Power BI,None,Ahmedabad,0,4,6.49
+MBA,Tier 2,"Hadoop, CSS, C++, Excel, Node.js, Azure","Salesforce Administrator, Oracle Java, Microsoft Azure Fundamentals",Good,Mumbai,1,1,8.26
+B.Sc IT,Tier 2,"TensorFlow, PyTorch","Salesforce Administrator, Microsoft Power BI, Google Data Analytics",Excellent,Delhi,3,9,12.52
+B.Sc IT,Tier 1,"NLP, Java, PostgreSQL",Microsoft Power BI,Excellent,Delhi,0,4,8.94
+B.Sc IT,Tier 2,"PostgreSQL, Flask","IBM Data Science, AWS Solutions Architect",Excellent,Kolkata,3,3,10.76
+MCA,Tier 2,"PostgreSQL, Spark",None,Excellent,Mumbai,3,3,10.41
+B.Tech,Tier 2,"SQL, AWS, TensorFlow, Docker, Django, PostgreSQL","Salesforce Administrator, Microsoft Azure Fundamentals",Excellent,Mumbai,4,5,13.35
+MBA,Tier 1,"AWS, React, Flask",Cisco CCNA,None,Pune,6,3,14.92
+B.Sc CS,Tier 1,"AWS, Excel, PostgreSQL, NLP, Python","Google Data Analytics, Salesforce Administrator",Excellent,Nagpur,8,4,17.77
+BCA,Tier 2,"PyTorch, PostgreSQL, Django, SQL, AWS",AWS Cloud Practitioner,Good,Noida,5,1,12.51
+B.Tech,Tier 3,"Power BI, Machine Learning",None,Average,Nagpur,8,1,14.34
+B.Tech,Tier 3,"JavaScript, AWS","AWS Solutions Architect, Microsoft Azure Fundamentals",None,Remote,8,8,16.12
+MCA,Tier 2,"Machine Learning, Java, JavaScript","Salesforce Administrator, AWS Solutions Architect",None,Bangalore,0.5,9,8.15
+MBA,Tier 1,"Python, Machine Learning, React","Google Data Analytics, IBM Data Science, Cisco CCNA",Average,Nagpur,5,2,13.84
+BCA,Tier 2,"Flask, C++, MySQL, Computer Vision",None,Average,Hyderabad,0,10,6.65
+MBA,Tier 2,"Excel, Git, React, Power BI, TensorFlow, Linux","Microsoft Power BI, IBM Data Science",Excellent,Delhi,6,6,16.33
+BCA,Tier 3,"Azure, PostgreSQL, Power BI","Google Data Analytics, Oracle Java",Average,Remote,6,2,12.31
+MBA,Tier 3,"Power BI, C++, Computer Vision, Excel","IBM Data Science, Salesforce Administrator, Microsoft Azure Fundamentals",Average,Indore,5,10,12.94
+M.Tech,Tier 1,"Django, React, JavaScript","Salesforce Administrator, Cisco CCNA, Microsoft Power BI",Good,Mumbai,5,2,14.63
+MBA,Tier 2,"Docker, C++, Machine Learning","AWS Cloud Practitioner, Microsoft Azure Fundamentals",Excellent,Bangalore,4,9,13.92
+B.Sc CS,Tier 3,"PyTorch, Flask","Google Data Analytics, Microsoft Power BI",Average,Kolkata,5,4,11.31
+B.Sc IT,Tier 1,"SQL, Docker, Power BI","AWS Cloud Practitioner, Oracle Java, Google Data Analytics",None,Hyderabad,8,2,17.83
+B.Sc CS,Tier 1,"Power BI, C++, Machine Learning, Python","Google Data Analytics, Salesforce Administrator, Microsoft Azure Fundamentals",Good,Indore,7,5,17.07
+M.Tech,Tier 2,"NLP, SQL",AWS Cloud Practitioner,Excellent,Bangalore,8,3,17.3
+B.Tech,Tier 2,"Git, TensorFlow, Node.js, JavaScript, Docker","Salesforce Administrator, Microsoft Power BI",Good,Noida,1,5,9.52
+MBA,Tier 3,"AWS, Tableau, Django",None,Average,Pune,7,10,14.84
+Diploma,Tier 2,"Spark, Django, Excel, Java, Linux","Oracle Java, Microsoft Azure Fundamentals",Average,Hyderabad,0.5,6,7.8
+M.Tech,Tier 1,"Excel, JavaScript, SQL, C++",AWS Cloud Practitioner,Good,Delhi,2,9,10.9
+B.Tech,Tier 2,"MongoDB, Java","AWS Cloud Practitioner, Salesforce Administrator, Google Data Analytics",None,Delhi,0,6,7.5
+MBA,Tier 2,"Azure, Django, AWS, Flask",AWS Solutions Architect,Average,Indore,7,2,14.15
+B.Sc CS,Tier 1,"HTML, MongoDB, Hadoop, Java, NLP",Google Data Analytics,Good,Hyderabad,0.5,4,8.83
+B.Sc CS,Tier 3,"CSS, AWS, MySQL","Cisco CCNA, Google Data Analytics",Average,Chennai,8,7,15.39
+MBA,Tier 2,"MySQL, C++, Power BI, MongoDB, PostgreSQL, HTML",None,Excellent,Pune,3,9,11.92
+BCA,Tier 2,"Computer Vision, Excel, PyTorch, NLP, C++","IBM Data Science, Salesforce Administrator",None,Pune,6,5,14.54
+MCA,Tier 3,"PostgreSQL, PyTorch, Power BI, SQL, MongoDB","AWS Cloud Practitioner, IBM Data Science, Oracle Java",Average,Noida,8,3,16.04
+M.Tech,Tier 2,"CSS, Node.js, Deep Learning, TensorFlow, Git",None,Good,Nagpur,0,4,6.5
+B.Tech,Tier 1,"NLP, Django",Oracle Java,Excellent,Mumbai,5,8,15.32
+M.Tech,Tier 2,"TensorFlow, Spark, Node.js, SQL, C++, Excel",None,Excellent,Noida,5,4,13.5
+BCA,Tier 2,"HTML, Tableau, Docker, AWS, PyTorch, SQL","Cisco CCNA, AWS Cloud Practitioner",Good,Gurgaon,1,4,9.02
+B.Tech,Tier 3,"Java, PyTorch, Linux, Flask, React","Microsoft Azure Fundamentals, AWS Cloud Practitioner, AWS Solutions Architect",Excellent,Remote,5,5,13.25
+B.Sc CS,Tier 1,"Deep Learning, Django",None,Average,Indore,6,7,14.17
+MCA,Tier 1,"C++, TensorFlow","IBM Data Science, Microsoft Power BI, AWS Solutions Architect",None,Noida,6,8,15.89
+B.Sc CS,Tier 3,"Flask, PyTorch, Docker, MongoDB, Django",None,Good,Ahmedabad,2,2,7.82
+B.Sc CS,Tier 2,"Python, Power BI, TensorFlow, Node.js",Cisco CCNA,Excellent,Hyderabad,5,5,14.42
+B.Tech,Tier 3,"PostgreSQL, Node.js, MongoDB",None,None,Indore,2,7,7.55
+B.Sc CS,Tier 3,"Flask, Tableau, Git",None,Average,Chennai,0,5,5.45
+BCA,Tier 3,"React, Flask, Spark, JavaScript, CSS","AWS Solutions Architect, Google Data Analytics",Average,Chennai,1,9,7.84
+MBA,Tier 2,"PostgreSQL, NLP, Docker, MySQL, PyTorch",None,Excellent,Remote,0.5,2,7.75
+MBA,Tier 1,"PyTorch, JavaScript, SQL, PostgreSQL, Node.js, CSS",None,Good,Noida,2,4,10.68
+MBA,Tier 1,"SQL, Flask, Linux, PyTorch, Node.js","Oracle Java, AWS Cloud Practitioner, Google Data Analytics",Good,Kolkata,3,5,12.88
+MCA,Tier 2,"Git, Machine Learning, Python, TensorFlow, PyTorch","AWS Cloud Practitioner, Salesforce Administrator, Cisco CCNA",None,Chennai,7,10,16.67
+B.Sc CS,Tier 3,"Machine Learning, JavaScript, Django, Tableau, MySQL","AWS Cloud Practitioner, Oracle Java, AWS Solutions Architect",Excellent,Noida,1,7,9.3
+B.Sc CS,Tier 2,"Docker, Linux",Salesforce Administrator,None,Ahmedabad,5,5,12.54
+B.Sc CS,Tier 3,"C++, Python, React",None,Good,Ahmedabad,1,1,6.37
+BCA,Tier 2,"AWS, Power BI","IBM Data Science, Google Data Analytics, AWS Solutions Architect",Good,Mumbai,3,4,11.69
+B.Sc IT,Tier 3,"Azure, Deep Learning, Git, Java, C++",AWS Cloud Practitioner,Good,Ahmedabad,0.5,2,5.71
+BCA,Tier 1,"Deep Learning, TensorFlow, Excel, C++",None,Average,Chennai,2,7,9.55
+B.Tech,Tier 2,"PostgreSQL, C++, Tableau, Git, React","IBM Data Science, Cisco CCNA, Oracle Java",None,Delhi,0,3,7.16
+B.Tech,Tier 1,"Flask, HTML, MySQL, JavaScript",None,None,Indore,3,2,9.29
+B.Tech,Tier 2,"CSS, Azure, Power BI, Tableau, Flask, SQL",AWS Cloud Practitioner,Average,Mumbai,0.5,3,7.17
+Diploma,Tier 1,"Flask, Docker","Cisco CCNA, Salesforce Administrator",Average,Noida,2,5,10.12
+MCA,Tier 3,"MongoDB, Linux","Google Data Analytics, Microsoft Azure Fundamentals",Excellent,Gurgaon,5,8,13.32
+MCA,Tier 3,"SQL, MySQL, Django, React, Tableau, MongoDB","IBM Data Science, AWS Solutions Architect",Average,Bangalore,7,5,15.04
+MCA,Tier 3,"Flask, Django, Python, SQL, Excel, Computer Vision","Google Data Analytics, IBM Data Science, AWS Solutions Architect",None,Nagpur,4,6,10.5
+M.Tech,Tier 1,"Docker, Python, Computer Vision, Tableau","IBM Data Science, Microsoft Azure Fundamentals, Microsoft Power BI",None,Delhi,8,4,17.98
+BCA,Tier 2,"TensorFlow, Linux, Hadoop, Git, C++, MongoDB","Oracle Java, IBM Data Science, Salesforce Administrator",Average,Mumbai,0,8,8.05
+MCA,Tier 2,"Node.js, Excel","Oracle Java, Microsoft Azure Fundamentals",Good,Delhi,0,10,8.79
+Diploma,Tier 2,"Java, TensorFlow, JavaScript, PyTorch, CSS",None,Average,Bangalore,0.5,8,7.5
+MBA,Tier 3,"Computer Vision, Azure, Flask, Django",None,Good,Chennai,6,10,12.95
+MCA,Tier 3,"HTML, Hadoop, PostgreSQL, PyTorch, SQL","AWS Solutions Architect, AWS Cloud Practitioner",Average,Bangalore,1,2,7.79
+MBA,Tier 2,"Tableau, AWS","Salesforce Administrator, AWS Cloud Practitioner",Excellent,Bangalore,3,1,10.96
+MCA,Tier 1,"Docker, MySQL, Linux, Django","Google Data Analytics, Salesforce Administrator",Good,Hyderabad,1,6,10.26
+MBA,Tier 3,"CSS, Machine Learning","Cisco CCNA, Microsoft Power BI, Google Data Analytics",Good,Gurgaon,2,2,8.61
+MCA,Tier 3,"JavaScript, Spark, Hadoop, Machine Learning",AWS Solutions Architect,None,Gurgaon,0,4,4.96
+B.Sc IT,Tier 2,"Tableau, HTML, SQL, Computer Vision, Spark","Microsoft Power BI, Cisco CCNA",Good,Kolkata,0.5,3,7.17
+M.Tech,Tier 2,"Hadoop, MySQL, CSS, Tableau, Azure","Microsoft Azure Fundamentals, AWS Solutions Architect, Google Data Analytics",Average,Nagpur,3,10,11.2
+B.Sc CS,Tier 2,"AWS, SQL",AWS Cloud Practitioner,Excellent,Pune,3,1,10.88
+Diploma,Tier 2,"PyTorch, JavaScript",None,Average,Mumbai,1,7,8.05
+M.Tech,Tier 1,"Flask, SQL, Java, PostgreSQL","Oracle Java, Microsoft Azure Fundamentals, Google Data Analytics",None,Pune,8,5,17.83
+Diploma,Tier 2,"Git, Java",AWS Solutions Architect,Average,Bangalore,0,10,7.32
+BCA,Tier 2,"Machine Learning, TensorFlow, MySQL, Docker","Oracle Java, Salesforce Administrator, AWS Cloud Practitioner",Average,Indore,3,8,11.06
+B.Sc IT,Tier 2,"Docker, MySQL, NLP, AWS",None,None,Kolkata,8,8,16.34
+B.Sc IT,Tier 1,"Excel, Computer Vision","Google Data Analytics, AWS Cloud Practitioner, IBM Data Science",Average,Chennai,0,3,8.27
+BCA,Tier 1,"MySQL, Flask","AWS Cloud Practitioner, Cisco CCNA, Oracle Java",Average,Hyderabad,0,1,7.77
+MCA,Tier 3,"CSS, Excel, Azure, Power BI, Hadoop, SQL",None,Average,Indore,4,8,10.29
+M.Tech,Tier 3,"Git, HTML, Deep Learning, Flask","AWS Cloud Practitioner, IBM Data Science, Google Data Analytics",Good,Kolkata,8,8,15.96
+B.Tech,Tier 1,"Hadoop, Machine Learning, Git, Power BI, Flask","AWS Cloud Practitioner, Microsoft Azure Fundamentals, Microsoft Power BI",Good,Noida,4,4,13.89
+B.Sc IT,Tier 3,"PostgreSQL, SQL, Deep Learning, TensorFlow, Git","Salesforce Administrator, Google Data Analytics, Cisco CCNA",Excellent,Chennai,4,7,12.69
+MCA,Tier 2,"MongoDB, CSS","AWS Solutions Architect, Oracle Java",Good,Ahmedabad,4,5,11.36
+B.Tech,Tier 2,"Node.js, Git, Power BI","Salesforce Administrator, Google Data Analytics",Average,Delhi,0.5,5,7.47
+B.Tech,Tier 2,"SQL, Java, HTML, NLP, Python, React","AWS Cloud Practitioner, Salesforce Administrator",Average,Chennai,3,9,11.72
+B.Sc CS,Tier 3,"Power BI, AWS, Tableau, React",None,Average,Bangalore,6,6,13.15
+MBA,Tier 2,"TensorFlow, Deep Learning","Microsoft Power BI, Google Data Analytics",Good,Nagpur,4,10,12.14
+B.Sc IT,Tier 2,"JavaScript, Tableau, NLP, C++, MongoDB","Salesforce Administrator, Google Data Analytics, Microsoft Azure Fundamentals",Good,Noida,0.5,3,7.93
+M.Tech,Tier 2,"Node.js, Flask, React, Python",None,Excellent,Noida,0.5,3,8.17
+MCA,Tier 3,"CSS, Flask, Power BI, MySQL, JavaScript, MongoDB","AWS Cloud Practitioner, Oracle Java",None,Nagpur,0,8,6.11
+Diploma,Tier 3,"Java, Deep Learning",None,Average,Hyderabad,3,10,9.58
+M.Tech,Tier 3,"AWS, MongoDB",None,Good,Kolkata,1,9,7.49
+Diploma,Tier 1,"NLP, PostgreSQL, AWS",None,Excellent,Ahmedabad,2,2,9.57
+B.Sc CS,Tier 3,"CSS, SQL",Microsoft Azure Fundamentals,None,Bangalore,7,8,14.54
+BCA,Tier 2,"Excel, Spark, Machine Learning, Hadoop, JavaScript","Cisco CCNA, AWS Solutions Architect",Average,Nagpur,0,3,5.89
+B.Sc IT,Tier 1,"Tableau, HTML, TensorFlow, NLP, Spark, Git",None,Excellent,Gurgaon,4,5,13.14
+BCA,Tier 2,"Power BI, Python, NLP, Node.js, SQL","AWS Cloud Practitioner, Microsoft Power BI, Salesforce Administrator",Good,Nagpur,8,8,17.49
+M.Tech,Tier 3,"TensorFlow, AWS, Node.js, Deep Learning, Python",IBM Data Science,Good,Kolkata,2,6,9.35
+MBA,Tier 2,"PostgreSQL, Power BI, Flask","Cisco CCNA, Google Data Analytics",Average,Remote,3,7,10.42
+Diploma,Tier 2,"MySQL, Git, Excel, MongoDB, Docker","Google Data Analytics, IBM Data Science",Good,Ahmedabad,4,10,12.82
+MBA,Tier 1,"Hadoop, AWS",Microsoft Azure Fundamentals,None,Hyderabad,6,8,15.07
+B.Sc IT,Tier 3,"SQL, TensorFlow, Excel","Oracle Java, AWS Solutions Architect, AWS Cloud Practitioner",Good,Hyderabad,0,2,6.59
+M.Tech,Tier 3,"PyTorch, Excel","AWS Solutions Architect, Cisco CCNA",Average,Nagpur,8,9,15.45
+MCA,Tier 2,"Machine Learning, Tableau, AWS, Excel","Salesforce Administrator, Microsoft Azure Fundamentals, AWS Cloud Practitioner",Good,Nagpur,0.5,4,7.48
+B.Sc CS,Tier 3,"Azure, React, MongoDB, JavaScript",None,Average,Nagpur,7,8,13.39
+B.Sc IT,Tier 2,"CSS, Flask, MySQL, TensorFlow, JavaScript",AWS Solutions Architect,Average,Nagpur,5,2,11.82
+B.Sc CS,Tier 3,"SQL, HTML, Machine Learning, Java","AWS Cloud Practitioner, Microsoft Azure Fundamentals",Excellent,Delhi,3,7,11.45
+BCA,Tier 3,"NLP, C++, JavaScript",Salesforce Administrator,Excellent,Kolkata,3,7,10.22
+BCA,Tier 2,"PostgreSQL, Python, Java, Computer Vision","Microsoft Power BI, Microsoft Azure Fundamentals, Google Data Analytics",Excellent,Bangalore,1,4,9.8
+M.Tech,Tier 3,"Machine Learning, HTML",None,Excellent,Ahmedabad,8,1,14.9
+BCA,Tier 3,"AWS, MySQL, C++, JavaScript, HTML, Power BI","AWS Cloud Practitioner, AWS Solutions Architect",None,Kolkata,2,6,8.23
+MCA,Tier 3,"Python, PyTorch, Java",None,Good,Remote,2,9,8.96
+MBA,Tier 3,"JavaScript, HTML",None,Average,Noida,1,7,6.85
+B.Sc CS,Tier 1,"TensorFlow, MySQL","IBM Data Science, Microsoft Azure Fundamentals",Average,Bangalore,2,4,10.19
+B.Tech,Tier 2,"MongoDB, Java, Linux, Python, AWS, Machine Learning",None,None,Pune,6,3,13.23
+M.Tech,Tier 2,"NLP, Power BI, MySQL","Cisco CCNA, AWS Solutions Architect, IBM Data Science",None,Delhi,7,4,15.54
+M.Tech,Tier 3,"Node.js, Docker, NLP","Salesforce Administrator, Microsoft Power BI",Excellent,Mumbai,7,5,15.67
+BCA,Tier 1,"Docker, MySQL, HTML, Deep Learning, C++",Google Data Analytics,Excellent,Kolkata,2,5,11.04
+B.Sc IT,Tier 1,"Java, Machine Learning, Docker","Cisco CCNA, AWS Solutions Architect, AWS Cloud Practitioner",Average,Bangalore,3,5,12.59
+MCA,Tier 3,"Java, Deep Learning","Cisco CCNA, AWS Cloud Practitioner, Oracle Java",Average,Gurgaon,0,4,5.86
+B.Sc CS,Tier 3,"Java, Git, NLP, PyTorch, JavaScript, Azure","AWS Cloud Practitioner, IBM Data Science",Excellent,Delhi,8,4,16.86
+M.Tech,Tier 3,"React, Hadoop, PyTorch, Linux, AWS, Spark",None,Excellent,Kolkata,5,5,12.81
+Diploma,Tier 2,"Azure, CSS, Deep Learning, Excel, Django, Node.js",Google Data Analytics,Excellent,Delhi,3,2,11.45
+MCA,Tier 2,"Java, MySQL, Deep Learning, Flask, Git","AWS Cloud Practitioner, AWS Solutions Architect",Average,Nagpur,4,5,11.5
+Diploma,Tier 2,"Python, Node.js, Java, Flask, HTML",Oracle Java,None,Hyderabad,3,10,11.2
+BCA,Tier 2,"Azure, Linux, Deep Learning, Hadoop","Google Data Analytics, Microsoft Azure Fundamentals, IBM Data Science",None,Ahmedabad,0,4,6.16
+B.Tech,Tier 1,"Hadoop, Node.js, MongoDB, Computer Vision, Java, JavaScript",AWS Cloud Practitioner,Excellent,Delhi,3,1,11.98
+M.Tech,Tier 2,"MySQL, Machine Learning","AWS Solutions Architect, Salesforce Administrator",Good,Hyderabad,7,2,15.24
+M.Tech,Tier 2,"C++, PostgreSQL, React, TensorFlow, NLP",AWS Cloud Practitioner,Average,Remote,4,6,12.23
+M.Tech,Tier 2,"MySQL, Python, Excel, Flask",None,Average,Pune,8,1,14.96
+B.Sc IT,Tier 3,"Docker, Azure, AWS, CSS, Linux, MongoDB","Microsoft Azure Fundamentals, Oracle Java",Excellent,Bangalore,1,7,9.31
+BCA,Tier 3,"MongoDB, CSS, PostgreSQL","Salesforce Administrator, AWS Solutions Architect, Oracle Java",Excellent,Remote,0,10,7.82
+Diploma,Tier 2,"Spark, MongoDB, NLP",IBM Data Science,Average,Remote,4,4,11.01
+BCA,Tier 3,"AWS, TensorFlow, React, Flask, C++","Salesforce Administrator, AWS Solutions Architect",Excellent,Nagpur,6,10,14.63
+MBA,Tier 2,"PyTorch, JavaScript, Machine Learning","Google Data Analytics, Microsoft Power BI, Oracle Java",Average,Chennai,0.5,2,7.56
+B.Sc CS,Tier 2,"TensorFlow, Excel, Node.js",None,None,Noida,3,9,10.76
+Diploma,Tier 3,"Hadoop, Java, Spark","AWS Cloud Practitioner, Google Data Analytics, Salesforce Administrator",None,Kolkata,5,7,11.85
+MBA,Tier 3,"Docker, NLP, SQL","IBM Data Science, AWS Solutions Architect",Excellent,Bangalore,0.5,6,8.75
+MBA,Tier 3,"NLP, Azure, HTML, Docker, Power BI",Salesforce Administrator,None,Bangalore,8,10,16.22
+Diploma,Tier 2,"Excel, CSS, AWS, MongoDB, Deep Learning",None,Average,Gurgaon,4,1,10.71
+MBA,Tier 2,"Computer Vision, Azure, Excel, Power BI, Java",Oracle Java,Good,Ahmedabad,8,6,16.15
+MCA,Tier 1,"Deep Learning, HTML, Node.js, Machine Learning",Microsoft Power BI,Excellent,Delhi,8,2,18.57
+MCA,Tier 1,"JavaScript, Spark, CSS",AWS Cloud Practitioner,Good,Bangalore,7,9,17.5
+B.Tech,Tier 2,"Flask, Tableau","Oracle Java, Cisco CCNA",Good,Gurgaon,3,2,10.72
+BCA,Tier 2,"HTML, Deep Learning, C++, Hadoop, Power BI","AWS Solutions Architect, IBM Data Science",Excellent,Indore,2,2,9.33
+M.Tech,Tier 2,"Git, Azure, C++, Docker, Spark, Computer Vision",None,Average,Indore,7,6,14.09
+B.Tech,Tier 3,"Machine Learning, Power BI","Microsoft Azure Fundamentals, Salesforce Administrator, Google Data Analytics",Average,Gurgaon,1,8,8.13
+B.Sc IT,Tier 3,"CSS, Hadoop",AWS Cloud Practitioner,Average,Gurgaon,7,10,14.46
+B.Sc CS,Tier 1,"MySQL, Django, PostgreSQL, MongoDB",IBM Data Science,Average,Nagpur,1,5,8.54
+MCA,Tier 3,"Linux, PostgreSQL, Django, MySQL, Flask","Microsoft Power BI, AWS Solutions Architect, Cisco CCNA",None,Remote,3,7,10.27
+M.Tech,Tier 2,"SQL, Excel, Node.js, Computer Vision, Git",None,Average,Noida,1,8,8.54
+Diploma,Tier 3,"Python, NLP, Deep Learning",Oracle Java,None,Remote,4,5,10.37
+MBA,Tier 2,"React, Django, Deep Learning, PyTorch, Java","Cisco CCNA, Microsoft Azure Fundamentals",Average,Bangalore,3,8,11.51
+B.Sc CS,Tier 2,"MySQL, Computer Vision",Salesforce Administrator,None,Indore,0,7,5.69
+M.Tech,Tier 3,"C++, PostgreSQL, Java, CSS, Tableau, Flask",Google Data Analytics,Excellent,Noida,2,5,9.2
+M.Tech,Tier 2,"JavaScript, AWS, Machine Learning",None,None,Bangalore,7,2,14.6
+Diploma,Tier 1,"NLP, Python, Machine Learning, PostgreSQL",AWS Cloud Practitioner,Average,Hyderabad,5,7,13.93
+MCA,Tier 3,"C++, CSS","AWS Cloud Practitioner, Salesforce Administrator, IBM Data Science",Excellent,Ahmedabad,1,2,7.89
+MBA,Tier 1,"Hadoop, NLP, Linux, Computer Vision, React, CSS",None,Average,Gurgaon,2,2,9.16
+Diploma,Tier 2,"C++, Machine Learning, React, JavaScript, Deep Learning","Microsoft Power BI, Microsoft Azure Fundamentals, Cisco CCNA",None,Gurgaon,5,6,13.91
+BCA,Tier 2,"Python, Django, Azure, Machine Learning, Node.js, Flask","AWS Solutions Architect, Microsoft Power BI, Google Data Analytics",None,Nagpur,0.5,2,7.31
+B.Sc IT,Tier 3,"MongoDB, Machine Learning, C++, Power BI, Django","Salesforce Administrator, Microsoft Azure Fundamentals, AWS Cloud Practitioner",Good,Delhi,5,5,13.34
+B.Sc CS,Tier 1,"MySQL, React, Hadoop, Python, Deep Learning, Docker",Salesforce Administrator,Good,Kolkata,6,6,16.01
+B.Sc IT,Tier 2,"CSS, JavaScript, Hadoop, AWS, C++",None,Average,Hyderabad,5,3,12.41
+B.Sc CS,Tier 2,"Excel, Tableau","AWS Solutions Architect, AWS Cloud Practitioner, Microsoft Azure Fundamentals",Average,Nagpur,7,8,15.19
+MBA,Tier 2,"SQL, React, NLP, AWS","Salesforce Administrator, IBM Data Science",Good,Chennai,8,3,16.69
+B.Sc IT,Tier 3,"CSS, MySQL, Deep Learning, HTML","Microsoft Azure Fundamentals, IBM Data Science, Cisco CCNA",Good,Pune,1,9,8.62
+Diploma,Tier 1,"Excel, Power BI, HTML, C++, Python","Microsoft Azure Fundamentals, Salesforce Administrator",Good,Kolkata,6,6,15.29
+Diploma,Tier 2,"Flask, PostgreSQL",IBM Data Science,Good,Mumbai,3,5,11.02
+MBA,Tier 2,"Flask, MySQL, Azure, Django","Salesforce Administrator, Microsoft Azure Fundamentals",None,Pune,0.5,4,6.88
+MCA,Tier 2,"Linux, CSS, MongoDB","IBM Data Science, Microsoft Power BI, Oracle Java",Good,Ahmedabad,6,4,14.02
+B.Sc IT,Tier 3,"PyTorch, Linux",Google Data Analytics,None,Bangalore,4,2,10.55
+B.Tech,Tier 1,"React, Git, HTML, Computer Vision, NLP",None,Average,Noida,5,7,13.86
+M.Tech,Tier 2,"Computer Vision, CSS, C++, MySQL, Tableau, Excel","Google Data Analytics, Oracle Java",Good,Gurgaon,3,2,10.56
+MBA,Tier 3,"Python, Hadoop, Flask","IBM Data Science, Oracle Java, AWS Solutions Architect",Good,Mumbai,5,6,12.83
+B.Tech,Tier 1,"CSS, Tableau, Python, MongoDB","IBM Data Science, AWS Solutions Architect",Excellent,Delhi,7,1,17.06
+B.Tech,Tier 3,"Django, Java, Docker, Deep Learning, PostgreSQL",None,Excellent,Bangalore,6,10,14.73
+Diploma,Tier 1,"Linux, SQL, Java, Flask, Python, MySQL",Google Data Analytics,Excellent,Pune,0.5,7,10.13
+BCA,Tier 1,"Computer Vision, SQL","Microsoft Azure Fundamentals, AWS Cloud Practitioner",Average,Nagpur,4,3,12.46
+M.Tech,Tier 2,"React, Spark, Git, Java, C++",Salesforce Administrator,None,Delhi,0.5,3,6.84
+MCA,Tier 3,"React, Excel, PostgreSQL, AWS, Python, NLP","Salesforce Administrator, IBM Data Science",None,Gurgaon,8,2,15.57
+Diploma,Tier 1,"Excel, AWS",None,None,Ahmedabad,0,3,6.84
+B.Sc IT,Tier 3,"C++, TensorFlow, AWS, Machine Learning, NLP",Google Data Analytics,Average,Noida,3,3,9.18
+M.Tech,Tier 2,"Deep Learning, TensorFlow, Tableau",Microsoft Power BI,Average,Gurgaon,3,2,9.94
+M.Tech,Tier 2,"Node.js, Spark, PostgreSQL, Git, Excel, Java","Google Data Analytics, Microsoft Azure Fundamentals, IBM Data Science",Average,Nagpur,3,4,10.19
+MCA,Tier 1,"Deep Learning, Tableau, Node.js","AWS Cloud Practitioner, AWS Solutions Architect",Good,Nagpur,1,8,9.24
+M.Tech,Tier 2,"Git, MongoDB, TensorFlow, Java, Computer Vision",None,Good,Bangalore,1,7,8.53
+M.Tech,Tier 3,"Excel, PyTorch","Microsoft Power BI, Google Data Analytics",Average,Pune,0,8,6.81
+Diploma,Tier 2,"AWS, Django, HTML, Spark, Machine Learning","IBM Data Science, Salesforce Administrator",Average,Noida,3,1,10.72
+B.Sc IT,Tier 3,"SQL, React, TensorFlow, Azure, Deep Learning, MongoDB","AWS Cloud Practitioner, Google Data Analytics, Microsoft Power BI",None,Delhi,8,9,16.6
+B.Sc CS,Tier 1,"Linux, Java, C++, NLP",IBM Data Science,Average,Pune,6,1,14.26
+B.Sc IT,Tier 3,"NLP, C++, Excel, Machine Learning",Oracle Java,None,Mumbai,1,9,7.85
+M.Tech,Tier 1,"Flask, SQL, HTML","Microsoft Azure Fundamentals, Cisco CCNA, IBM Data Science",Average,Gurgaon,2,2,10.34
+M.Tech,Tier 3,"Django, Azure, Computer Vision","Oracle Java, Salesforce Administrator",Good,Chennai,6,10,13.63
+B.Sc CS,Tier 3,"Flask, Computer Vision, CSS, Spark",None,Good,Remote,5,2,11.15
+B.Sc CS,Tier 2,"Tableau, NLP","AWS Solutions Architect, IBM Data Science, Microsoft Azure Fundamentals",Good,Noida,1,5,8.61
+Diploma,Tier 1,"Excel, Django, Git, CSS, Spark",None,Average,Hyderabad,4,2,11.76
+MBA,Tier 3,"Excel, Computer Vision",Salesforce Administrator,Average,Gurgaon,0,8,6.2
+MBA,Tier 2,"NLP, React","AWS Solutions Architect, Cisco CCNA",Good,Remote,6,6,15.04
+M.Tech,Tier 1,"React, JavaScript, Azure","AWS Solutions Architect, Google Data Analytics, AWS Cloud Practitioner",Average,Indore,8,5,17.2
+Diploma,Tier 2,"NLP, Java, SQL, Hadoop, HTML","IBM Data Science, AWS Cloud Practitioner, Microsoft Power BI",Good,Delhi,5,6,14.22
+B.Tech,Tier 2,"NLP, Flask, React",None,Average,Delhi,0,10,6.81
+B.Tech,Tier 2,"Machine Learning, Excel, C++, JavaScript, SQL",Google Data Analytics,Good,Noida,3,6,11.52
+B.Sc IT,Tier 3,"MongoDB, Node.js, Java, C++, Computer Vision, Flask",None,None,Indore,0.5,7,5.56
+BCA,Tier 2,"React, Django, Python, Excel","AWS Solutions Architect, Oracle Java",Excellent,Remote,2,10,11.06
+MCA,Tier 3,"Hadoop, Linux, Machine Learning, Docker, TensorFlow, Java","Cisco CCNA, Microsoft Azure Fundamentals",Good,Noida,3,3,9.93
+B.Tech,Tier 3,"Git, NLP, Deep Learning",None,Average,Bangalore,5,3,10.92
+Diploma,Tier 2,"SQL, Machine Learning, Python, Docker","Microsoft Azure Fundamentals, AWS Solutions Architect",Good,Indore,8,8,17.69
+M.Tech,Tier 2,"PyTorch, JavaScript, Python, Computer Vision, Flask","Google Data Analytics, Cisco CCNA, Oracle Java",Good,Mumbai,7,3,16.47
+MCA,Tier 2,"C++, PostgreSQL, HTML, JavaScript, Flask, PyTorch",Salesforce Administrator,Average,Delhi,4,8,12.22
+B.Tech,Tier 1,"Excel, MySQL, Flask, MongoDB, React, Linux",None,Good,Delhi,7,8,17.19
+MBA,Tier 3,"Django, MySQL, Hadoop",None,None,Mumbai,2,2,7.17
+B.Sc CS,Tier 3,"JavaScript, React, Flask, Azure, Tableau","Microsoft Power BI, IBM Data Science, Oracle Java",Average,Hyderabad,4,9,11.94
+MBA,Tier 2,"HTML, Azure, Node.js, NLP, Spark","Google Data Analytics, Salesforce Administrator, Microsoft Azure Fundamentals",Average,Kolkata,4,8,12.51
+BCA,Tier 2,"React, Tableau, PostgreSQL, Python, MySQL",Google Data Analytics,Good,Kolkata,0.5,10,8.42
+MBA,Tier 3,"MySQL, Machine Learning, Excel, MongoDB","AWS Solutions Architect, IBM Data Science, AWS Cloud Practitioner",Good,Remote,5,9,13.31
+B.Sc IT,Tier 3,"Node.js, Flask, AWS",Google Data Analytics,Average,Indore,2,6,7.58
+BCA,Tier 3,"MongoDB, Node.js, Machine Learning","Microsoft Azure Fundamentals, Google Data Analytics, Salesforce Administrator",Good,Hyderabad,8,6,17.22
+B.Sc CS,Tier 2,"Python, AWS",None,Good,Noida,7,8,16.16
+BCA,Tier 3,"TensorFlow, Docker, JavaScript, SQL",None,Average,Indore,0,5,5.56
+B.Tech,Tier 2,"PostgreSQL, PyTorch, Node.js, React, Linux, SQL",None,None,Delhi,8,2,16.22
+M.Tech,Tier 2,"Power BI, PyTorch, Machine Learning, Linux","Microsoft Azure Fundamentals, Microsoft Power BI, AWS Cloud Practitioner",Average,Indore,0.5,8,8.75
+Diploma,Tier 3,"Computer Vision, NLP, Docker, Node.js","Cisco CCNA, Microsoft Power BI",Good,Ahmedabad,0,3,5.7
+MCA,Tier 1,"MongoDB, Flask, Docker, NLP","Google Data Analytics, Microsoft Power BI",Average,Gurgaon,3,3,11.69
+B.Sc CS,Tier 1,"Hadoop, Django, Deep Learning, PostgreSQL",AWS Cloud Practitioner,Excellent,Ahmedabad,3,3,11.58
+MCA,Tier 2,"AWS, Hadoop, CSS, Django, HTML, MySQL",IBM Data Science,Good,Ahmedabad,7,6,15.37
+MBA,Tier 3,"PostgreSQL, Excel, Hadoop, CSS, HTML",Cisco CCNA,Excellent,Bangalore,0.5,6,7.27
+B.Sc IT,Tier 2,"MySQL, Azure, AWS, Linux",None,Good,Chennai,6,8,14.37
+B.Tech,Tier 3,"TensorFlow, Machine Learning, AWS, Tableau, Flask, Git",None,Average,Hyderabad,4,9,10.82
+BCA,Tier 3,"Node.js, MongoDB",Microsoft Azure Fundamentals,Average,Indore,1,4,5.98
+Diploma,Tier 1,"Deep Learning, JavaScript, PyTorch, C++, AWS, Tableau",None,Excellent,Pune,7,5,16.51
+B.Sc IT,Tier 2,"HTML, Node.js, SQL, JavaScript, Linux, Java","AWS Solutions Architect, Microsoft Azure Fundamentals",Average,Gurgaon,0.5,8,8.1
+B.Sc IT,Tier 2,"MongoDB, Python, React, Hadoop",None,Good,Gurgaon,2,10,10.51
+Diploma,Tier 3,"Azure, React, MySQL, Deep Learning","Google Data Analytics, IBM Data Science, Microsoft Power BI",Average,Delhi,3,5,10.47
+B.Sc IT,Tier 2,"CSS, NLP, PostgreSQL, Node.js, SQL, Azure",Cisco CCNA,None,Kolkata,6,8,13.71
+BCA,Tier 3,"SQL, PyTorch, Hadoop, Node.js","Salesforce Administrator, Google Data Analytics",None,Hyderabad,2,4,8.41
+MCA,Tier 2,"HTML, SQL, Git, NLP, MySQL, Tableau",IBM Data Science,None,Remote,5,3,12.45
+B.Sc CS,Tier 2,"HTML, PostgreSQL, MySQL, Linux, React, Azure","Microsoft Azure Fundamentals, Microsoft Power BI",Average,Delhi,4,3,11.46
+M.Tech,Tier 3,"Node.js, NLP, React, MongoDB","Oracle Java, AWS Cloud Practitioner, Salesforce Administrator",Excellent,Bangalore,5,6,14.2
+B.Sc CS,Tier 3,"Python, Spark, Docker, Tableau",Microsoft Power BI,Average,Chennai,0,6,5.88
+MBA,Tier 2,"AWS, Tableau, Linux, TensorFlow, MySQL, CSS","Microsoft Power BI, AWS Solutions Architect, AWS Cloud Practitioner",Average,Chennai,6,10,15.42
+B.Tech,Tier 3,"Docker, PyTorch, HTML, Machine Learning, Deep Learning","AWS Cloud Practitioner, AWS Solutions Architect, Salesforce Administrator",Good,Delhi,7,6,15.79
+MCA,Tier 1,"TensorFlow, AWS, C++","Oracle Java, Google Data Analytics",Excellent,Ahmedabad,3,10,13.0
+BCA,Tier 2,"MongoDB, JavaScript, Azure, Git","Salesforce Administrator, Microsoft Power BI",Good,Pune,0.5,6,8.46
+M.Tech,Tier 3,"AWS, TensorFlow, Tableau, Excel, Computer Vision","Microsoft Azure Fundamentals, Cisco CCNA, Google Data Analytics",Average,Nagpur,3,5,9.8
+B.Tech,Tier 1,"React, Django, Linux, HTML, Java",None,Excellent,Kolkata,4,1,12.32
+B.Tech,Tier 3,"Linux, JavaScript, HTML, NLP","AWS Solutions Architect, Salesforce Administrator",Good,Kolkata,0.5,9,6.81
+BCA,Tier 2,"MySQL, PostgreSQL, Tableau, Azure, C++","Microsoft Power BI, Cisco CCNA, Microsoft Azure Fundamentals",Excellent,Indore,1,6,8.62
+M.Tech,Tier 2,"TensorFlow, Python, Django, MongoDB, NLP",None,Good,Noida,0,1,6.08
+MBA,Tier 1,"MongoDB, Git, Azure","Salesforce Administrator, Cisco CCNA",Good,Mumbai,8,6,18.59
+B.Sc CS,Tier 1,"Tableau, NLP, Excel",None,None,Ahmedabad,0,3,6.39
+BCA,Tier 2,"PyTorch, Machine Learning, Git, Tableau",Microsoft Power BI,None,Delhi,2,4,9.32
+B.Tech,Tier 1,"SQL, Spark, Django, Python, Node.js",Oracle Java,None,Gurgaon,5,4,13.56
+MBA,Tier 2,"C++, Excel",None,None,Mumbai,0.5,8,7.44
+M.Tech,Tier 3,"React, Tableau, C++, Linux","Cisco CCNA, Microsoft Power BI",Good,Gurgaon,0,1,5.83
+MBA,Tier 2,"Flask, NLP",None,Average,Nagpur,3,4,9.6
+BCA,Tier 3,"TensorFlow, HTML, Python, Deep Learning, AWS","AWS Cloud Practitioner, Google Data Analytics",Excellent,Pune,8,1,16.08
+B.Sc CS,Tier 1,"Azure, Java, MySQL, Linux, Tableau","IBM Data Science, Oracle Java",Excellent,Noida,1,3,10.19
+B.Sc CS,Tier 3,"Flask, TensorFlow, PyTorch",None,Good,Bangalore,6,4,13.11
+M.Tech,Tier 3,"MySQL, Computer Vision, Python, Linux",None,Average,Gurgaon,0,3,5.56
+B.Tech,Tier 2,"AWS, CSS, Excel, Hadoop, SQL, Python","Microsoft Azure Fundamentals, AWS Solutions Architect",Average,Hyderabad,0.5,8,8.56
+MBA,Tier 3,"Node.js, Power BI, Hadoop, MySQL, Linux, PostgreSQL",None,Average,Gurgaon,3,3,8.77
+M.Tech,Tier 3,"HTML, AWS",Google Data Analytics,Average,Pune,1,4,6.91
+BCA,Tier 3,"TensorFlow, MySQL, SQL, Machine Learning",Microsoft Power BI,None,Nagpur,3,6,9.36
+Diploma,Tier 3,"CSS, MongoDB, Deep Learning, Azure, Power BI, Computer Vision","IBM Data Science, Google Data Analytics, Microsoft Power BI",Good,Bangalore,5,1,12.79
+B.Sc CS,Tier 1,"Spark, Linux",Google Data Analytics,Average,Bangalore,8,8,17.83
+M.Tech,Tier 1,"Django, Node.js, Tableau, TensorFlow, MySQL, Deep Learning","AWS Solutions Architect, Microsoft Power BI, IBM Data Science",Good,Chennai,4,3,13.16
+Diploma,Tier 3,"Git, SQL, Hadoop, Computer Vision, Azure","AWS Solutions Architect, IBM Data Science",Average,Bangalore,7,3,14.04
+Diploma,Tier 3,"JavaScript, Docker","Google Data Analytics, IBM Data Science",Average,Noida,7,2,14.47
+B.Sc CS,Tier 2,"Tableau, Power BI, Spark, Git, Machine Learning, Azure",None,None,Indore,4,9,11.35
+B.Sc CS,Tier 2,"CSS, Java, Linux, JavaScript, Flask, Spark",Salesforce Administrator,None,Pune,0.5,3,6.73
+B.Sc IT,Tier 3,"JavaScript, MySQL, React",Microsoft Power BI,None,Noida,3,7,9.8
+MBA,Tier 3,"Computer Vision, Power BI, AWS, NLP, Python",None,Average,Kolkata,3,4,9.32
+BCA,Tier 1,"Power BI, HTML, Spark, Excel, Azure",Oracle Java,Good,Nagpur,5,7,13.99
+B.Sc IT,Tier 3,"Machine Learning, Deep Learning",Oracle Java,None,Indore,8,3,14.01
+B.Sc CS,Tier 3,"Python, PostgreSQL, SQL, CSS","Salesforce Administrator, AWS Solutions Architect",Good,Ahmedabad,6,4,13.56
+MCA,Tier 3,"AWS, MySQL, Node.js, Power BI, C++, Azure","Microsoft Power BI, AWS Cloud Practitioner",Average,Delhi,0.5,8,7.53
+B.Sc CS,Tier 3,"Azure, NLP, Machine Learning, CSS, SQL",None,Excellent,Ahmedabad,8,6,15.74
+Diploma,Tier 3,"React, Java, PostgreSQL, SQL, Hadoop","Microsoft Power BI, Salesforce Administrator",Good,Chennai,5,5,13.03
+BCA,Tier 1,"Machine Learning, MongoDB, HTML, React, Git","AWS Solutions Architect, Cisco CCNA",Good,Ahmedabad,5,10,15.12
+MBA,Tier 1,"MongoDB, Spark",None,Good,Hyderabad,2,6,10.28
+MBA,Tier 3,"Flask, PostgreSQL","Cisco CCNA, AWS Cloud Practitioner, Microsoft Azure Fundamentals",Excellent,Nagpur,5,1,11.82
+B.Sc CS,Tier 1,"SQL, NLP, PyTorch, React",None,Good,Delhi,4,6,13.05
+B.Sc IT,Tier 2,"Computer Vision, Node.js","Google Data Analytics, Microsoft Azure Fundamentals",Good,Kolkata,4,7,12.5
+B.Sc CS,Tier 3,"Computer Vision, Flask",IBM Data Science,Excellent,Hyderabad,0.5,7,7.31
+Diploma,Tier 3,"Tableau, Deep Learning, Hadoop, Docker, HTML","IBM Data Science, Cisco CCNA",Excellent,Remote,1,3,7.67
+BCA,Tier 1,"PyTorch, CSS, Docker, PostgreSQL","Salesforce Administrator, Google Data Analytics",Average,Indore,0.5,4,7.79
+MBA,Tier 3,"Docker, Computer Vision, JavaScript","Oracle Java, Google Data Analytics",Excellent,Hyderabad,3,10,11.57
+BCA,Tier 2,"Node.js, Spark, Java",Salesforce Administrator,None,Delhi,0,8,6.77
+B.Sc IT,Tier 2,"Node.js, PostgreSQL, Linux",Google Data Analytics,None,Mumbai,0,10,7.43
+Diploma,Tier 2,"MongoDB, Tableau, React, Excel, CSS, PyTorch","Oracle Java, Microsoft Power BI, IBM Data Science",Good,Chennai,3,7,11.67
+B.Sc IT,Tier 2,"C++, Docker, Power BI, Computer Vision",Salesforce Administrator,Good,Hyderabad,7,8,16.29
+BCA,Tier 3,"Machine Learning, AWS, Flask, Docker, Spark, PostgreSQL",Cisco CCNA,Average,Bangalore,6,10,14.29
+MBA,Tier 1,"Python, JavaScript, Node.js",None,Excellent,Gurgaon,1,2,9.58
+BCA,Tier 3,"MongoDB, Deep Learning, TensorFlow, AWS",None,Good,Gurgaon,5,3,12.24
+B.Sc IT,Tier 3,"JavaScript, Docker, Git, NLP","Microsoft Azure Fundamentals, Oracle Java",None,Kolkata,8,6,15.66
+B.Tech,Tier 3,"MongoDB, SQL, Azure, C++",None,Good,Indore,1,4,6.05
+B.Sc CS,Tier 3,"PostgreSQL, PyTorch","AWS Solutions Architect, IBM Data Science, AWS Cloud Practitioner",None,Noida,8,7,16.4
+MBA,Tier 3,"Hadoop, Computer Vision, Excel",None,Average,Pune,5,5,11.15
+B.Sc CS,Tier 2,"Machine Learning, Flask, PostgreSQL",None,Average,Remote,0.5,9,7.21
+B.Tech,Tier 3,"Git, Flask",None,None,Kolkata,0,1,3.88
+MCA,Tier 1,"MongoDB, Flask, Hadoop, C++, Excel, Tableau","Google Data Analytics, Microsoft Azure Fundamentals, Salesforce Administrator",None,Nagpur,1,10,9.32
+B.Sc CS,Tier 3,"CSS, Power BI, Spark","AWS Cloud Practitioner, Salesforce Administrator, Microsoft Power BI",Excellent,Remote,0.5,5,8.34
+BCA,Tier 2,"MongoDB, CSS, Excel",None,Average,Ahmedabad,1,10,8.22
+Diploma,Tier 3,"Spark, Django, Linux, Node.js, SQL, Git",None,Average,Chennai,1,4,6.96
+Diploma,Tier 1,"Java, Flask, PyTorch, HTML, Linux",None,Excellent,Hyderabad,4,9,13.91
+MBA,Tier 3,"NLP, Computer Vision, Power BI","Microsoft Azure Fundamentals, Microsoft Power BI, IBM Data Science",Average,Noida,5,2,11.94
+Diploma,Tier 1,"HTML, MySQL, Django, NLP, PyTorch, Azure","AWS Cloud Practitioner, Salesforce Administrator",None,Hyderabad,3,10,12.55
+B.Sc CS,Tier 3,"JavaScript, Python",None,Excellent,Noida,2,6,9.36
+B.Tech,Tier 3,"AWS, CSS, Hadoop, Excel, Flask",None,Excellent,Hyderabad,6,3,13.74
+M.Tech,Tier 1,"HTML, Tableau, MongoDB",None,None,Noida,2,2,9.32
+B.Tech,Tier 3,"Excel, Django, Spark, Machine Learning","Oracle Java, AWS Cloud Practitioner",None,Ahmedabad,2,10,8.87
+MBA,Tier 3,"Tableau, TensorFlow, PostgreSQL, AWS","Oracle Java, AWS Cloud Practitioner",Average,Noida,5,5,12.59
+B.Sc IT,Tier 3,"Deep Learning, MySQL, Python, PostgreSQL, Docker","AWS Cloud Practitioner, Cisco CCNA, AWS Solutions Architect",Good,Mumbai,0.5,2,6.97
+Diploma,Tier 1,"Computer Vision, Excel, AWS, Deep Learning, Git, Docker","Microsoft Power BI, Salesforce Administrator, Google Data Analytics",Excellent,Delhi,0.5,2,9.74
+B.Sc IT,Tier 3,"Hadoop, HTML, Tableau, Power BI, CSS, Java","Cisco CCNA, AWS Solutions Architect, AWS Cloud Practitioner",Average,Noida,1,2,7.41
+BCA,Tier 2,"Flask, Node.js, AWS, Power BI, TensorFlow, MySQL",None,Good,Kolkata,2,4,9.52
+B.Tech,Tier 2,"Computer Vision, Hadoop, Deep Learning",IBM Data Science,Average,Nagpur,0,7,6.18
+MCA,Tier 2,"Excel, PostgreSQL, Tableau","Cisco CCNA, AWS Cloud Practitioner",Excellent,Hyderabad,2,10,11.13
+B.Sc CS,Tier 1,"Java, SQL, Git, C++","Salesforce Administrator, AWS Cloud Practitioner, Microsoft Power BI",Good,Indore,4,6,12.79
+BCA,Tier 3,"Django, Python",None,Excellent,Remote,8,2,15.76
+B.Tech,Tier 2,"Python, PostgreSQL","Oracle Java, Microsoft Power BI, IBM Data Science",Good,Gurgaon,2,8,10.86
+M.Tech,Tier 3,"HTML, PyTorch, TensorFlow, Power BI, Node.js","Microsoft Azure Fundamentals, Google Data Analytics",Average,Indore,1,7,8.15
+B.Sc CS,Tier 2,"React, Linux","Google Data Analytics, AWS Cloud Practitioner",Average,Indore,7,4,15.29
+B.Sc CS,Tier 3,"Tableau, Django, React, TensorFlow","Cisco CCNA, Salesforce Administrator, Microsoft Azure Fundamentals",Excellent,Gurgaon,4,6,12.48
+MBA,Tier 1,"Tableau, Machine Learning, PyTorch, Docker, Hadoop, MongoDB",IBM Data Science,Excellent,Kolkata,5,6,15.09
+B.Sc IT,Tier 2,"SQL, JavaScript, PostgreSQL, Node.js, NLP","AWS Cloud Practitioner, Microsoft Azure Fundamentals, AWS Solutions Architect",Average,Pune,5,9,14.13
+Diploma,Tier 1,"Django, MongoDB, Git",Microsoft Power BI,Excellent,Nagpur,8,3,17.44
+B.Sc IT,Tier 1,"Node.js, Machine Learning, Hadoop, AWS",Cisco CCNA,Average,Remote,8,9,18.44
+B.Tech,Tier 3,"C++, Python",None,Excellent,Bangalore,4,2,10.81
+M.Tech,Tier 2,"Tableau, NLP, Spark",None,Average,Chennai,8,8,16.08
+B.Sc CS,Tier 2,"Linux, JavaScript",Google Data Analytics,None,Hyderabad,7,10,15.46
+Diploma,Tier 3,"Docker, Hadoop, TensorFlow, Machine Learning",None,Good,Pune,6,2,13.16
+B.Sc CS,Tier 3,"Django, HTML, Excel, Azure, Python","Cisco CCNA, Google Data Analytics",Average,Bangalore,6,10,14.14
+M.Tech,Tier 3,"C++, Excel, Power BI, MySQL","Oracle Java, Google Data Analytics",None,Remote,2,6,8.09
+BCA,Tier 2,"Python, MySQL, TensorFlow, MongoDB, React",IBM Data Science,Excellent,Mumbai,7,5,17.18
+B.Tech,Tier 2,"Java, PostgreSQL, Machine Learning","Microsoft Power BI, Cisco CCNA",Excellent,Chennai,0,5,8.2
+Diploma,Tier 3,"JavaScript, Java, Power BI, Hadoop",None,Good,Bangalore,3,7,9.65
+Diploma,Tier 2,"Docker, Git","Oracle Java, IBM Data Science",Average,Kolkata,5,7,13.26
+B.Sc CS,Tier 3,"JavaScript, Tableau, HTML, NLP","AWS Solutions Architect, Cisco CCNA",Excellent,Hyderabad,4,9,12.75
+B.Tech,Tier 3,"Machine Learning, C++",IBM Data Science,None,Ahmedabad,2,2,7.51
+B.Tech,Tier 3,"Hadoop, PyTorch, MySQL, C++",Cisco CCNA,Good,Chennai,0.5,10,6.97
+B.Sc CS,Tier 1,"Excel, C++",None,None,Remote,2,4,8.65
+BCA,Tier 2,"Tableau, HTML, Spark, PyTorch, Docker, TensorFlow",Cisco CCNA,Average,Nagpur,8,1,15.54
+B.Tech,Tier 1,"Deep Learning, Power BI, TensorFlow",AWS Solutions Architect,Good,Hyderabad,2,3,10.85
+B.Sc IT,Tier 1,"NLP, MySQL, React, CSS, PostgreSQL, PyTorch",Oracle Java,Average,Chennai,2,9,10.31
+MCA,Tier 2,"C++, Java, HTML","AWS Cloud Practitioner, Oracle Java",None,Remote,6,1,13.63
+BCA,Tier 2,"Docker, Git, MySQL, C++","IBM Data Science, Cisco CCNA",Average,Remote,6,6,14.3
+Diploma,Tier 2,"Machine Learning, MongoDB, Excel",None,Good,Noida,6,8,14.22
+MBA,Tier 2,"Node.js, Power BI, AWS, Azure, Django","AWS Cloud Practitioner, Google Data Analytics, Oracle Java",Average,Nagpur,1,7,8.67
+MBA,Tier 3,"Power BI, MongoDB, Excel",AWS Solutions Architect,None,Gurgaon,1,5,6.64
+B.Tech,Tier 2,"NLP, Spark, Hadoop","Microsoft Azure Fundamentals, Salesforce Administrator",Average,Indore,6,7,13.79
+B.Sc CS,Tier 2,"Flask, SQL",None,Excellent,Indore,6,10,14.59
+B.Sc IT,Tier 2,"Linux, Tableau, React, HTML, Python","Google Data Analytics, IBM Data Science",Good,Nagpur,8,7,17.16
+B.Sc CS,Tier 2,"AWS, Flask, Linux, Docker",IBM Data Science,Good,Gurgaon,0.5,1,7.35
+MBA,Tier 2,"Docker, Machine Learning, PyTorch, Hadoop","Cisco CCNA, Microsoft Power BI",Good,Ahmedabad,4,4,12.6
+M.Tech,Tier 3,"PyTorch, Machine Learning, Docker, MongoDB, MySQL, TensorFlow",Cisco CCNA,Good,Bangalore,4,9,12.78
+MBA,Tier 3,"Computer Vision, C++, CSS, HTML, Node.js, MySQL","AWS Solutions Architect, Cisco CCNA",Average,Mumbai,3,3,9.41
+B.Tech,Tier 2,"PostgreSQL, Python, Computer Vision","Cisco CCNA, Google Data Analytics",Good,Chennai,6,6,14.8
+B.Sc IT,Tier 3,"PyTorch, MySQL, SQL","AWS Cloud Practitioner, Microsoft Azure Fundamentals",Good,Kolkata,3,4,10.09
+MBA,Tier 3,"NLP, Deep Learning",Google Data Analytics,Average,Bangalore,5,2,11.22
+B.Sc CS,Tier 2,"JavaScript, Excel, MySQL, Node.js, Azure","AWS Solutions Architect, Microsoft Power BI",Average,Mumbai,8,8,17.08
+B.Sc CS,Tier 2,"SQL, Java","Salesforce Administrator, Cisco CCNA",Average,Chennai,5,9,13.08
+MBA,Tier 3,"Excel, Computer Vision, MySQL, Spark, Azure",None,Good,Chennai,8,10,15.34
+B.Tech,Tier 3,"HTML, C++, PyTorch",None,None,Hyderabad,7,3,13.79
+B.Sc IT,Tier 1,"Flask, Computer Vision, C++, React","AWS Solutions Architect, Cisco CCNA",Average,Bangalore,7,7,17.19
+MBA,Tier 3,"Spark, C++, PyTorch, Tableau, Node.js, Excel",None,Good,Delhi,2,4,7.86
+B.Tech,Tier 1,"HTML, Java, Machine Learning",Google Data Analytics,Excellent,Pune,7,6,17.07
+MBA,Tier 1,"HTML, Python, Git, Docker","Salesforce Administrator, AWS Solutions Architect, AWS Cloud Practitioner",Average,Bangalore,2,4,11.23
+B.Tech,Tier 2,"MongoDB, TensorFlow","Salesforce Administrator, Google Data Analytics",Average,Pune,7,1,15.27
+MCA,Tier 2,"CSS, Django, Excel, Spark",Microsoft Power BI,Average,Chennai,3,7,9.92
+MCA,Tier 2,"MySQL, PostgreSQL, Git, CSS, Azure","Microsoft Azure Fundamentals, Google Data Analytics, AWS Cloud Practitioner",None,Remote,0.5,4,7.05
+MCA,Tier 3,"TensorFlow, MongoDB, Spark","IBM Data Science, Cisco CCNA",None,Nagpur,2,10,8.89
+MCA,Tier 2,"NLP, Python",Google Data Analytics,Excellent,Mumbai,6,7,15.62
+Diploma,Tier 3,"Azure, Excel, HTML, Hadoop, JavaScript, MySQL","Microsoft Azure Fundamentals, AWS Solutions Architect",Good,Bangalore,0,10,6.85
+B.Tech,Tier 3,"NLP, Node.js","Google Data Analytics, AWS Solutions Architect, AWS Cloud Practitioner",Average,Nagpur,2,7,8.84
+M.Tech,Tier 1,"PostgreSQL, Python, NLP, Azure, Java",None,Average,Delhi,6,4,14.12
+B.Tech,Tier 3,"Excel, Python, SQL, C++, AWS",Cisco CCNA,Excellent,Ahmedabad,7,5,14.97
+Diploma,Tier 1,"Tableau, C++, Django","AWS Cloud Practitioner, Salesforce Administrator, Microsoft Azure Fundamentals",Average,Gurgaon,5,3,14.47
+B.Tech,Tier 3,"Docker, NLP, AWS, HTML",Microsoft Power BI,None,Delhi,2,4,8.24
+B.Tech,Tier 3,"Hadoop, MongoDB","Salesforce Administrator, Cisco CCNA, Oracle Java",Average,Indore,0,5,5.56
+M.Tech,Tier 2,"JavaScript, Excel, Flask, Git, TensorFlow","Salesforce Administrator, Google Data Analytics",Average,Nagpur,4,7,11.32
+MBA,Tier 2,"Azure, NLP, Power BI, Spark","Salesforce Administrator, Oracle Java, Google Data Analytics",Excellent,Hyderabad,8,5,18.48
+M.Tech,Tier 3,"Node.js, Azure, JavaScript, Hadoop, Git",AWS Cloud Practitioner,Average,Nagpur,1,10,6.99
+B.Sc CS,Tier 3,"Power BI, Spark, Linux, Tableau, Docker, Django",None,Excellent,Hyderabad,7,9,15.19
+BCA,Tier 2,"PyTorch, JavaScript, Git, Excel",IBM Data Science,Average,Chennai,4,9,12.44
+MBA,Tier 2,"AWS, React, Docker, Azure",None,Average,Nagpur,6,3,13.48
+B.Sc IT,Tier 3,"Linux, SQL, HTML, Power BI, C++, Docker","Microsoft Azure Fundamentals, Oracle Java",Average,Mumbai,7,2,15.05
+B.Sc IT,Tier 1,"NLP, SQL",Google Data Analytics,Excellent,Nagpur,0.5,2,8.1
+BCA,Tier 2,"Git, Django, Python, Docker","IBM Data Science, Oracle Java",Average,Delhi,5,10,14.19
+Diploma,Tier 3,"Java, Git, HTML, PyTorch, Hadoop, Computer Vision","AWS Cloud Practitioner, Microsoft Power BI",Good,Remote,5,9,13.22
+MBA,Tier 3,"TensorFlow, Flask, Git, HTML, Python, Django",None,Excellent,Remote,0.5,8,7.25
+BCA,Tier 1,"Node.js, Django","Microsoft Azure Fundamentals, Cisco CCNA",None,Delhi,7,8,16.52
+MBA,Tier 1,"MongoDB, Hadoop, Git",None,Excellent,Gurgaon,0.5,9,9.13
+MCA,Tier 3,"Linux, PyTorch, JavaScript, PostgreSQL, AWS",None,Average,Hyderabad,7,8,14.17
+Diploma,Tier 2,"Java, NLP, MySQL","Oracle Java, AWS Solutions Architect",Good,Hyderabad,2,8,10.19
+B.Tech,Tier 2,"Azure, Django, Java","Google Data Analytics, Microsoft Azure Fundamentals",Average,Nagpur,8,8,16.13
+Diploma,Tier 3,"SQL, Excel",Google Data Analytics,Good,Ahmedabad,8,1,14.74
+M.Tech,Tier 3,"Python, Docker, CSS, TensorFlow, Flask",None,Average,Bangalore,3,7,10.01
+MBA,Tier 1,"Deep Learning, TensorFlow","Cisco CCNA, Oracle Java",Good,Mumbai,1,2,8.92
+BCA,Tier 2,"Node.js, Git, JavaScript","Salesforce Administrator, Microsoft Power BI",Average,Remote,1,10,8.81
+B.Tech,Tier 2,"NLP, Power BI, AWS","AWS Cloud Practitioner, IBM Data Science, Salesforce Administrator",Good,Bangalore,0.5,9,9.67
+B.Tech,Tier 2,"Computer Vision, PyTorch, Machine Learning","Microsoft Azure Fundamentals, Salesforce Administrator, IBM Data Science",Average,Gurgaon,2,2,9.32
+BCA,Tier 1,"Hadoop, CSS, Power BI",None,Average,Hyderabad,8,3,16.5
+MBA,Tier 3,"Machine Learning, Spark, Deep Learning, React",None,Good,Bangalore,4,7,10.88
+M.Tech,Tier 2,"Spark, Hadoop, Machine Learning, AWS, Power BI, HTML","Google Data Analytics, Microsoft Azure Fundamentals, Microsoft Power BI",Good,Gurgaon,0.5,7,9.3
+MBA,Tier 1,"Docker, TensorFlow",AWS Cloud Practitioner,Average,Noida,3,8,12.1
+M.Tech,Tier 2,"MySQL, Computer Vision, NLP, HTML, CSS, Spark","Salesforce Administrator, Google Data Analytics, Microsoft Azure Fundamentals",Average,Indore,6,6,14.08
+BCA,Tier 2,"PyTorch, Deep Learning, Hadoop, NLP",IBM Data Science,Excellent,Chennai,2,10,10.44
+MCA,Tier 1,"CSS, Git, React, Deep Learning","Oracle Java, Microsoft Azure Fundamentals",Good,Remote,1,5,9.24
+M.Tech,Tier 3,"Computer Vision, Tableau, Linux, Node.js, MongoDB, CSS",AWS Solutions Architect,Good,Delhi,2,4,8.55
+M.Tech,Tier 1,"Flask, Machine Learning, Django, HTML, Docker","Cisco CCNA, IBM Data Science",None,Ahmedabad,0.5,5,7.97
+MBA,Tier 3,"Python, C++, Tableau, Linux, PyTorch","Cisco CCNA, Salesforce Administrator",Excellent,Kolkata,8,5,16.56
+MBA,Tier 1,"React, PostgreSQL","AWS Solutions Architect, Cisco CCNA, Microsoft Azure Fundamentals",Average,Hyderabad,1,3,9.02
+B.Tech,Tier 1,"Deep Learning, SQL","Google Data Analytics, AWS Solutions Architect",Excellent,Nagpur,5,4,13.94
+B.Tech,Tier 1,"MySQL, AWS, Deep Learning, NLP","Microsoft Azure Fundamentals, Salesforce Administrator, AWS Solutions Architect",Good,Ahmedabad,3,9,12.55
+B.Sc IT,Tier 1,"MongoDB, Computer Vision, Azure, Machine Learning, Excel, Django",Salesforce Administrator,Good,Pune,0.5,10,9.69
+MCA,Tier 3,"SQL, Machine Learning","Microsoft Azure Fundamentals, Salesforce Administrator, Cisco CCNA",Good,Pune,2,5,9.01
+B.Sc IT,Tier 3,"MongoDB, Hadoop, MySQL, Django, Node.js",Microsoft Azure Fundamentals,None,Hyderabad,5,8,11.99
+MBA,Tier 3,"Python, JavaScript, Azure, Deep Learning, Tableau","Oracle Java, IBM Data Science, Google Data Analytics",None,Kolkata,8,7,16.14
+B.Sc IT,Tier 2,"MySQL, Spark","Google Data Analytics, Oracle Java, AWS Solutions Architect",Average,Chennai,5,5,12.85
+MCA,Tier 3,"MySQL, TensorFlow, HTML, Python, Git",AWS Solutions Architect,Average,Remote,0,7,6.17
+M.Tech,Tier 2,"React, AWS, Node.js, PyTorch, C++","Microsoft Power BI, IBM Data Science, AWS Solutions Architect",Average,Delhi,6,3,14.67
+B.Sc IT,Tier 3,"Flask, Java, Azure, Machine Learning, C++",AWS Solutions Architect,Good,Kolkata,0,5,5.38
+MCA,Tier 2,"Power BI, Hadoop, React, Deep Learning",Microsoft Azure Fundamentals,Average,Pune,7,2,14.58
+BCA,Tier 3,"PostgreSQL, Linux, TensorFlow, AWS, Excel, NLP","Oracle Java, Google Data Analytics, AWS Solutions Architect",None,Mumbai,8,2,15.32
+BCA,Tier 2,"JavaScript, SQL, Azure","Salesforce Administrator, IBM Data Science, Cisco CCNA",None,Kolkata,1,4,8.24
+M.Tech,Tier 3,"CSS, Spark, Python, TensorFlow",None,Average,Pune,0,8,5.66
+B.Sc CS,Tier 2,"Spark, Flask, MongoDB, Linux, Deep Learning, Node.js",Cisco CCNA,None,Hyderabad,2,3,8.84
+B.Tech,Tier 1,"Power BI, Python, NLP, Node.js, CSS","Oracle Java, Salesforce Administrator, Microsoft Power BI",Average,Nagpur,7,6,17.14
+MBA,Tier 3,"PyTorch, React, Excel, CSS, HTML, Power BI",None,Average,Ahmedabad,4,5,9.87
+MBA,Tier 2,"Flask, Python, Computer Vision, HTML",AWS Cloud Practitioner,Average,Remote,1,8,8.62
+B.Sc CS,Tier 3,"Django, Machine Learning, Power BI, Python",Cisco CCNA,Average,Noida,6,8,13.62
+B.Sc IT,Tier 2,"Java, Machine Learning, Power BI, TensorFlow, PostgreSQL",None,Average,Bangalore,4,8,12.71
+MBA,Tier 1,"Flask, Spark, CSS, JavaScript","AWS Cloud Practitioner, Cisco CCNA, Salesforce Administrator",Average,Mumbai,3,9,12.27
+BCA,Tier 1,"Deep Learning, Java, Python, CSS, Tableau, PostgreSQL","AWS Cloud Practitioner, Cisco CCNA",Average,Remote,8,8,17.85
+M.Tech,Tier 2,"Linux, CSS",None,Excellent,Remote,6,7,14.81
+B.Tech,Tier 3,"AWS, PyTorch, MongoDB, CSS, C++, Power BI","IBM Data Science, Cisco CCNA, Salesforce Administrator",Good,Delhi,1,3,8.46
+B.Sc IT,Tier 1,"Deep Learning, Django, Machine Learning, Java, NLP",None,Excellent,Mumbai,5,10,14.99
+B.Sc CS,Tier 2,"Deep Learning, Tableau, Python, C++, Excel, Java","Cisco CCNA, AWS Solutions Architect",Average,Pune,6,2,13.38
+Diploma,Tier 3,"MySQL, AWS, Flask, Hadoop","Microsoft Power BI, IBM Data Science, Cisco CCNA",Good,Kolkata,1,10,8.47
+MCA,Tier 3,"Machine Learning, Spark, Python","Cisco CCNA, Microsoft Power BI, Google Data Analytics",Excellent,Delhi,6,7,14.75
+MCA,Tier 3,"SQL, Spark, Power BI, JavaScript",Microsoft Azure Fundamentals,Excellent,Mumbai,6,3,14.43
+M.Tech,Tier 2,"React, MongoDB, Computer Vision, NLP, C++",Google Data Analytics,Good,Nagpur,0.5,6,7.78
+B.Tech,Tier 2,"Power BI, React, HTML, Python, Computer Vision","AWS Solutions Architect, Microsoft Power BI",Average,Gurgaon,5,10,14.01
+MBA,Tier 3,"Machine Learning, MySQL, Linux, Excel","Google Data Analytics, IBM Data Science",Good,Hyderabad,0.5,2,6.28
+B.Tech,Tier 1,"HTML, TensorFlow, C++, PyTorch, Linux",AWS Cloud Practitioner,None,Pune,0,3,7.19
+M.Tech,Tier 3,"Git, MongoDB, C++, Java",Microsoft Power BI,Average,Bangalore,8,2,15.44
+B.Tech,Tier 3,"Linux, Excel, TensorFlow","Cisco CCNA, AWS Solutions Architect, Google Data Analytics",Good,Ahmedabad,7,2,14.78
+MCA,Tier 1,"MySQL, Hadoop, Deep Learning, Excel, PostgreSQL",None,Average,Mumbai,3,1,10.24
+M.Tech,Tier 3,"Linux, Node.js, Flask, CSS, NLP","Oracle Java, Salesforce Administrator",Excellent,Mumbai,3,6,10.71
+Diploma,Tier 1,"Java, C++, MongoDB",None,None,Gurgaon,1,3,8.17
+MCA,Tier 3,"MongoDB, Machine Learning, Docker, HTML","Oracle Java, AWS Solutions Architect, IBM Data Science",Good,Nagpur,7,10,15.45
+B.Sc IT,Tier 3,"Flask, Excel","Microsoft Azure Fundamentals, IBM Data Science, AWS Cloud Practitioner",None,Remote,3,7,9.49
+Diploma,Tier 2,"Linux, Docker, Hadoop, Computer Vision, Node.js",IBM Data Science,Good,Indore,5,6,13.41
+B.Sc CS,Tier 1,"Deep Learning, React, C++","IBM Data Science, Google Data Analytics, AWS Cloud Practitioner",Excellent,Mumbai,7,10,18.75
+MCA,Tier 3,"React, Java, Azure",None,Good,Indore,4,10,10.67
+B.Tech,Tier 1,"Tableau, PyTorch, Power BI, Computer Vision, Git, Linux","Salesforce Administrator, Oracle Java",Excellent,Ahmedabad,8,10,19.0
+B.Tech,Tier 2,"JavaScript, NLP, PyTorch, Azure, Node.js, Java","IBM Data Science, AWS Cloud Practitioner",Average,Nagpur,0.5,8,8.13
+MBA,Tier 3,"MongoDB, Machine Learning, Computer Vision, Spark, PyTorch, TensorFlow","Microsoft Power BI, Salesforce Administrator, IBM Data Science",Excellent,Mumbai,8,5,17.49
+B.Tech,Tier 2,"Machine Learning, Spark","Microsoft Azure Fundamentals, Oracle Java, AWS Cloud Practitioner",Average,Hyderabad,3,9,12.01
+MBA,Tier 1,"Azure, MySQL, Git, Java","Microsoft Azure Fundamentals, Microsoft Power BI, Oracle Java",None,Mumbai,5,9,15.03
+B.Sc CS,Tier 2,"Python, Git, React",None,Average,Mumbai,6,1,12.95
+MCA,Tier 1,"Git, Deep Learning, React, Excel","Microsoft Azure Fundamentals, Google Data Analytics, Cisco CCNA",None,Delhi,3,9,12.69
+BCA,Tier 1,"Hadoop, SQL, PyTorch",None,Excellent,Hyderabad,3,3,11.56
+Diploma,Tier 2,"Azure, Spark, PyTorch, JavaScript, Node.js, CSS",None,Average,Ahmedabad,3,2,9.26
+BCA,Tier 2,"Linux, Tableau, JavaScript, Deep Learning, AWS",None,Excellent,Ahmedabad,0.5,2,6.86
+M.Tech,Tier 1,"Tableau, HTML, Azure, PostgreSQL, Flask, Python","Oracle Java, Salesforce Administrator",None,Kolkata,5,4,13.07
+Diploma,Tier 3,"AWS, Machine Learning","Salesforce Administrator, Cisco CCNA, Microsoft Azure Fundamentals",Average,Chennai,2,1,7.84
+B.Sc IT,Tier 1,"Python, Git, PyTorch, Flask","Oracle Java, AWS Cloud Practitioner",Excellent,Gurgaon,0.5,3,9.99
+BCA,Tier 2,"HTML, JavaScript, AWS, Azure, Computer Vision",None,Good,Bangalore,4,4,11.51
+MBA,Tier 2,"Java, NLP",Microsoft Power BI,Excellent,Pune,3,6,11.6
+BCA,Tier 3,"C++, HTML, NLP, AWS","Oracle Java, AWS Cloud Practitioner",None,Delhi,4,3,10.66
+B.Sc CS,Tier 3,"MySQL, Hadoop, SQL, Flask, TensorFlow, Linux","IBM Data Science, Salesforce Administrator",Excellent,Pune,8,4,16.78
+BCA,Tier 2,"NLP, Spark, Azure, JavaScript",None,Excellent,Kolkata,8,9,16.85
+MCA,Tier 1,"Azure, PyTorch, Java, NLP, TensorFlow","AWS Solutions Architect, IBM Data Science, Google Data Analytics",Good,Pune,0.5,2,9.6
+B.Tech,Tier 1,"Java, HTML, Linux, Flask, Django",None,Average,Ahmedabad,7,4,14.68
+B.Sc CS,Tier 1,"Docker, Hadoop, SQL, PostgreSQL, Linux, Python","Microsoft Azure Fundamentals, Google Data Analytics, AWS Solutions Architect",Good,Nagpur,7,4,17.44
+B.Tech,Tier 3,"MongoDB, Linux, AWS, Azure",Cisco CCNA,Good,Bangalore,5,4,12.36
+MBA,Tier 1,"NLP, Flask, Power BI, Django, MongoDB, React","Microsoft Power BI, Microsoft Azure Fundamentals",Good,Hyderabad,5,5,14.9
+Diploma,Tier 1,"Django, MongoDB",Microsoft Power BI,Good,Ahmedabad,1,10,9.17
+B.Sc IT,Tier 1,"Machine Learning, AWS",None,Good,Nagpur,5,3,13.62
+MCA,Tier 3,"Python, PostgreSQL, Tableau, Docker, SQL, Spark",None,Average,Chennai,2,8,8.14
+BCA,Tier 3,"React, Django, Git, CSS","Cisco CCNA, Microsoft Azure Fundamentals",Excellent,Pune,2,7,9.6
+B.Sc IT,Tier 2,"React, Java, Deep Learning, Python","Cisco CCNA, Google Data Analytics, AWS Cloud Practitioner",Good,Bangalore,6,9,15.89
+MBA,Tier 1,"Power BI, NLP, Deep Learning, Excel","AWS Cloud Practitioner, Cisco CCNA, Oracle Java",Good,Hyderabad,8,8,18.8
+B.Sc IT,Tier 2,"Spark, HTML, Django, Deep Learning",Cisco CCNA,Average,Pune,0,4,6.5
+MBA,Tier 2,"CSS, PostgreSQL, Power BI, SQL, Deep Learning, AWS","Salesforce Administrator, Microsoft Power BI",Good,Delhi,7,5,16.6
+B.Tech,Tier 1,"Machine Learning, TensorFlow","Microsoft Power BI, Microsoft Azure Fundamentals",Good,Nagpur,7,10,17.37
+B.Sc CS,Tier 3,"Python, Power BI, PyTorch, Computer Vision, Azure, Docker","IBM Data Science, AWS Cloud Practitioner, Microsoft Azure Fundamentals",None,Hyderabad,3,7,10.55
+MCA,Tier 2,"Git, Spark, MySQL, MongoDB, Flask",None,Average,Ahmedabad,2,4,7.92
+M.Tech,Tier 2,"JavaScript, Computer Vision, HTML",Oracle Java,Excellent,Bangalore,0.5,2,8.02
+B.Sc CS,Tier 2,"Tableau, Node.js","Salesforce Administrator, AWS Solutions Architect, AWS Cloud Practitioner",Good,Kolkata,6,3,14.12
+B.Sc IT,Tier 2,"Java, Deep Learning",None,Excellent,Noida,0.5,5,7.89
+Diploma,Tier 3,"Computer Vision, PyTorch",AWS Solutions Architect,None,Delhi,8,9,16.05
+B.Sc IT,Tier 1,"JavaScript, Excel, Git, Azure",None,Excellent,Gurgaon,2,7,11.34
+BCA,Tier 1,"Machine Learning, MongoDB, Deep Learning, Python, React, Docker","IBM Data Science, Cisco CCNA",Good,Pune,0,2,9.08
+B.Tech,Tier 3,"Excel, Spark, Machine Learning",None,Good,Mumbai,2,4,7.83
+Diploma,Tier 1,"Machine Learning, MySQL, Power BI, Java, SQL",IBM Data Science,Good,Remote,3,7,11.95
+BCA,Tier 3,"HTML, Django, Python",IBM Data Science,None,Pune,5,2,10.63
+B.Sc CS,Tier 2,"React, SQL, Machine Learning",Microsoft Power BI,Good,Indore,7,9,16.45
+M.Tech,Tier 3,"Spark, MySQL, JavaScript",Cisco CCNA,Average,Ahmedabad,6,5,12.22
+B.Sc IT,Tier 3,"Tableau, Django","Oracle Java, Cisco CCNA",Excellent,Ahmedabad,0.5,3,7.25
+B.Sc IT,Tier 3,"Hadoop, SQL, JavaScript, HTML, Django, PostgreSQL",AWS Cloud Practitioner,Good,Kolkata,2,3,7.64
+B.Tech,Tier 2,"JavaScript, TensorFlow, C++, Machine Learning, PyTorch, Linux",None,Average,Kolkata,0.5,5,6.81
+B.Sc CS,Tier 3,"React, HTML",Google Data Analytics,Excellent,Mumbai,0.5,9,7.75
+Diploma,Tier 1,"C++, AWS, Azure, Computer Vision, Node.js, Excel","IBM Data Science, AWS Cloud Practitioner",None,Bangalore,0,1,8.11
+B.Tech,Tier 1,"Azure, AWS, Linux",None,None,Mumbai,6,2,14.04
+M.Tech,Tier 1,"Python, AWS, Power BI, Flask, Computer Vision, Django",None,Good,Kolkata,3,5,11.21
+BCA,Tier 2,"MySQL, Git, MongoDB","Microsoft Power BI, Cisco CCNA, Salesforce Administrator",Excellent,Hyderabad,1,3,9.52
+MCA,Tier 2,"Computer Vision, Django","AWS Cloud Practitioner, Oracle Java, Microsoft Azure Fundamentals",None,Ahmedabad,0,1,6.26
+B.Sc IT,Tier 2,"C++, Flask, AWS, CSS","Salesforce Administrator, Google Data Analytics",Average,Ahmedabad,0.5,4,7.11
+MCA,Tier 2,"Flask, Git, Java, NLP",Oracle Java,Good,Kolkata,0,8,6.6
+B.Sc IT,Tier 2,"Hadoop, MySQL, JavaScript, Node.js, TensorFlow, Flask",None,Good,Remote,7,3,14.58
+B.Tech,Tier 2,"PyTorch, SQL","Microsoft Power BI, AWS Solutions Architect, Salesforce Administrator",Excellent,Indore,0,5,8.23
+MCA,Tier 3,"JavaScript, HTML, TensorFlow",Salesforce Administrator,None,Indore,2,9,8.15
+MBA,Tier 2,"Git, C++, Power BI","Microsoft Power BI, Google Data Analytics, Salesforce Administrator",Good,Nagpur,3,7,11.0
+B.Tech,Tier 2,"Azure, Docker, Power BI, Flask, AWS","Microsoft Azure Fundamentals, AWS Solutions Architect, Google Data Analytics",Excellent,Delhi,0.5,8,10.32
+MBA,Tier 2,"Excel, Flask, Azure, NLP, Hadoop",None,None,Remote,2,6,8.24
+B.Sc CS,Tier 2,"Git, C++","Oracle Java, Microsoft Power BI, Microsoft Azure Fundamentals",Good,Delhi,7,10,17.31
+B.Tech,Tier 3,"Flask, Machine Learning",Microsoft Power BI,Average,Pune,6,10,13.98
+B.Tech,Tier 3,"Java, NLP, Git, PostgreSQL",None,Excellent,Delhi,2,4,8.92
+B.Sc IT,Tier 3,"Tableau, Spark, CSS, Deep Learning","AWS Solutions Architect, Oracle Java",Good,Remote,1,2,6.49
+Diploma,Tier 2,"JavaScript, Java",Microsoft Azure Fundamentals,Good,Nagpur,2,8,8.97
+MBA,Tier 3,"Java, TensorFlow, React",None,Good,Hyderabad,8,9,16.25
+M.Tech,Tier 3,"Node.js, CSS","Salesforce Administrator, AWS Cloud Practitioner, Cisco CCNA",Excellent,Mumbai,0,1,7.09
+M.Tech,Tier 3,"JavaScript, Power BI",None,Average,Noida,4,8,10.74
+Diploma,Tier 2,"Spark, MySQL, SQL, AWS","AWS Cloud Practitioner, Microsoft Azure Fundamentals, Cisco CCNA",Average,Remote,4,3,12.39
+BCA,Tier 2,"Linux, SQL","AWS Solutions Architect, Microsoft Power BI",Average,Noida,7,8,15.74
+B.Tech,Tier 2,"Tableau, Excel, Spark, AWS, MySQL",AWS Solutions Architect,Average,Delhi,4,6,11.67
+BCA,Tier 2,"Docker, AWS","Google Data Analytics, Oracle Java",Excellent,Bangalore,4,1,13.03
+M.Tech,Tier 2,"React, Linux, AWS, Java, CSS",None,None,Pune,5,1,12.19
+B.Sc IT,Tier 3,"CSS, TensorFlow",IBM Data Science,Average,Ahmedabad,0.5,1,5.29
+Diploma,Tier 1,"SQL, Excel, Azure",Microsoft Power BI,Excellent,Chennai,0,7,8.91
+B.Sc CS,Tier 2,"HTML, PostgreSQL","Oracle Java, Google Data Analytics, Microsoft Power BI",Average,Kolkata,3,5,10.75
+B.Tech,Tier 1,"TensorFlow, JavaScript, Python, Linux","Microsoft Azure Fundamentals, IBM Data Science, Google Data Analytics",Average,Nagpur,7,9,16.74
+B.Tech,Tier 2,"MySQL, AWS, SQL, Java",None,Good,Gurgaon,0,10,8.12
+M.Tech,Tier 3,"Docker, C++, Linux, NLP, Spark, MongoDB",AWS Cloud Practitioner,Good,Gurgaon,3,10,10.86
+MBA,Tier 3,"MySQL, PostgreSQL, React, Azure, PyTorch, MongoDB","Microsoft Power BI, Cisco CCNA, AWS Cloud Practitioner",Excellent,Delhi,1,9,9.78
+MBA,Tier 3,"Machine Learning, Power BI, Computer Vision, MongoDB, SQL, NLP",None,Good,Delhi,8,10,16.89
+B.Sc IT,Tier 3,"SQL, Excel, Spark",Microsoft Power BI,Good,Remote,5,7,12.36
+B.Tech,Tier 2,"JavaScript, HTML",Oracle Java,Good,Gurgaon,5,1,12.54
+B.Sc CS,Tier 3,"JavaScript, AWS, Machine Learning, CSS",IBM Data Science,Good,Ahmedabad,4,4,11.05
+B.Sc CS,Tier 3,"Azure, Python, Spark, Hadoop, NLP, TensorFlow","Oracle Java, AWS Solutions Architect",Excellent,Indore,8,10,17.03
+B.Tech,Tier 2,"Django, MongoDB, Azure","Salesforce Administrator, Google Data Analytics",Average,Delhi,0.5,9,8.03
+MBA,Tier 2,"PyTorch, Spark",AWS Cloud Practitioner,Good,Remote,5,2,12.72
+B.Sc CS,Tier 3,"Computer Vision, MongoDB, PyTorch, Azure, SQL, Deep Learning",Microsoft Power BI,Average,Pune,2,10,9.35
+MCA,Tier 3,"PostgreSQL, TensorFlow, Java, Hadoop",None,Excellent,Pune,6,4,12.9
+MBA,Tier 3,"C++, Java, SQL, Spark, Azure","Salesforce Administrator, Microsoft Azure Fundamentals, AWS Cloud Practitioner",None,Mumbai,8,6,16.47
+B.Tech,Tier 1,"Django, CSS",None,Good,Delhi,0.5,5,8.38
+BCA,Tier 3,"Java, Node.js, React, Azure",Salesforce Administrator,None,Ahmedabad,6,7,13.03
+B.Tech,Tier 3,"PostgreSQL, Deep Learning, Python","Cisco CCNA, Salesforce Administrator, Microsoft Power BI",Average,Pune,0,8,7.24
+MBA,Tier 3,"Git, Power BI, MySQL, Flask, Python",None,Good,Gurgaon,6,7,13.97
+B.Sc CS,Tier 2,"C++, Azure, TensorFlow, Deep Learning, Python, Django","AWS Solutions Architect, Microsoft Azure Fundamentals",None,Gurgaon,2,2,9.54
+M.Tech,Tier 2,"Tableau, Flask, PyTorch","AWS Solutions Architect, Cisco CCNA, Microsoft Power BI",Excellent,Gurgaon,0,4,8.7
+B.Sc CS,Tier 3,"MySQL, Excel",None,Average,Mumbai,5,4,11.53
+M.Tech,Tier 1,"JavaScript, MongoDB, Flask, Django, SQL",Microsoft Azure Fundamentals,Average,Nagpur,7,5,15.41
+B.Tech,Tier 3,"Hadoop, MongoDB, Computer Vision",None,None,Noida,3,9,8.69
+BCA,Tier 2,"Java, Machine Learning, Node.js, Tableau","AWS Solutions Architect, Oracle Java",Average,Hyderabad,1,8,9.24
+Diploma,Tier 3,"PyTorch, Excel, C++",None,Excellent,Nagpur,0.5,8,7.29
+B.Sc CS,Tier 1,"Deep Learning, CSS, PyTorch","Google Data Analytics, IBM Data Science, Cisco CCNA",Excellent,Remote,8,8,19.08
+MBA,Tier 3,"Hadoop, Spark, JavaScript",AWS Solutions Architect,Excellent,Pune,7,6,14.96
+M.Tech,Tier 2,"AWS, Python, HTML, Linux, Docker","Oracle Java, AWS Solutions Architect, Microsoft Azure Fundamentals",Average,Bangalore,5,8,14.29
+MBA,Tier 2,"Hadoop, Linux, Python","AWS Cloud Practitioner, Oracle Java",Good,Hyderabad,1,3,8.17
+M.Tech,Tier 2,"C++, Django, Git","AWS Cloud Practitioner, IBM Data Science",Good,Gurgaon,0.5,5,7.85
+B.Sc CS,Tier 3,"PostgreSQL, Azure, Excel, C++, MongoDB, Power BI","Oracle Java, Cisco CCNA",Good,Bangalore,7,10,15.93
+MCA,Tier 2,"MySQL, JavaScript, NLP, Linux, TensorFlow, Python",Google Data Analytics,Excellent,Bangalore,4,1,12.85
+B.Sc IT,Tier 3,"React, AWS, MySQL, Docker, Spark, Deep Learning","Google Data Analytics, Microsoft Power BI",Excellent,Chennai,8,9,17.6
+BCA,Tier 3,"Flask, Node.js, PostgreSQL, JavaScript","AWS Cloud Practitioner, Cisco CCNA, Salesforce Administrator",Average,Pune,2,9,9.3
+MBA,Tier 2,"Azure, Git, Excel, Python, MySQL, Node.js","Oracle Java, AWS Solutions Architect",Excellent,Hyderabad,6,8,16.11
+Diploma,Tier 2,"Hadoop, MySQL, MongoDB","Salesforce Administrator, Cisco CCNA, IBM Data Science",Excellent,Pune,4,9,13.68
+Diploma,Tier 3,"Linux, PostgreSQL","Salesforce Administrator, AWS Cloud Practitioner",Average,Pune,2,6,7.95
+MCA,Tier 3,"Azure, Django, AWS, MySQL","Cisco CCNA, AWS Cloud Practitioner",None,Hyderabad,1,5,7.55
+B.Sc CS,Tier 3,"Hadoop, Flask, Deep Learning, Excel","Cisco CCNA, Oracle Java, AWS Solutions Architect",None,Ahmedabad,3,3,9.14
+B.Sc CS,Tier 3,"Hadoop, Deep Learning, Linux, Django, Machine Learning, Tableau",None,Average,Pune,3,2,8.68
+M.Tech,Tier 1,"AWS, PyTorch, HTML, Excel","Oracle Java, Google Data Analytics",Excellent,Pune,5,10,15.72
+B.Sc IT,Tier 2,"Linux, Git, Flask, SQL, Machine Learning, CSS",None,Good,Noida,4,6,11.43
+Diploma,Tier 2,"Hadoop, JavaScript, Computer Vision, Python, MySQL","Cisco CCNA, Microsoft Power BI",Excellent,Mumbai,0,4,7.91
+BCA,Tier 3,"Spark, MongoDB, C++, PyTorch, SQL, HTML","Google Data Analytics, AWS Cloud Practitioner, AWS Solutions Architect",Good,Indore,4,10,11.79
+B.Tech,Tier 1,"Tableau, Django, NLP, C++","Microsoft Power BI, Cisco CCNA",None,Chennai,2,2,9.22
+B.Sc CS,Tier 2,"Spark, React, HTML",None,Average,Noida,6,6,13.25
+MCA,Tier 3,"Docker, Hadoop, PostgreSQL",None,Average,Remote,0.5,1,5.53
+B.Sc CS,Tier 2,"CSS, SQL, Docker, MongoDB, PyTorch, HTML",None,Good,Pune,6,1,13.52
+B.Sc CS,Tier 2,"CSS, JavaScript, Hadoop, Azure, Flask, Django",Google Data Analytics,Excellent,Kolkata,5,7,13.06
+M.Tech,Tier 3,"CSS, React, Linux, Azure, Node.js, JavaScript","Microsoft Power BI, Salesforce Administrator, Oracle Java",None,Gurgaon,4,9,11.74
+MCA,Tier 2,"AWS, MongoDB, React, Flask","Microsoft Power BI, Google Data Analytics",Good,Delhi,8,2,17.37
+MBA,Tier 3,"Power BI, PyTorch",None,Excellent,Bangalore,1,5,7.92
+B.Sc IT,Tier 2,"C++, Machine Learning, Power BI",None,Good,Chennai,0.5,4,6.81
+M.Tech,Tier 2,"Tableau, PostgreSQL, TensorFlow, React, JavaScript, AWS",AWS Solutions Architect,Average,Delhi,7,9,16.32
+MBA,Tier 2,"Power BI, HTML, Hadoop, Docker, PyTorch",Oracle Java,Average,Nagpur,6,5,13.94
+B.Sc CS,Tier 3,"Flask, Hadoop, CSS",IBM Data Science,Average,Hyderabad,7,4,14.16
+B.Sc CS,Tier 3,"AWS, Power BI",AWS Solutions Architect,None,Ahmedabad,1,1,6.13
+BCA,Tier 1,"TensorFlow, C++",Oracle Java,Average,Pune,2,9,10.66
+B.Tech,Tier 2,"Django, CSS, Docker, C++, Git","Google Data Analytics, Salesforce Administrator, Cisco CCNA",Average,Chennai,3,6,11.11
+MCA,Tier 2,"Power BI, Hadoop, MongoDB, Java, Computer Vision",AWS Solutions Architect,Good,Remote,6,7,14.9
+B.Sc IT,Tier 3,"Java, JavaScript, Hadoop, Excel, Docker","AWS Solutions Architect, Cisco CCNA, Salesforce Administrator",None,Nagpur,2,4,7.89
+B.Sc IT,Tier 3,"Excel, Spark, Python, Computer Vision, PyTorch, Linux",Microsoft Azure Fundamentals,Good,Pune,0.5,7,7.5
+BCA,Tier 3,"JavaScript, Power BI, Machine Learning",IBM Data Science,Good,Indore,2,10,9.31
+B.Sc IT,Tier 2,"Deep Learning, React, SQL, HTML","Cisco CCNA, Microsoft Azure Fundamentals, AWS Solutions Architect",Excellent,Delhi,2,1,10.57
+MCA,Tier 3,"Linux, Azure, HTML, MySQL, Docker, AWS",None,None,Gurgaon,8,10,15.74
+B.Sc CS,Tier 2,"C++, Excel, Java, Computer Vision, Machine Learning","Salesforce Administrator, Cisco CCNA, IBM Data Science",None,Gurgaon,4,3,11.88
+B.Sc IT,Tier 1,"Linux, Git",None,None,Chennai,5,1,12.3
+B.Sc CS,Tier 1,"Deep Learning, Azure","Cisco CCNA, Salesforce Administrator, Google Data Analytics",Good,Indore,4,9,13.36
+B.Sc IT,Tier 3,"PyTorch, Java, Linux, Spark, Azure",None,Average,Delhi,3,4,9.32
+BCA,Tier 3,"Computer Vision, SQL, Node.js, C++, Flask, Excel",AWS Solutions Architect,None,Pune,8,3,15.28
+M.Tech,Tier 3,"NLP, Tableau","Microsoft Power BI, Microsoft Azure Fundamentals, AWS Cloud Practitioner",Good,Mumbai,0,10,7.47
+Diploma,Tier 1,"HTML, C++, MySQL, SQL, Power BI, Django",None,Good,Indore,1,2,7.91
+BCA,Tier 3,"React, Node.js, Azure, Git, Power BI",None,None,Remote,0.5,2,5.21
+MBA,Tier 1,"Java, SQL, MySQL",None,Average,Indore,4,9,12.51
+B.Sc IT,Tier 1,"AWS, PyTorch, Tableau, Java, NLP, MongoDB",Oracle Java,Average,Mumbai,7,1,16.06
+Diploma,Tier 3,"Azure, CSS, SQL, Power BI","Google Data Analytics, AWS Solutions Architect",None,Bangalore,7,7,15.18
+B.Sc CS,Tier 3,"MongoDB, Git","Google Data Analytics, Salesforce Administrator",Good,Noida,1,1,7.19
+B.Sc IT,Tier 3,"Flask, AWS, Django, Spark",None,Excellent,Indore,0,4,5.92
+M.Tech,Tier 1,"HTML, Spark, Python, Azure, SQL, Machine Learning","AWS Solutions Architect, Google Data Analytics, Cisco CCNA",None,Chennai,7,6,17.09
+MBA,Tier 2,"Tableau, Hadoop, Python","AWS Solutions Architect, Google Data Analytics",None,Gurgaon,0,7,6.87
+B.Sc CS,Tier 2,"HTML, Deep Learning, Java, Excel, MySQL, Linux",None,Average,Indore,0.5,7,6.48
+B.Tech,Tier 2,"Power BI, Hadoop, NLP",None,Average,Delhi,1,1,6.77
+MCA,Tier 1,"SQL, Python","Oracle Java, Cisco CCNA",Good,Remote,6,6,15.82
+MCA,Tier 3,"Node.js, MongoDB, Git, Azure","IBM Data Science, Microsoft Power BI",Average,Pune,2,5,8.43
+BCA,Tier 1,"Node.js, React, Python, SQL",None,Good,Remote,0.5,9,9.07
+B.Sc IT,Tier 1,"JavaScript, Machine Learning, SQL, Node.js, Django","AWS Solutions Architect, Cisco CCNA",None,Kolkata,0,9,8.06
+BCA,Tier 3,"Node.js, SQL, Power BI, MongoDB",None,Excellent,Hyderabad,4,1,11.01
+B.Sc IT,Tier 2,"Node.js, SQL, Machine Learning, Java, Docker",IBM Data Science,None,Bangalore,3,6,11.62
+MCA,Tier 2,"Linux, Django, Excel",None,Good,Bangalore,0,10,7.54
+M.Tech,Tier 2,"Git, Flask, Node.js, React, Docker, Spark","Cisco CCNA, AWS Cloud Practitioner",Average,Kolkata,0,6,7.0
+B.Sc IT,Tier 3,"Spark, Linux, PyTorch","Microsoft Power BI, Oracle Java, Microsoft Azure Fundamentals",Average,Pune,0.5,6,7.24
+B.Sc IT,Tier 3,"Python, Java, Deep Learning, Django, React","AWS Solutions Architect, Microsoft Power BI, Google Data Analytics",Good,Bangalore,0.5,2,7.0
+Diploma,Tier 3,"PyTorch, Deep Learning",None,None,Nagpur,3,10,8.74
+BCA,Tier 3,"Azure, Docker, Hadoop, TensorFlow, PostgreSQL, Spark","AWS Cloud Practitioner, IBM Data Science",Average,Indore,0.5,6,6.78
+B.Tech,Tier 2,"CSS, Java, Linux, MongoDB, NLP, PostgreSQL","Oracle Java, Cisco CCNA, IBM Data Science",Average,Hyderabad,2,8,10.24
+BCA,Tier 3,"MySQL, JavaScript, AWS, NLP, SQL","Oracle Java, AWS Solutions Architect, Cisco CCNA",Average,Delhi,0,8,7.13
+MCA,Tier 2,"Azure, Computer Vision, React",Microsoft Azure Fundamentals,Good,Kolkata,8,10,16.94
+BCA,Tier 3,"Linux, Python, C++, Docker, Spark","Google Data Analytics, Oracle Java",Excellent,Nagpur,1,1,7.06
+B.Tech,Tier 2,"Hadoop, Excel, SQL, C++, React, Java",AWS Cloud Practitioner,Good,Nagpur,3,2,10.3
+BCA,Tier 2,"MongoDB, CSS, MySQL, TensorFlow, Azure, PyTorch","Google Data Analytics, AWS Solutions Architect, AWS Cloud Practitioner",Excellent,Bangalore,7,9,18.03
+MCA,Tier 3,"Python, Spark, TensorFlow, C++, JavaScript, Django","Microsoft Power BI, Google Data Analytics",None,Hyderabad,6,6,13.52
+B.Sc IT,Tier 2,"CSS, Flask, Node.js, PyTorch, Python",AWS Cloud Practitioner,Excellent,Delhi,7,1,15.92
+M.Tech,Tier 2,"Spark, Excel",Oracle Java,Good,Delhi,8,7,16.49
+BCA,Tier 3,"TensorFlow, HTML, Git, Spark, MongoDB, Deep Learning",Oracle Java,Good,Kolkata,1,8,7.68
+MBA,Tier 2,"Git, PostgreSQL, Java, Deep Learning, MongoDB","Microsoft Azure Fundamentals, AWS Solutions Architect",Average,Remote,0.5,10,8.02
+M.Tech,Tier 2,"TensorFlow, JavaScript, PostgreSQL, Machine Learning, Excel","Microsoft Power BI, Microsoft Azure Fundamentals, Google Data Analytics",Good,Chennai,0.5,8,9.03
+MBA,Tier 1,"TensorFlow, MySQL","Microsoft Power BI, Oracle Java, Microsoft Azure Fundamentals",Good,Indore,3,10,12.58
+MCA,Tier 2,"Power BI, C++, Node.js, Python",Salesforce Administrator,Average,Noida,1,3,8.48
+M.Tech,Tier 2,"Spark, PostgreSQL, React","Salesforce Administrator, Google Data Analytics",None,Ahmedabad,2,5,8.98
+B.Sc IT,Tier 3,"Power BI, Deep Learning, Django, HTML, Azure","AWS Solutions Architect, Oracle Java, AWS Cloud Practitioner",Good,Hyderabad,0.5,5,7.07
+BCA,Tier 2,"Flask, Git, Azure",Microsoft Azure Fundamentals,Good,Hyderabad,2,4,9.23
+MBA,Tier 3,"Excel, Machine Learning, Java, PyTorch","IBM Data Science, AWS Solutions Architect",Average,Remote,0,3,5.71
+MCA,Tier 3,"Power BI, Deep Learning, SQL, MySQL, React","AWS Cloud Practitioner, Microsoft Azure Fundamentals",Good,Delhi,0,10,7.62
+BCA,Tier 2,"TensorFlow, PyTorch, AWS, C++, Azure",Microsoft Power BI,Good,Ahmedabad,7,1,15.05
+B.Tech,Tier 3,"Spark, JavaScript, Power BI, SQL, Deep Learning",None,Average,Noida,7,2,13.79
+M.Tech,Tier 3,"PostgreSQL, Django, Deep Learning, JavaScript, React",Oracle Java,Good,Kolkata,6,5,13.43
+MBA,Tier 2,"Computer Vision, MongoDB","IBM Data Science, AWS Cloud Practitioner",None,Ahmedabad,1,10,8.48
+B.Tech,Tier 3,"Flask, Machine Learning, Docker, PyTorch, Django",None,Average,Hyderabad,6,2,12.52
+B.Tech,Tier 2,"JavaScript, Azure, TensorFlow, PyTorch, Linux, Django",Oracle Java,Average,Noida,1,2,7.66
+MCA,Tier 2,"Java, Django, HTML, Python, PyTorch, Spark","Google Data Analytics, Microsoft Power BI",Good,Ahmedabad,3,3,10.2
+MBA,Tier 3,"Linux, TensorFlow, AWS, Hadoop","Oracle Java, Cisco CCNA, Microsoft Azure Fundamentals",None,Remote,5,5,11.96
+MCA,Tier 2,"HTML, Azure, Node.js, Computer Vision",None,Good,Remote,3,6,10.86
+B.Sc IT,Tier 3,"Python, React, Power BI, Machine Learning, Linux, Flask","Oracle Java, Salesforce Administrator",Good,Nagpur,1,7,7.89
+MCA,Tier 1,"PostgreSQL, Computer Vision, MySQL, Flask, Machine Learning",None,None,Nagpur,5,3,12.71
+BCA,Tier 1,"Excel, Azure, Linux, Node.js","Cisco CCNA, Salesforce Administrator, Google Data Analytics",Average,Remote,4,10,13.42
+B.Tech,Tier 1,"Deep Learning, Docker, SQL",None,Average,Kolkata,3,9,11.75
+MBA,Tier 3,"Azure, TensorFlow",None,None,Ahmedabad,7,7,13.53
+Diploma,Tier 3,"Tableau, Hadoop, C++",IBM Data Science,Average,Remote,0,5,5.35
+MBA,Tier 3,"PostgreSQL, Linux, React",None,None,Hyderabad,1,1,5.55
+MCA,Tier 2,"Computer Vision, Machine Learning, React, Flask, Docker","Salesforce Administrator, AWS Cloud Practitioner, Microsoft Azure Fundamentals",Good,Nagpur,1,6,9.53
+B.Sc CS,Tier 2,"Git, JavaScript",Salesforce Administrator,Average,Delhi,4,5,10.95
+MBA,Tier 2,"NLP, PostgreSQL, Node.js, Computer Vision",Microsoft Azure Fundamentals,Excellent,Hyderabad,0.5,3,8.54
+B.Sc CS,Tier 3,"NLP, Azure, JavaScript, MySQL, AWS","AWS Solutions Architect, Cisco CCNA, Microsoft Azure Fundamentals",Excellent,Noida,2,4,9.81
+B.Sc CS,Tier 2,"Tableau, Hadoop","Google Data Analytics, AWS Solutions Architect, Microsoft Azure Fundamentals",Average,Bangalore,7,1,15.6
+BCA,Tier 3,"Machine Learning, Spark, Java, Deep Learning, Computer Vision",AWS Cloud Practitioner,Average,Remote,2,6,8.37
+B.Sc CS,Tier 2,"Computer Vision, Hadoop, Machine Learning","AWS Cloud Practitioner, Salesforce Administrator",Excellent,Indore,0.5,9,8.32
+MBA,Tier 2,"NLP, CSS, C++, Spark, React, Flask",Microsoft Power BI,Average,Nagpur,4,5,10.76
+B.Tech,Tier 3,"Spark, JavaScript, TensorFlow","AWS Solutions Architect, Cisco CCNA",Good,Mumbai,6,9,14.06
+M.Tech,Tier 2,"SQL, Power BI, JavaScript, Node.js, CSS, Linux","Salesforce Administrator, Oracle Java",Excellent,Ahmedabad,8,7,18.54
+B.Sc CS,Tier 3,"Java, NLP, Computer Vision, HTML, MongoDB, Docker",Cisco CCNA,None,Gurgaon,1,5,6.68
+B.Tech,Tier 3,"JavaScript, AWS, Django, Docker, Deep Learning, Excel","Google Data Analytics, Microsoft Azure Fundamentals",Excellent,Nagpur,2,10,9.85
+B.Sc IT,Tier 2,"Power BI, SQL","AWS Cloud Practitioner, Oracle Java, Cisco CCNA",None,Ahmedabad,2,3,9.22
+B.Tech,Tier 3,"PyTorch, Tableau, Excel, Power BI, SQL, Java",None,None,Mumbai,1,1,5.87
+MBA,Tier 2,"SQL, Java, PyTorch, Python, CSS","Oracle Java, AWS Solutions Architect, AWS Cloud Practitioner",Good,Delhi,2,6,10.73
+BCA,Tier 2,"TensorFlow, JavaScript, NLP","Microsoft Azure Fundamentals, AWS Solutions Architect",Good,Remote,0,8,7.58
+B.Sc CS,Tier 1,"React, Hadoop, MongoDB, Computer Vision",None,None,Mumbai,0,8,8.14
+MBA,Tier 3,"Flask, Spark","IBM Data Science, Oracle Java",Average,Hyderabad,4,1,10.55
+B.Tech,Tier 2,"React, Deep Learning, C++, Python, TensorFlow","IBM Data Science, Microsoft Power BI, Oracle Java",None,Hyderabad,2,5,9.6
+Diploma,Tier 2,"Django, MySQL","Cisco CCNA, AWS Cloud Practitioner",Good,Bangalore,4,9,13.21
+MBA,Tier 2,"NLP, JavaScript, Power BI","Salesforce Administrator, Oracle Java, AWS Solutions Architect",Average,Gurgaon,0,9,7.83
+MBA,Tier 2,"TensorFlow, PostgreSQL, MongoDB, SQL, HTML, CSS","AWS Solutions Architect, IBM Data Science, AWS Cloud Practitioner",Average,Ahmedabad,5,3,12.86
+BCA,Tier 2,"Python, Docker, MySQL, Machine Learning, Power BI",None,Excellent,Pune,5,6,14.05
+B.Sc CS,Tier 2,"C++, JavaScript, Hadoop, Python","Google Data Analytics, AWS Solutions Architect",Good,Chennai,4,9,12.56
+BCA,Tier 2,"NLP, Docker, C++, Git, AWS",Cisco CCNA,Average,Ahmedabad,1,2,6.95
+B.Sc CS,Tier 2,"Docker, MongoDB, Django, Power BI, React, Deep Learning",Google Data Analytics,None,Gurgaon,4,9,12.49
+Diploma,Tier 1,"AWS, Flask, Deep Learning, PyTorch",AWS Solutions Architect,Excellent,Chennai,3,6,12.54
+B.Tech,Tier 2,"Power BI, Python, Hadoop, MongoDB, PyTorch, Linux","Cisco CCNA, AWS Cloud Practitioner",Good,Bangalore,0,2,7.83
+B.Sc IT,Tier 3,"React, Deep Learning, Java, Node.js",Microsoft Azure Fundamentals,Excellent,Delhi,6,3,13.9
+M.Tech,Tier 3,"Python, Java, C++, HTML",Google Data Analytics,Good,Indore,6,4,12.24
+MBA,Tier 1,"PyTorch, Linux, Azure, Flask, Python, HTML",None,None,Chennai,7,1,14.64
+M.Tech,Tier 3,"Excel, Hadoop, Node.js, Linux, SQL, Git",None,Average,Noida,0.5,1,5.79
+B.Sc IT,Tier 3,"Java, Spark, MongoDB, Power BI, Tableau",None,None,Hyderabad,5,10,11.81
+B.Tech,Tier 1,"Deep Learning, TensorFlow, Docker, Spark, PostgreSQL",None,Excellent,Ahmedabad,3,9,12.66
+MCA,Tier 2,"Linux, MongoDB, CSS","Oracle Java, Microsoft Azure Fundamentals, Salesforce Administrator",Excellent,Chennai,1,10,9.81
+Diploma,Tier 3,"Spark, AWS, C++, MySQL, Linux",Cisco CCNA,Average,Delhi,7,2,13.46
+BCA,Tier 1,"Java, Power BI, Flask, Azure","Microsoft Azure Fundamentals, Google Data Analytics, AWS Cloud Practitioner",Average,Delhi,2,6,10.99
+B.Sc IT,Tier 2,"React, CSS, Java","Microsoft Power BI, Oracle Java, AWS Cloud Practitioner",Good,Gurgaon,2,10,11.1
+MCA,Tier 3,"CSS, Tableau, JavaScript, NLP, Excel, Computer Vision",Oracle Java,Excellent,Remote,3,7,10.72
+B.Tech,Tier 2,"Node.js, Spark","Microsoft Power BI, AWS Cloud Practitioner, Microsoft Azure Fundamentals",Average,Ahmedabad,4,6,11.63
+MBA,Tier 1,"Excel, AWS, Spark, Python, MySQL, Java","IBM Data Science, AWS Solutions Architect",None,Nagpur,3,1,10.72
+BCA,Tier 3,"C++, SQL","Salesforce Administrator, Oracle Java, AWS Cloud Practitioner",Good,Nagpur,0,3,5.83
+MCA,Tier 3,"Git, Django, Java, Docker, Excel",AWS Cloud Practitioner,Average,Ahmedabad,4,4,9.87
+MCA,Tier 3,"Git, Excel",None,Excellent,Nagpur,1,3,6.49
+M.Tech,Tier 3,"Flask, Hadoop, Java, Python, Excel, React",None,None,Hyderabad,4,4,10.46
+B.Sc CS,Tier 3,"Linux, PostgreSQL, Git, MongoDB","Cisco CCNA, IBM Data Science",None,Delhi,0,8,5.8
+Diploma,Tier 3,"Node.js, MySQL, JavaScript",None,Excellent,Indore,8,6,15.74
+B.Sc IT,Tier 3,"Java, Python","Microsoft Power BI, Microsoft Azure Fundamentals, Google Data Analytics",Good,Bangalore,2,10,9.87
+MCA,Tier 2,"TensorFlow, Tableau","AWS Cloud Practitioner, Microsoft Power BI, Salesforce Administrator",None,Delhi,8,2,16.91
+M.Tech,Tier 3,"TensorFlow, Excel, JavaScript, Flask, Spark, Azure",IBM Data Science,Good,Chennai,1,1,6.46
+BCA,Tier 1,"HTML, MongoDB, Python, PostgreSQL, Django","Salesforce Administrator, AWS Cloud Practitioner, Cisco CCNA",Good,Indore,6,8,15.71
+B.Sc IT,Tier 3,"Deep Learning, Docker, Git, Power BI, TensorFlow, Tableau",Microsoft Power BI,Average,Indore,4,4,9.77
+MBA,Tier 2,"Azure, Hadoop, Excel, Computer Vision, Python",Google Data Analytics,Good,Bangalore,0.5,8,8.16
+MBA,Tier 2,"TensorFlow, Django, Excel","AWS Solutions Architect, Cisco CCNA",Good,Pune,8,1,16.58
+B.Sc CS,Tier 2,"NLP, Computer Vision, Hadoop",None,None,Indore,0,10,5.74
+MBA,Tier 3,"Flask, Machine Learning",None,Good,Kolkata,7,7,14.16
+B.Sc IT,Tier 1,"C++, Django","Cisco CCNA, Microsoft Azure Fundamentals, Oracle Java",None,Bangalore,3,6,12.51
+Diploma,Tier 2,"JavaScript, Linux, PyTorch, Node.js, Computer Vision, MongoDB",AWS Solutions Architect,None,Indore,8,7,15.91
+MBA,Tier 1,"React, Git, Linux",AWS Cloud Practitioner,Excellent,Pune,6,6,15.9
+B.Sc CS,Tier 1,"Node.js, TensorFlow, Python, Docker, MySQL",AWS Cloud Practitioner,Excellent,Hyderabad,0.5,6,10.49
+B.Sc IT,Tier 3,"Python, Excel, Tableau, React, Docker, TensorFlow",None,Good,Ahmedabad,1,2,6.65
+BCA,Tier 2,"AWS, Python, Git, Flask, MongoDB",None,Average,Remote,0.5,9,7.59
+M.Tech,Tier 2,"C++, AWS, MongoDB, Computer Vision, Hadoop, TensorFlow","Cisco CCNA, Google Data Analytics, IBM Data Science",Good,Noida,7,9,16.54
+B.Tech,Tier 3,"PyTorch, Machine Learning, HTML, JavaScript",AWS Solutions Architect,Good,Noida,8,3,15.61
+Diploma,Tier 3,"Deep Learning, Computer Vision, NLP, Java, Git, SQL",Google Data Analytics,Good,Gurgaon,1,1,6.35
+B.Sc IT,Tier 3,"Power BI, PostgreSQL, Spark, Machine Learning, PyTorch, Git",AWS Cloud Practitioner,Average,Delhi,3,8,10.74
+B.Sc IT,Tier 3,"AWS, SQL, C++, React, Flask, MongoDB",AWS Cloud Practitioner,Good,Indore,0,3,5.24
+B.Sc IT,Tier 3,"PyTorch, Docker, Power BI, Machine Learning",Google Data Analytics,Good,Gurgaon,4,3,11.5
+BCA,Tier 2,"Java, TensorFlow, Azure",Salesforce Administrator,None,Chennai,0,7,6.45
+B.Sc IT,Tier 1,"Flask, Docker",Cisco CCNA,Average,Chennai,5,10,13.95
+B.Sc IT,Tier 1,"Git, Python",AWS Solutions Architect,Average,Nagpur,0.5,8,8.05
+B.Tech,Tier 3,"MongoDB, AWS, CSS",AWS Solutions Architect,Excellent,Bangalore,3,4,10.79
+MCA,Tier 1,"Django, Excel, Power BI, MongoDB, C++",AWS Solutions Architect,Average,Bangalore,7,1,15.67
+M.Tech,Tier 3,"Spark, PyTorch, Django, Node.js, Azure",None,Average,Indore,5,3,10.33
+MBA,Tier 2,"NLP, MongoDB","Microsoft Power BI, Salesforce Administrator",Good,Gurgaon,5,7,14.13
+MCA,Tier 3,"Docker, Machine Learning, MongoDB","IBM Data Science, AWS Cloud Practitioner, Google Data Analytics",Good,Noida,1,8,8.34
+B.Sc CS,Tier 2,"TensorFlow, Spark, SQL, C++, NLP",Microsoft Power BI,Average,Noida,1,6,8.69
+M.Tech,Tier 2,"SQL, Git, CSS",None,Good,Gurgaon,8,10,16.8
+MBA,Tier 1,"AWS, NLP, PyTorch",None,Good,Ahmedabad,5,5,13.37
+M.Tech,Tier 3,"AWS, NLP, Node.js",IBM Data Science,Good,Chennai,7,4,14.17
+MCA,Tier 3,"Linux, Docker",AWS Solutions Architect,None,Chennai,7,8,14.16
+M.Tech,Tier 3,"Flask, Hadoop, Node.js, Azure","Microsoft Power BI, Cisco CCNA, Google Data Analytics",Good,Noida,8,5,16.62
+M.Tech,Tier 3,"Machine Learning, React, Flask, MongoDB","Microsoft Power BI, Oracle Java, Microsoft Azure Fundamentals",Excellent,Ahmedabad,7,7,16.46
+BCA,Tier 2,"Power BI, C++, Excel, Computer Vision","IBM Data Science, AWS Cloud Practitioner",Good,Bangalore,8,6,17.93
+MCA,Tier 2,"Excel, Azure, Django, MySQL",IBM Data Science,Good,Chennai,8,7,16.6

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Predictor</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            padding: 40px 50px;
+            max-width: 700px;
+            width: 100%;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 2rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 15px;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        label {
+            display: block;
+            font-weight: 500;
+            color: #34495e;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px 14px;
+            border: 2px solid #dfe6e9;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+            background: #fafbfc;
+        }
+        input:focus, select:focus {
+            border-color: #3498db;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(52,152,219,0.2);
+        }
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+        .row .form-group {
+            flex: 1;
+        }
+        .btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.2s;
+            margin-top: 8px;
+        }
+        .btn:hover {
+            background: #2980b9;
+        }
+        .result {
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: 600;
+            background: #f0f9ff;
+            border: 2px solid #3498db;
+            color: #2c3e50;
+        }
+        .result .salary {
+            font-size: 2rem;
+            color: #27ae60;
+            font-weight: 700;
+        }
+        .error {
+            background: #fee;
+            border-color: #e74c3c;
+            color: #c0392b;
+        }
+        .hint {
+            color: #7f8c8d;
+            font-size: 0.75rem;
+            margin-top: 4px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 25px 20px; }
+            .row { flex-direction: column; gap: 0; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Salary Predictor</h1>
+        <div class="subtitle">Enter your profile details to estimate annual salary (LPA)</div>
+
+        <form method="POST">
+            <div class="row">
+                <div class="form-group">
+                    <label for="degree">Degree</label>
+                    <select id="degree" name="degree" required>
+                        <option value="B.Tech" {% if sample.degree == 'B.Tech' %}selected{% endif %}>B.Tech</option>
+                        <option value="BCA" {% if sample.degree == 'BCA' %}selected{% endif %}>BCA</option>
+                        <option value="MBA" {% if sample.degree == 'MBA' %}selected{% endif %}>MBA</option>
+                        <option value="B.Sc IT" {% if sample.degree == 'B.Sc IT' %}selected{% endif %}>B.Sc IT</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="college_tier">College Tier</label>
+                    <select id="college_tier" name="college_tier" required>
+                        <option value="Tier 1" {% if sample.college_tier == 'Tier 1' %}selected{% endif %}>Tier 1</option>
+                        <option value="Tier 2" {% if sample.college_tier == 'Tier 2' %}selected{% endif %}>Tier 2</option>
+                        <option value="Tier 3" {% if sample.college_tier == 'Tier 3' %}selected{% endif %}>Tier 3</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="skills">Skills (comma-separated)</label>
+                <input type="text" id="skills" name="skills" value="{{ sample.skills }}" placeholder="e.g. Python, SQL, Machine Learning" required>
+                <div class="hint">Example: Machine Learning, Python, SQL, AWS</div>
+            </div>
+
+            <div class="form-group">
+                <label for="certifications">Certifications (comma-separated)</label>
+                <input type="text" id="certifications" name="certifications" value="{{ sample.certifications }}" placeholder="e.g. AWS Solutions Architect, Oracle Java">
+                <div class="hint">Separate multiple certifications with commas. Leave blank if none.</div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="internship_quality">Internship Quality</label>
+                    <select id="internship_quality" name="internship_quality" required>
+                        <option value="Good" {% if sample.internship_quality == 'Good' %}selected{% endif %}>Good</option>
+                        <option value="Average" {% if sample.internship_quality == 'Average' %}selected{% endif %}>Average</option>
+                        <option value="None" {% if sample.internship_quality == 'None' %}selected{% endif %}>None</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <select id="location" name="location" required>
+                        <option value="Bangalore" {% if sample.location == 'Bangalore' %}selected{% endif %}>Bangalore</option>
+                        <option value="Pune" {% if sample.location == 'Pune' %}selected{% endif %}>Pune</option>
+                        <option value="Delhi" {% if sample.location == 'Delhi' %}selected{% endif %}>Delhi</option>
+                        <option value="Gurgaon" {% if sample.location == 'Gurgaon' %}selected{% endif %}>Gurgaon</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="experience_years">Experience (Years)</label>
+                    <input type="number" id="experience_years" name="experience_years" value="{{ sample.experience_years }}" step="0.5" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="projects">Projects Completed</label>
+                    <input type="number" id="projects" name="projects" value="{{ sample.projects }}" min="0" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Predict Salary</button>
+        </form>
+
+        {% if prediction is not none %}
+        <div class="result">
+            <div>Estimated Annual Salary</div>
+            <div class="salary">₹ {{ prediction }} LPA</div>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="result error">
+            <div>⚠️ Error</div>
+            <div style="font-size:1rem; font-weight:400;">{{ error }}</div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
