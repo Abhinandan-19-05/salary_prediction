@@ -33,7 +33,8 @@ except FileNotFoundError as e:
 def index():
     prediction = None
     error = None
-    # Sample values (as lists for multi-select)
+    
+    # Default sample values (pre-filled on page load)
     sample = {
         'degree': 'B.Tech',
         'college_tier': 'Tier 1',
@@ -51,7 +52,7 @@ def index():
             degree = request.form['degree']
             college_tier = request.form['college_tier']
             
-            # Get multiple selections from the form (returns list)
+            # Get multiple selections
             skills_list = request.form.getlist('skills')
             certs_list = request.form.getlist('certifications')
             
@@ -93,6 +94,18 @@ def index():
             # Predict
             pred = model.predict(input_df)[0]
             prediction = round(pred, 2)
+            
+            # Reset sample values to defaults after successful prediction
+            sample = {
+                'degree': 'B.Tech',
+                'college_tier': 'Tier 1',
+                'skills': [],
+                'certifications': [],
+                'internship_quality': 'Good',
+                'location': 'Bangalore',
+                'experience_years': 0.0,
+                'projects': 0
+            }
 
         except Exception as e:
             error = str(e)
