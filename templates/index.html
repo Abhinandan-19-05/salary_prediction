@@ -92,6 +92,13 @@
         .btn:active {
             transform: scale(0.98);
         }
+        .btn-reset {
+            background: #95a5a6;
+            margin-top: 10px;
+        }
+        .btn-reset:hover {
+            background: #7f8c8d;
+        }
         .result {
             margin-top: 25px;
             padding: 20px;
@@ -123,9 +130,6 @@
         .multi-select-wrapper {
             position: relative;
             width: 100%;
-        }
-        .multi-select-wrapper select {
-            display: none;
         }
         .multi-select-trigger {
             width: 100%;
@@ -236,10 +240,19 @@
             color: #e74c3c;
         }
         
+        .button-group {
+            display: flex;
+            gap: 10px;
+        }
+        .button-group .btn {
+            flex: 1;
+        }
+        
         @media (max-width: 600px) {
             .container { padding: 25px 20px; }
             .row { flex-direction: column; gap: 0; }
             h1 { font-size: 1.6rem; }
+            .button-group { flex-direction: column; }
         }
     </style>
 </head>
@@ -454,7 +467,10 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn">Predict Salary</button>
+            <div class="button-group">
+                <button type="submit" class="btn">Predict Salary</button>
+                <button type="reset" class="btn btn-reset" onclick="resetForm()">Reset Form</button>
+            </div>
         </form>
 
         {% if prediction is not none %}
@@ -546,13 +562,47 @@
             }
         }
 
+        // Reset form function
+        function resetForm() {
+            // Reset all checkboxes
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                cb.checked = false;
+            });
+            
+            // Reset all select dropdowns to first option
+            document.querySelectorAll('select').forEach(select => {
+                select.selectedIndex = 0;
+            });
+            
+            // Reset number inputs
+            document.querySelectorAll('input[type="number"]').forEach(input => {
+                input.value = '';
+            });
+            
+            // Clear tags
+            document.getElementById('skillsTags').innerHTML = '';
+            document.getElementById('certsTags').innerHTML = '';
+            document.getElementById('skillsSelectedText').textContent = 'Select skills...';
+            document.getElementById('certsSelectedText').textContent = 'Select certifications...';
+            
+            // Reset experience to 0
+            document.getElementById('experience_years').value = 0;
+            document.getElementById('projects').value = 0;
+            
+            // Close any open dropdowns
+            document.querySelectorAll('.multi-select-dropdown').forEach(d => {
+                d.classList.remove('open');
+                d.parentElement.querySelector('.multi-select-trigger').classList.remove('active');
+            });
+        }
+
         // Initialize with sample values
         document.addEventListener('DOMContentLoaded', function() {
             // Pre-select sample skills
             const sampleSkills = {{ sample.skills|tojson }};
             const sampleCerts = {{ sample.certifications|tojson }};
             
-            if (sampleSkills) {
+            if (sampleSkills && sampleSkills.length > 0) {
                 const skillCheckboxes = document.querySelectorAll('#skillsWrapper input[type="checkbox"]');
                 skillCheckboxes.forEach(cb => {
                     if (sampleSkills.includes(cb.value)) {
@@ -562,7 +612,7 @@
                 updateSelection('skills');
             }
             
-            if (sampleCerts) {
+            if (sampleCerts && sampleCerts.length > 0) {
                 const certCheckboxes = document.querySelectorAll('#certsWrapper input[type="checkbox"]');
                 certCheckboxes.forEach(cb => {
                     if (sampleCerts.includes(cb.value)) {
