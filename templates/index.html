@@ -16,7 +16,7 @@
             min-height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             padding: 20px;
         }
         .container {
@@ -24,8 +24,9 @@
             border-radius: 16px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.15);
             padding: 40px 50px;
-            max-width: 750px;
+            max-width: 1200px;
             width: 100%;
+            margin-top: 20px;
         }
         h1 {
             color: #2c3e50;
@@ -42,6 +43,22 @@
             border-bottom: 2px solid #ecf0f1;
             padding-bottom: 15px;
         }
+        
+        /* Two column layout */
+        .two-column {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        .left-column {
+            flex: 0 0 55%;
+        }
+        .right-column {
+            flex: 1;
+            position: sticky;
+            top: 20px;
+        }
+        
         .form-group {
             margin-bottom: 18px;
         }
@@ -92,27 +109,6 @@
         .btn:active {
             transform: scale(0.98);
         }
-        .result {
-            margin-top: 25px;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            font-size: 1.3rem;
-            font-weight: 600;
-            background: #f0f9ff;
-            border: 2px solid #3498db;
-            color: #2c3e50;
-        }
-        .result .salary {
-            font-size: 2.2rem;
-            color: #27ae60;
-            font-weight: 700;
-        }
-        .error {
-            background: #fee;
-            border-color: #e74c3c;
-            color: #c0392b;
-        }
         .hint {
             color: #7f8c8d;
             font-size: 0.75rem;
@@ -121,10 +117,10 @@
         
         /* Report Section Styles */
         .report-section {
-            margin-top: 25px;
             border: 2px solid #ecf0f1;
             border-radius: 12px;
             overflow: hidden;
+            background: white;
         }
         .report-header {
             background: #2c3e50;
@@ -139,13 +135,38 @@
         .report-header .icon {
             font-size: 1.3rem;
         }
+        
+        /* Result/Salary in report */
+        .report-result {
+            padding: 15px 20px;
+            background: #f0f9ff;
+            border-bottom: 2px solid #3498db;
+            text-align: center;
+        }
+        .report-result .result-label {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+        .report-result .salary {
+            font-size: 2rem;
+            color: #27ae60;
+            font-weight: 700;
+        }
+        .report-result .error-text {
+            color: #e74c3c;
+            font-size: 1rem;
+        }
+        
         .report-body {
-            padding: 20px;
+            padding: 15px 20px;
             background: #fafbfc;
+            max-height: 400px;
+            overflow-y: auto;
         }
         .report-item {
             display: flex;
-            padding: 10px 0;
+            padding: 8px 0;
             border-bottom: 1px solid #ecf0f1;
         }
         .report-item:last-child {
@@ -154,21 +175,22 @@
         .report-label {
             font-weight: 600;
             color: #34495e;
-            width: 140px;
+            width: 120px;
             flex-shrink: 0;
+            font-size: 0.9rem;
         }
         .report-value {
             color: #2c3e50;
             flex: 1;
+            font-size: 0.9rem;
         }
         .report-value .tag {
             display: inline-block;
-            background: #3498db;
             color: white;
-            padding: 2px 12px;
+            padding: 2px 10px;
             border-radius: 20px;
-            font-size: 0.85rem;
-            margin: 2px 4px 2px 0;
+            font-size: 0.75rem;
+            margin: 1px 3px 1px 0;
         }
         .report-value .tag-cert {
             background: #27ae60;
@@ -176,15 +198,19 @@
         .report-value .tag-skill {
             background: #3498db;
         }
+        .report-value .empty-value {
+            color: #95a5a6;
+            font-style: italic;
+        }
         .report-footer {
             background: #ecf0f1;
-            padding: 12px 20px;
+            padding: 10px 20px;
             text-align: right;
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             color: #7f8c8d;
         }
         .report-actions {
-            padding: 12px 20px;
+            padding: 10px 20px;
             background: white;
             text-align: center;
             border-top: 1px solid #ecf0f1;
@@ -193,15 +219,30 @@
             background: #27ae60;
             color: white;
             border: none;
-            padding: 10px 30px;
-            font-size: 1rem;
+            padding: 8px 25px;
+            font-size: 0.9rem;
             font-weight: 600;
             border-radius: 8px;
             cursor: pointer;
             transition: background 0.2s;
+            text-decoration: none;
+            display: inline-block;
         }
         .report-actions .btn-new-prediction:hover {
             background: #219a52;
+        }
+        .report-empty {
+            padding: 30px 20px;
+            text-align: center;
+            color: #95a5a6;
+        }
+        .report-empty .big-icon {
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .report-empty .empty-text {
+            font-size: 1rem;
         }
         
         /* Custom multi-select dropdown styles */
@@ -318,8 +359,15 @@
             color: #e74c3c;
         }
         
-        @media (max-width: 600px) {
+        @media (max-width: 900px) {
             .container { padding: 25px 20px; }
+            .two-column { flex-direction: column; }
+            .left-column { flex: 1; }
+            .right-column { 
+                flex: 1; 
+                position: static;
+                width: 100%;
+            }
             .row { flex-direction: column; gap: 0; }
             h1 { font-size: 1.6rem; }
             .report-item { flex-direction: column; }
@@ -332,299 +380,311 @@
         <h1>💰 Salary Predictor</h1>
         <div class="subtitle">Enter your profile details to estimate annual salary (LPA)</div>
 
-        <form method="POST" id="predictionForm">
-            <!-- Row 1: Degree & College Tier -->
-            <div class="row">
-                <div class="form-group">
-                    <label for="degree">Degree</label>
-                    <select id="degree" name="degree" required>
-                        <option value="B.Tech" {% if sample.degree == 'B.Tech' %}selected{% endif %}>B.Tech</option>
-                        <option value="BCA" {% if sample.degree == 'BCA' %}selected{% endif %}>BCA</option>
-                        <option value="MBA" {% if sample.degree == 'MBA' %}selected{% endif %}>MBA</option>
-                        <option value="B.Sc IT" {% if sample.degree == 'B.Sc IT' %}selected{% endif %}>B.Sc IT</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="college_tier">College Tier</label>
-                    <select id="college_tier" name="college_tier" required>
-                        <option value="Tier 1" {% if sample.college_tier == 'Tier 1' %}selected{% endif %}>Tier 1</option>
-                        <option value="Tier 2" {% if sample.college_tier == 'Tier 2' %}selected{% endif %}>Tier 2</option>
-                        <option value="Tier 3" {% if sample.college_tier == 'Tier 3' %}selected{% endif %}>Tier 3</option>
-                    </select>
-                </div>
-            </div>
-
-            <!-- Skills: Custom multi-select dropdown -->
-            <div class="form-group">
-                <label>Skills (select all that apply)</label>
-                <div class="multi-select-wrapper" id="skillsWrapper">
-                    <div class="multi-select-trigger" onclick="toggleDropdown('skillsDropdown')">
-                        <span class="selected-text" id="skillsSelectedText">Select skills...</span>
-                        <span class="arrow">▼</span>
-                    </div>
-                    <div class="multi-select-dropdown" id="skillsDropdown">
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_aws" value="AWS" onchange="updateSelection('skills')">
-                            <label for="skill_aws">AWS</label>
+        <div class="two-column">
+            <!-- Left Column: Form -->
+            <div class="left-column">
+                <form method="POST" id="predictionForm">
+                    <!-- Row 1: Degree & College Tier -->
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="degree">Degree</label>
+                            <select id="degree" name="degree" required>
+                                <option value="">Select Degree</option>
+                                <option value="B.Tech" {% if sample.degree == 'B.Tech' %}selected{% endif %}>B.Tech</option>
+                                <option value="BCA" {% if sample.degree == 'BCA' %}selected{% endif %}>BCA</option>
+                                <option value="MBA" {% if sample.degree == 'MBA' %}selected{% endif %}>MBA</option>
+                                <option value="B.Sc IT" {% if sample.degree == 'B.Sc IT' %}selected{% endif %}>B.Sc IT</option>
+                            </select>
                         </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_azure" value="Azure" onchange="updateSelection('skills')">
-                            <label for="skill_azure">Azure</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_cpp" value="C++" onchange="updateSelection('skills')">
-                            <label for="skill_cpp">C++</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_dl" value="Deep Learning" onchange="updateSelection('skills')">
-                            <label for="skill_dl">Deep Learning</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_docker" value="Docker" onchange="updateSelection('skills')">
-                            <label for="skill_docker">Docker</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_java" value="Java" onchange="updateSelection('skills')">
-                            <label for="skill_java">Java</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_js" value="JavaScript" onchange="updateSelection('skills')">
-                            <label for="skill_js">JavaScript</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_k8s" value="Kubernetes" onchange="updateSelection('skills')">
-                            <label for="skill_k8s">Kubernetes</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_linux" value="Linux" onchange="updateSelection('skills')">
-                            <label for="skill_linux">Linux</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_ml" value="Machine Learning" onchange="updateSelection('skills')">
-                            <label for="skill_ml">Machine Learning</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_mongodb" value="MongoDB" onchange="updateSelection('skills')">
-                            <label for="skill_mongodb">MongoDB</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_mysql" value="MySQL" onchange="updateSelection('skills')">
-                            <label for="skill_mysql">MySQL</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_nlp" value="NLP" onchange="updateSelection('skills')">
-                            <label for="skill_nlp">NLP</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_node" value="Node.js" onchange="updateSelection('skills')">
-                            <label for="skill_node">Node.js</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_pg" value="PostgreSQL" onchange="updateSelection('skills')">
-                            <label for="skill_pg">PostgreSQL</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_pbi" value="Power BI" onchange="updateSelection('skills')">
-                            <label for="skill_pbi">Power BI</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_python" value="Python" onchange="updateSelection('skills')">
-                            <label for="skill_python">Python</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_react" value="React" onchange="updateSelection('skills')">
-                            <label for="skill_react">React</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_sql" value="SQL" onchange="updateSelection('skills')">
-                            <label for="skill_sql">SQL</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="skill_tableau" value="Tableau" onchange="updateSelection('skills')">
-                            <label for="skill_tableau">Tableau</label>
+                        <div class="form-group">
+                            <label for="college_tier">College Tier</label>
+                            <select id="college_tier" name="college_tier" required>
+                                <option value="">Select Tier</option>
+                                <option value="Tier 1" {% if sample.college_tier == 'Tier 1' %}selected{% endif %}>Tier 1</option>
+                                <option value="Tier 2" {% if sample.college_tier == 'Tier 2' %}selected{% endif %}>Tier 2</option>
+                                <option value="Tier 3" {% if sample.college_tier == 'Tier 3' %}selected{% endif %}>Tier 3</option>
+                            </select>
                         </div>
                     </div>
-                </div>
-                <div class="selected-tags" id="skillsTags"></div>
-            </div>
 
-            <!-- Certifications: Custom multi-select dropdown -->
-            <div class="form-group">
-                <label>Certifications (select all that apply)</label>
-                <div class="multi-select-wrapper" id="certsWrapper">
-                    <div class="multi-select-trigger" onclick="toggleDropdown('certsDropdown')">
-                        <span class="selected-text" id="certsSelectedText">Select certifications...</span>
-                        <span class="arrow">▼</span>
+                    <!-- Skills -->
+                    <div class="form-group">
+                        <label>Skills (select all that apply)</label>
+                        <div class="multi-select-wrapper" id="skillsWrapper">
+                            <div class="multi-select-trigger" onclick="toggleDropdown('skillsDropdown')">
+                                <span class="selected-text" id="skillsSelectedText">Select skills...</span>
+                                <span class="arrow">▼</span>
+                            </div>
+                            <div class="multi-select-dropdown" id="skillsDropdown">
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_aws" value="AWS" onchange="updateSelection('skills')">
+                                    <label for="skill_aws">AWS</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_azure" value="Azure" onchange="updateSelection('skills')">
+                                    <label for="skill_azure">Azure</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_cpp" value="C++" onchange="updateSelection('skills')">
+                                    <label for="skill_cpp">C++</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_dl" value="Deep Learning" onchange="updateSelection('skills')">
+                                    <label for="skill_dl">Deep Learning</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_docker" value="Docker" onchange="updateSelection('skills')">
+                                    <label for="skill_docker">Docker</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_java" value="Java" onchange="updateSelection('skills')">
+                                    <label for="skill_java">Java</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_js" value="JavaScript" onchange="updateSelection('skills')">
+                                    <label for="skill_js">JavaScript</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_k8s" value="Kubernetes" onchange="updateSelection('skills')">
+                                    <label for="skill_k8s">Kubernetes</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_linux" value="Linux" onchange="updateSelection('skills')">
+                                    <label for="skill_linux">Linux</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_ml" value="Machine Learning" onchange="updateSelection('skills')">
+                                    <label for="skill_ml">Machine Learning</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_mongodb" value="MongoDB" onchange="updateSelection('skills')">
+                                    <label for="skill_mongodb">MongoDB</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_mysql" value="MySQL" onchange="updateSelection('skills')">
+                                    <label for="skill_mysql">MySQL</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_nlp" value="NLP" onchange="updateSelection('skills')">
+                                    <label for="skill_nlp">NLP</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_node" value="Node.js" onchange="updateSelection('skills')">
+                                    <label for="skill_node">Node.js</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_pg" value="PostgreSQL" onchange="updateSelection('skills')">
+                                    <label for="skill_pg">PostgreSQL</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_pbi" value="Power BI" onchange="updateSelection('skills')">
+                                    <label for="skill_pbi">Power BI</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_python" value="Python" onchange="updateSelection('skills')">
+                                    <label for="skill_python">Python</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_react" value="React" onchange="updateSelection('skills')">
+                                    <label for="skill_react">React</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_sql" value="SQL" onchange="updateSelection('skills')">
+                                    <label for="skill_sql">SQL</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="skill_tableau" value="Tableau" onchange="updateSelection('skills')">
+                                    <label for="skill_tableau">Tableau</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selected-tags" id="skillsTags"></div>
                     </div>
-                    <div class="multi-select-dropdown" id="certsDropdown">
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_aws_sa" value="AWS Solutions Architect" onchange="updateSelection('certs')">
-                            <label for="cert_aws_sa">AWS Solutions Architect</label>
+
+                    <!-- Certifications -->
+                    <div class="form-group">
+                        <label>Certifications (select all that apply)</label>
+                        <div class="multi-select-wrapper" id="certsWrapper">
+                            <div class="multi-select-trigger" onclick="toggleDropdown('certsDropdown')">
+                                <span class="selected-text" id="certsSelectedText">Select certifications...</span>
+                                <span class="arrow">▼</span>
+                            </div>
+                            <div class="multi-select-dropdown" id="certsDropdown">
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_aws_sa" value="AWS Solutions Architect" onchange="updateSelection('certs')">
+                                    <label for="cert_aws_sa">AWS Solutions Architect</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_azure_sa" value="Azure Solutions Architect" onchange="updateSelection('certs')">
+                                    <label for="cert_azure_sa">Azure Solutions Architect</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_azure_admin" value="Azure Administrator" onchange="updateSelection('certs')">
+                                    <label for="cert_azure_admin">Azure Administrator</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_gcp" value="Google Cloud Professional" onchange="updateSelection('certs')">
+                                    <label for="cert_gcp">Google Cloud Professional</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_oracle" value="Oracle Java" onchange="updateSelection('certs')">
+                                    <label for="cert_oracle">Oracle Java</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_sf_admin" value="Salesforce Administrator" onchange="updateSelection('certs')">
+                                    <label for="cert_sf_admin">Salesforce Administrator</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_sf_dev" value="Salesforce Developer" onchange="updateSelection('certs')">
+                                    <label for="cert_sf_dev">Salesforce Developer</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_ccna" value="Cisco CCNA" onchange="updateSelection('certs')">
+                                    <label for="cert_ccna">Cisco CCNA</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_pmp" value="PMP" onchange="updateSelection('certs')">
+                                    <label for="cert_pmp">PMP</label>
+                                </div>
+                                <div class="option-item">
+                                    <input type="checkbox" id="cert_scrum" value="Scrum Master" onchange="updateSelection('certs')">
+                                    <label for="cert_scrum">Scrum Master</label>
+                                </div>
+                            </div>
                         </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_azure_sa" value="Azure Solutions Architect" onchange="updateSelection('certs')">
-                            <label for="cert_azure_sa">Azure Solutions Architect</label>
+                        <div class="selected-tags" id="certsTags"></div>
+                    </div>
+
+                    <!-- Row 2: Internship Quality & Location -->
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="internship_quality">Internship Quality</label>
+                            <select id="internship_quality" name="internship_quality" required>
+                                <option value="">Select Quality</option>
+                                <option value="Good" {% if sample.internship_quality == 'Good' %}selected{% endif %}>Good</option>
+                                <option value="Average" {% if sample.internship_quality == 'Average' %}selected{% endif %}>Average</option>
+                                <option value="None" {% if sample.internship_quality == 'None' %}selected{% endif %}>None</option>
+                            </select>
                         </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_azure_admin" value="Azure Administrator" onchange="updateSelection('certs')">
-                            <label for="cert_azure_admin">Azure Administrator</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_gcp" value="Google Cloud Professional" onchange="updateSelection('certs')">
-                            <label for="cert_gcp">Google Cloud Professional</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_oracle" value="Oracle Java" onchange="updateSelection('certs')">
-                            <label for="cert_oracle">Oracle Java</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_sf_admin" value="Salesforce Administrator" onchange="updateSelection('certs')">
-                            <label for="cert_sf_admin">Salesforce Administrator</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_sf_dev" value="Salesforce Developer" onchange="updateSelection('certs')">
-                            <label for="cert_sf_dev">Salesforce Developer</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_ccna" value="Cisco CCNA" onchange="updateSelection('certs')">
-                            <label for="cert_ccna">Cisco CCNA</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_pmp" value="PMP" onchange="updateSelection('certs')">
-                            <label for="cert_pmp">PMP</label>
-                        </div>
-                        <div class="option-item">
-                            <input type="checkbox" id="cert_scrum" value="Scrum Master" onchange="updateSelection('certs')">
-                            <label for="cert_scrum">Scrum Master</label>
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <select id="location" name="location" required>
+                                <option value="">Select Location</option>
+                                <option value="Bangalore" {% if sample.location == 'Bangalore' %}selected{% endif %}>Bangalore</option>
+                                <option value="Pune" {% if sample.location == 'Pune' %}selected{% endif %}>Pune</option>
+                                <option value="Delhi" {% if sample.location == 'Delhi' %}selected{% endif %}>Delhi</option>
+                                <option value="Gurgaon" {% if sample.location == 'Gurgaon' %}selected{% endif %}>Gurgaon</option>
+                                <option value="Hyderabad" {% if sample.location == 'Hyderabad' %}selected{% endif %}>Hyderabad</option>
+                                <option value="Chennai" {% if sample.location == 'Chennai' %}selected{% endif %}>Chennai</option>
+                                <option value="Mumbai" {% if sample.location == 'Mumbai' %}selected{% endif %}>Mumbai</option>
+                            </select>
                         </div>
                     </div>
-                </div>
-                <div class="selected-tags" id="certsTags"></div>
+
+                    <!-- Row 3: Experience & Projects -->
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="experience_years">Experience (Years)</label>
+                            <input type="number" id="experience_years" name="experience_years" value="{{ sample.experience_years }}" step="0.5" min="0" placeholder="0" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="projects">Projects Completed</label>
+                            <input type="number" id="projects" name="projects" value="{{ sample.projects }}" min="0" placeholder="0" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">Predict Salary</button>
+                </form>
             </div>
 
-            <!-- Row 2: Internship Quality & Location -->
-            <div class="row">
-                <div class="form-group">
-                    <label for="internship_quality">Internship Quality</label>
-                    <select id="internship_quality" name="internship_quality" required>
-                        <option value="Good" {% if sample.internship_quality == 'Good' %}selected{% endif %}>Good</option>
-                        <option value="Average" {% if sample.internship_quality == 'Average' %}selected{% endif %}>Average</option>
-                        <option value="None" {% if sample.internship_quality == 'None' %}selected{% endif %}>None</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="location">Location</label>
-                    <select id="location" name="location" required>
-                        <option value="Bangalore" {% if sample.location == 'Bangalore' %}selected{% endif %}>Bangalore</option>
-                        <option value="Pune" {% if sample.location == 'Pune' %}selected{% endif %}>Pune</option>
-                        <option value="Delhi" {% if sample.location == 'Delhi' %}selected{% endif %}>Delhi</option>
-                        <option value="Gurgaon" {% if sample.location == 'Gurgaon' %}selected{% endif %}>Gurgaon</option>
-                        <option value="Hyderabad" {% if sample.location == 'Hyderabad' %}selected{% endif %}>Hyderabad</option>
-                        <option value="Chennai" {% if sample.location == 'Chennai' %}selected{% endif %}>Chennai</option>
-                        <option value="Mumbai" {% if sample.location == 'Mumbai' %}selected{% endif %}>Mumbai</option>
-                    </select>
+            <!-- Right Column: Report -->
+            <div class="right-column">
+                <div class="report-section">
+                    <div class="report-header">
+                        <span class="icon">📋</span>
+                        Profile Summary Report
+                    </div>
+                    
+                    {% if prediction is not none and not error %}
+                    <!-- Result/Salary at top of report -->
+                    <div class="report-result">
+                        <div class="result-label">💰 Estimated Annual Salary</div>
+                        <div class="salary">₹ {{ prediction }} LPA</div>
+                    </div>
+                    
+                    <div class="report-body">
+                        <div class="report-item">
+                            <div class="report-label">🎓 Degree</div>
+                            <div class="report-value">{{ degree or 'Not provided' }}</div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-label">🏛️ College Tier</div>
+                            <div class="report-value">{{ college_tier or 'Not provided' }}</div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-label">🛠️ Skills</div>
+                            <div class="report-value">
+                                {% if skills_list %}
+                                    {% for skill in skills_list %}
+                                        <span class="tag tag-skill">{{ skill }}</span>
+                                    {% endfor %}
+                                {% else %}
+                                    <span class="empty-value">None selected</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-label">📜 Certifications</div>
+                            <div class="report-value">
+                                {% if certs_list %}
+                                    {% for cert in certs_list %}
+                                        <span class="tag tag-cert">{{ cert }}</span>
+                                    {% endfor %}
+                                {% else %}
+                                    <span class="empty-value">None selected</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-label">💼 Internship</div>
+                            <div class="report-value">{{ internship_quality or 'Not provided' }}</div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-label">📍 Location</div>
+                            <div class="report-value">{{ location or 'Not provided' }}</div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-label">⏳ Experience</div>
+                            <div class="report-value">{{ experience_years or 0 }} years</div>
+                        </div>
+                        <div class="report-item">
+                            <div class="report-label">📁 Projects</div>
+                            <div class="report-value">{{ projects or 0 }}</div>
+                        </div>
+                    </div>
+                    <div class="report-footer">
+                        Generated on {{ now.strftime('%B %d, %Y at %I:%M %p') if now else '' }}
+                    </div>
+                    <div class="report-actions">
+                        <a href="/" class="btn-new-prediction">🔄 New Prediction</a>
+                    </div>
+                    
+                    {% elif error %}
+                    <div class="report-result">
+                        <div class="result-label">⚠️ Error</div>
+                        <div class="error-text">{{ error }}</div>
+                    </div>
+                    
+                    {% else %}
+                    <!-- Empty report state -->
+                    <div class="report-empty">
+                        <span class="big-icon">📊</span>
+                        <div class="empty-text">Fill in your details and click<br><strong>"Predict Salary"</strong> to see results here</div>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
-
-            <!-- Row 3: Experience & Projects -->
-            <div class="row">
-                <div class="form-group">
-                    <label for="experience_years">Experience (Years)</label>
-                    <input type="number" id="experience_years" name="experience_years" value="{{ sample.experience_years }}" step="0.5" min="0" required>
-                </div>
-                <div class="form-group">
-                    <label for="projects">Projects Completed</label>
-                    <input type="number" id="projects" name="projects" value="{{ sample.projects }}" min="0" required>
-                </div>
-            </div>
-
-            <button type="submit" class="btn">Predict Salary</button>
-        </form>
-
-        <!-- Result Section -->
-        {% if prediction is not none %}
-        <div class="result">
-            <div>Estimated Annual Salary</div>
-            <div class="salary">₹ {{ prediction }} LPA</div>
         </div>
-        {% endif %}
-
-        <!-- Report Section -->
-        {% if prediction is not none and not error %}
-        <div class="report-section">
-            <div class="report-header">
-                <span class="icon">📋</span>
-                Profile Summary Report
-            </div>
-            <div class="report-body">
-                <div class="report-item">
-                    <div class="report-label">🎓 Degree</div>
-                    <div class="report-value">{{ degree or sample.degree }}</div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">🏛️ College Tier</div>
-                    <div class="report-value">{{ college_tier or sample.college_tier }}</div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">🛠️ Skills</div>
-                    <div class="report-value">
-                        {% if skills_list %}
-                            {% for skill in skills_list %}
-                                <span class="tag tag-skill">{{ skill }}</span>
-                            {% endfor %}
-                        {% else %}
-                            <span style="color: #95a5a6;">None selected</span>
-                        {% endif %}
-                    </div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">📜 Certifications</div>
-                    <div class="report-value">
-                        {% if certs_list %}
-                            {% for cert in certs_list %}
-                                <span class="tag tag-cert">{{ cert }}</span>
-                            {% endfor %}
-                        {% else %}
-                            <span style="color: #95a5a6;">None selected</span>
-                        {% endif %}
-                    </div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">💼 Internship Quality</div>
-                    <div class="report-value">{{ internship_quality or sample.internship_quality }}</div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">📍 Location</div>
-                    <div class="report-value">{{ location or sample.location }}</div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">⏳ Experience</div>
-                    <div class="report-value">{{ experience_years or sample.experience_years }} years</div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">📁 Projects</div>
-                    <div class="report-value">{{ projects or sample.projects }}</div>
-                </div>
-                <div class="report-item">
-                    <div class="report-label">💰 Predicted Salary</div>
-                    <div class="report-value" style="font-weight: 700; color: #27ae60; font-size: 1.1rem;">₹ {{ prediction }} LPA</div>
-                </div>
-            </div>
-            <div class="report-footer">
-                Generated on {{ now.strftime('%B %d, %Y at %I:%M %p') if now else '' }}
-            </div>
-            <div class="report-actions">
-                <a href="/" class="btn-new-prediction">🔄 New Prediction</a>
-            </div>
-        </div>
-        {% endif %}
-
-        {% if error %}
-        <div class="result error">
-            <div>⚠️ Error</div>
-            <div style="font-size:1rem; font-weight:400;">{{ error }}</div>
-        </div>
-        {% endif %}
     </div>
 
     <script>
@@ -695,30 +755,6 @@
                 updateSelection(type);
             }
         }
-
-        // Initialize with sample values
-        document.addEventListener('DOMContentLoaded', function() {
-            const sampleSkills = {{ sample.skills|tojson }};
-            const sampleCerts = {{ sample.certifications|tojson }};
-            
-            if (sampleSkills && sampleSkills.length > 0) {
-                document.querySelectorAll('#skillsWrapper input[type="checkbox"]').forEach(cb => {
-                    if (sampleSkills.includes(cb.value)) {
-                        cb.checked = true;
-                    }
-                });
-                updateSelection('skills');
-            }
-            
-            if (sampleCerts && sampleCerts.length > 0) {
-                document.querySelectorAll('#certsWrapper input[type="checkbox"]').forEach(cb => {
-                    if (sampleCerts.includes(cb.value)) {
-                        cb.checked = true;
-                    }
-                });
-                updateSelection('certs');
-            }
-        });
     </script>
 </body>
 </html>
