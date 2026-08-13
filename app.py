@@ -48,14 +48,14 @@ def index():
     }
 
     # Variables for report (empty initially)
-    degree = ''
-    college_tier = ''
-    skills_list = []
-    certs_list = []
-    internship_quality = ''
-    location = ''
-    experience_years = ''
-    projects = ''
+    report_degree = ''
+    report_college_tier = ''
+    report_skills_list = []
+    report_certs_list = []
+    report_internship_quality = ''
+    report_location = ''
+    report_experience_years = ''
+    report_projects = ''
 
     if request.method == 'POST':
         try:
@@ -68,6 +68,16 @@ def index():
             location = request.form['location']
             experience_years = float(request.form['experience_years']) if request.form['experience_years'] else 0
             projects = int(request.form['projects']) if request.form['projects'] else 0
+
+            # STORE VALUES FOR REPORT (before resetting)
+            report_degree = degree
+            report_college_tier = college_tier
+            report_skills_list = skills_list.copy()  # Copy the list
+            report_certs_list = certs_list.copy()    # Copy the list
+            report_internship_quality = internship_quality
+            report_location = location
+            report_experience_years = experience_years
+            report_projects = projects
 
             # Transform categoricals
             degree_enc = encoders['Degree'].transform([degree])[0]
@@ -125,14 +135,14 @@ def index():
                            prediction=prediction,
                            error=error,
                            sample=sample,
-                           degree=degree,
-                           college_tier=college_tier,
-                           skills_list=skills_list,
-                           certs_list=certs_list,
-                           internship_quality=internship_quality,
-                           location=location,
-                           experience_years=experience_years,
-                           projects=projects,
+                           degree=report_degree,
+                           college_tier=report_college_tier,
+                           skills_list=report_skills_list,
+                           certs_list=report_certs_list,
+                           internship_quality=report_internship_quality,
+                           location=report_location,
+                           experience_years=report_experience_years,
+                           projects=report_projects,
                            now=now)
 
 if __name__ == '__main__':
