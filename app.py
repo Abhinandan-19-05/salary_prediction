@@ -35,27 +35,27 @@ def index():
     prediction = None
     error = None
     
-    # Default sample values
+    # Default empty values (all fields empty)
     sample = {
-        'degree': 'B.Tech',
-        'college_tier': 'Tier 1',
-        'skills': ['Machine Learning', 'Python', 'SQL'],
-        'certifications': ['AWS Solutions Architect'],
-        'internship_quality': 'Good',
-        'location': 'Bangalore',
-        'experience_years': 5.0,
-        'projects': 4
+        'degree': '',
+        'college_tier': '',
+        'skills': [],
+        'certifications': [],
+        'internship_quality': '',
+        'location': '',
+        'experience_years': '',
+        'projects': ''
     }
 
-    # Variables for report
-    degree = sample['degree']
-    college_tier = sample['college_tier']
-    skills_list = sample['skills']
-    certs_list = sample['certifications']
-    internship_quality = sample['internship_quality']
-    location = sample['location']
-    experience_years = sample['experience_years']
-    projects = sample['projects']
+    # Variables for report (empty initially)
+    degree = ''
+    college_tier = ''
+    skills_list = []
+    certs_list = []
+    internship_quality = ''
+    location = ''
+    experience_years = ''
+    projects = ''
 
     if request.method == 'POST':
         try:
@@ -66,8 +66,8 @@ def index():
             certs_list = request.form.getlist('certifications')
             internship_quality = request.form['internship_quality']
             location = request.form['location']
-            experience_years = float(request.form['experience_years'])
-            projects = int(request.form['projects'])
+            experience_years = float(request.form['experience_years']) if request.form['experience_years'] else 0
+            projects = int(request.form['projects']) if request.form['projects'] else 0
 
             # Transform categoricals
             degree_enc = encoders['Degree'].transform([degree])[0]
@@ -103,16 +103,16 @@ def index():
             pred = model.predict(input_df)[0]
             prediction = round(pred, 2)
             
-            # Reset sample values after successful prediction
+            # Reset ALL form fields to empty after successful prediction
             sample = {
-                'degree': 'B.Tech',
-                'college_tier': 'Tier 1',
+                'degree': '',
+                'college_tier': '',
                 'skills': [],
                 'certifications': [],
-                'internship_quality': 'Good',
-                'location': 'Bangalore',
-                'experience_years': 0.0,
-                'projects': 0
+                'internship_quality': '',
+                'location': '',
+                'experience_years': '',
+                'projects': ''
             }
 
         except Exception as e:
