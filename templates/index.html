@@ -92,13 +92,6 @@
         .btn:active {
             transform: scale(0.98);
         }
-        .btn-reset {
-            background: #95a5a6;
-            margin-top: 10px;
-        }
-        .btn-reset:hover {
-            background: #7f8c8d;
-        }
         .result {
             margin-top: 25px;
             padding: 20px;
@@ -189,6 +182,26 @@
             text-align: right;
             font-size: 0.85rem;
             color: #7f8c8d;
+        }
+        .report-actions {
+            padding: 12px 20px;
+            background: white;
+            text-align: center;
+            border-top: 1px solid #ecf0f1;
+        }
+        .report-actions .btn-new-prediction {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .report-actions .btn-new-prediction:hover {
+            background: #219a52;
         }
         
         /* Custom multi-select dropdown styles */
@@ -305,19 +318,10 @@
             color: #e74c3c;
         }
         
-        .button-group {
-            display: flex;
-            gap: 10px;
-        }
-        .button-group .btn {
-            flex: 1;
-        }
-        
         @media (max-width: 600px) {
             .container { padding: 25px 20px; }
             .row { flex-direction: column; gap: 0; }
             h1 { font-size: 1.6rem; }
-            .button-group { flex-direction: column; }
             .report-item { flex-direction: column; }
             .report-label { width: 100%; margin-bottom: 4px; }
         }
@@ -534,10 +538,7 @@
                 </div>
             </div>
 
-            <div class="button-group">
-                <button type="submit" class="btn">Predict Salary</button>
-                <button type="reset" class="btn btn-reset" onclick="resetForm()">Reset Form</button>
-            </div>
+            <button type="submit" class="btn">Predict Salary</button>
         </form>
 
         <!-- Result Section -->
@@ -611,6 +612,9 @@
             </div>
             <div class="report-footer">
                 Generated on {{ now.strftime('%B %d, %Y at %I:%M %p') if now else '' }}
+            </div>
+            <div class="report-actions">
+                <a href="/" class="btn-new-prediction">🔄 New Prediction</a>
             </div>
         </div>
         {% endif %}
@@ -690,31 +694,6 @@
                 checkbox.checked = false;
                 updateSelection(type);
             }
-        }
-
-        function resetForm() {
-            document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-                cb.checked = false;
-            });
-            document.querySelectorAll('select').forEach(select => {
-                select.selectedIndex = 0;
-            });
-            document.querySelectorAll('input[type="number"]').forEach(input => {
-                input.value = '';
-            });
-            document.getElementById('skillsTags').innerHTML = '';
-            document.getElementById('certsTags').innerHTML = '';
-            document.getElementById('skillsSelectedText').textContent = 'Select skills...';
-            document.getElementById('certsSelectedText').textContent = 'Select certifications...';
-            document.getElementById('experience_years').value = 0;
-            document.getElementById('projects').value = 0;
-            document.querySelectorAll('.multi-select-dropdown').forEach(d => {
-                d.classList.remove('open');
-                d.parentElement.querySelector('.multi-select-trigger').classList.remove('active');
-            });
-            
-            // Reload page to clear report
-            window.location.href = '/';
         }
 
         // Initialize with sample values
