@@ -8,22 +8,17 @@ from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
 app = Flask(__name__)
 
 # -------------------- Load training data and fit encoders --------------------
-# This ensures we have correct mappings for all categorical columns
 try:
     df_train = pd.read_csv('salary_prediction_dataset_1500.csv')
-    # Fill missing values exactly as in notebook
     df_train["Certifications"] = df_train["Certifications"].fillna("None")
-    df_train["Internship_Quality"] = df_train["Internship_Quality"].fillna(
-        "None")
+    df_train["Internship_Quality"] = df_train["Internship_Quality"].fillna("None")
 
-    # Create separate encoders for each categorical column
     encoders = {}
     for col in ['Degree', 'College_Tier', 'Internship_Quality', 'Location']:
         le = LabelEncoder()
         le.fit(df_train[col])
         encoders[col] = le
 
-    # Load the MultiLabelBinarizers and feature columns (they are fine)
     mlb_skills = joblib.load('skills_encoder.pkl')
     mlb_cert = joblib.load('cert_encoder.pkl')
     feature_columns = joblib.load('feature_columns.pkl')
@@ -34,18 +29,16 @@ except FileNotFoundError as e:
     raise e
 
 # -------------------- Flask routes --------------------
-
-
 @app.route('/', methods=['GET', 'POST'])
 def index():
     prediction = None
     error = None
-    # Sample values to pre-fill the form
+    # Sample values (as lists for multi-select)
     sample = {
         'degree': 'B.Tech',
         'college_tier': 'Tier 1',
-        'skills': 'Machine Learning, Python, SQL',
-        'certifications': 'AWS Solutions Architect',
+        'skills': ['Machine Learning', 'Python', 'SQL'],
+        'certifications': ['AWS Solutions Architect'],
         'internship_quality': 'Good',
         'location': 'Bangalore',
         'experience_years': 5.0,
@@ -57,26 +50,23 @@ def index():
             # Get form data
             degree = request.form['degree']
             college_tier = request.form['college_tier']
-            skills_str = request.form['skills']
-            certifications_str = request.form['certifications']
+            
+            # Get multiple selections from the form (returns list)
+            skills_list = request.form.getlist('skills')
+            certs_list = request.form.getlist('certifications')
+            
             internship_quality = request.form['internship_quality']
             location = request.form['location']
             experience_years = float(request.form['experience_years'])
             projects = int(request.form['projects'])
 
-            # Transform categoricals using the correct encoders
+            # Transform categoricals
             degree_enc = encoders['Degree'].transform([degree])[0]
             college_enc = encoders['College_Tier'].transform([college_tier])[0]
-            internship_enc = encoders['Internship_Quality'].transform([internship_quality])[
-                0]
+            internship_enc = encoders['Internship_Quality'].transform([internship_quality])[0]
             location_enc = encoders['Location'].transform([location])[0]
 
-            # Process skills and certifications
-            skills_list = [s.strip()
-                           for s in skills_str.split(',') if s.strip()]
-            certs_list = [c.strip()
-                          for c in certifications_str.split(',') if c.strip()]
-
+            # Binarize skills and certifications
             skills_encoded = mlb_skills.transform([skills_list])
             certs_encoded = mlb_cert.transform([certs_list])
 
@@ -111,7 +101,6 @@ def index():
                            prediction=prediction,
                            error=error,
                            sample=sample)
-
 
 if __name__ == '__main__':
     app.run(debug=True)
