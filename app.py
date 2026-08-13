@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from flask import Flask, request, render_template
 from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -34,7 +35,7 @@ def index():
     prediction = None
     error = None
     
-    # Default sample values (pre-filled on page load)
+    # Default sample values
     sample = {
         'degree': 'B.Tech',
         'college_tier': 'Tier 1',
@@ -46,16 +47,23 @@ def index():
         'projects': 4
     }
 
+    # Variables for report
+    degree = sample['degree']
+    college_tier = sample['college_tier']
+    skills_list = sample['skills']
+    certs_list = sample['certifications']
+    internship_quality = sample['internship_quality']
+    location = sample['location']
+    experience_years = sample['experience_years']
+    projects = sample['projects']
+
     if request.method == 'POST':
         try:
             # Get form data
             degree = request.form['degree']
             college_tier = request.form['college_tier']
-            
-            # Get multiple selections
             skills_list = request.form.getlist('skills')
             certs_list = request.form.getlist('certifications')
-            
             internship_quality = request.form['internship_quality']
             location = request.form['location']
             experience_years = float(request.form['experience_years'])
@@ -94,26 +102,26 @@ def index():
             # Predict
             pred = model.predict(input_df)[0]
             prediction = round(pred, 2)
-            
-            # Reset sample values to defaults after successful prediction
-            sample = {
-                'degree': 'B.Tech',
-                'college_tier': 'Tier 1',
-                'skills': [],
-                'certifications': [],
-                'internship_quality': 'Good',
-                'location': 'Bangalore',
-                'experience_years': 0.0,
-                'projects': 0
-            }
 
         except Exception as e:
             error = str(e)
 
+    # Get current time for report
+    now = datetime.now()
+    
     return render_template('index.html',
                            prediction=prediction,
                            error=error,
-                           sample=sample)
+                           sample=sample,
+                           degree=degree,
+                           college_tier=college_tier,
+                           skills_list=skills_list,
+                           certs_list=certs_list,
+                           internship_quality=internship_quality,
+                           location=location,
+                           experience_years=experience_years,
+                           projects=projects,
+                           now=now)
 
 if __name__ == '__main__':
     app.run(debug=True)
