@@ -60,20 +60,27 @@ def index():
     if request.method == 'POST':
         try:
             # Get form data
-            degree = request.form['degree']
-            college_tier = request.form['college_tier']
+            degree = request.form.get('degree', '')
+            college_tier = request.form.get('college_tier', '')
+            
+            # IMPORTANT: Get skills and certifications from form
             skills_list = request.form.getlist('skills')
             certs_list = request.form.getlist('certifications')
-            internship_quality = request.form['internship_quality']
-            location = request.form['location']
-            experience_years = float(request.form['experience_years']) if request.form['experience_years'] else 0
-            projects = int(request.form['projects']) if request.form['projects'] else 0
+            
+            # Debug: Print to console to verify
+            print(f"Skills received: {skills_list}")
+            print(f"Certs received: {certs_list}")
+            
+            internship_quality = request.form.get('internship_quality', '')
+            location = request.form.get('location', '')
+            experience_years = float(request.form.get('experience_years', 0)) if request.form.get('experience_years', '') else 0
+            projects = int(request.form.get('projects', 0)) if request.form.get('projects', '') else 0
 
             # STORE VALUES FOR REPORT (before resetting)
             report_degree = degree
             report_college_tier = college_tier
-            report_skills_list = skills_list.copy()  # Copy the list
-            report_certs_list = certs_list.copy()    # Copy the list
+            report_skills_list = skills_list.copy() if skills_list else []
+            report_certs_list = certs_list.copy() if certs_list else []
             report_internship_quality = internship_quality
             report_location = location
             report_experience_years = experience_years
@@ -127,6 +134,8 @@ def index():
 
         except Exception as e:
             error = str(e)
+            import traceback
+            traceback.print_exc()
 
     # Get current time for report
     now = datetime.now()
