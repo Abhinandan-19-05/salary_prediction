@@ -66,18 +66,6 @@
             outline: none;
             box-shadow: 0 0 0 3px rgba(52,152,219,0.2);
         }
-        select[multiple] {
-            height: 120px;
-            padding: 6px;
-        }
-        select[multiple] option {
-            padding: 6px 10px;
-            border-radius: 4px;
-        }
-        select[multiple] option:checked {
-            background: #3498db linear-gradient(0deg, #3498db 0%, #3498db 100%);
-            color: white;
-        }
         .row {
             display: flex;
             gap: 20px;
@@ -130,20 +118,124 @@
             font-size: 0.75rem;
             margin-top: 4px;
         }
-        .selected-skills {
+        
+        /* Custom multi-select dropdown styles */
+        .multi-select-wrapper {
+            position: relative;
+            width: 100%;
+        }
+        .multi-select-wrapper select {
+            display: none;
+        }
+        .multi-select-trigger {
+            width: 100%;
+            padding: 10px 14px;
+            border: 2px solid #dfe6e9;
+            border-radius: 8px;
+            background: #fafbfc;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 46px;
+            transition: border-color 0.2s;
+        }
+        .multi-select-trigger:hover {
+            border-color: #b0c4d9;
+        }
+        .multi-select-trigger.active {
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52,152,219,0.2);
+        }
+        .multi-select-trigger .selected-text {
+            color: #2c3e50;
+            font-size: 0.95rem;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .multi-select-trigger .arrow {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin-left: 10px;
+            transition: transform 0.2s;
+        }
+        .multi-select-trigger.active .arrow {
+            transform: rotate(180deg);
+        }
+        .multi-select-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 2px solid #3498db;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            margin-top: -2px;
+        }
+        .multi-select-dropdown.open {
+            display: block;
+        }
+        .multi-select-dropdown .option-item {
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .multi-select-dropdown .option-item:hover {
+            background: #e8f4fd;
+        }
+        .multi-select-dropdown .option-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+            accent-color: #3498db;
+            flex-shrink: 0;
+        }
+        .multi-select-dropdown .option-item label {
+            cursor: pointer;
+            margin: 0;
+            font-weight: 400;
+            color: #2c3e50;
+            font-size: 0.95rem;
+        }
+        .selected-tags {
             margin-top: 8px;
             display: flex;
             flex-wrap: wrap;
             gap: 6px;
         }
-        .skill-tag {
+        .selected-tag {
             background: #e8f4fd;
             color: #2980b9;
             padding: 4px 12px;
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
         }
+        .selected-tag .remove-tag {
+            cursor: pointer;
+            color: #7f8c8d;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-left: 2px;
+        }
+        .selected-tag .remove-tag:hover {
+            color: #e74c3c;
+        }
+        
         @media (max-width: 600px) {
             .container { padding: 25px 20px; }
             .row { flex-direction: column; gap: 0; }
@@ -156,7 +248,7 @@
         <h1>💰 Salary Predictor</h1>
         <div class="subtitle">Enter your profile details to estimate annual salary (LPA)</div>
 
-        <form method="POST">
+        <form method="POST" id="predictionForm">
             <!-- Row 1: Degree & College Tier -->
             <div class="row">
                 <div class="form-group">
@@ -178,53 +270,152 @@
                 </div>
             </div>
 
-            <!-- Skills: Multi-select dropdown -->
+            <!-- Skills: Custom multi-select dropdown -->
             <div class="form-group">
-                <label for="skills">Skills (select all that apply)</label>
-                <select id="skills" name="skills" multiple required>
-                    <option value="AWS" {% if 'AWS' in sample.skills %}selected{% endif %}>AWS</option>
-                    <option value="Azure" {% if 'Azure' in sample.skills %}selected{% endif %}>Azure</option>
-                    <option value="C++" {% if 'C++' in sample.skills %}selected{% endif %}>C++</option>
-                    <option value="Deep Learning" {% if 'Deep Learning' in sample.skills %}selected{% endif %}>Deep Learning</option>
-                    <option value="Docker" {% if 'Docker' in sample.skills %}selected{% endif %}>Docker</option>
-                    <option value="Java" {% if 'Java' in sample.skills %}selected{% endif %}>Java</option>
-                    <option value="JavaScript" {% if 'JavaScript' in sample.skills %}selected{% endif %}>JavaScript</option>
-                    <option value="Kubernetes" {% if 'Kubernetes' in sample.skills %}selected{% endif %}>Kubernetes</option>
-                    <option value="Linux" {% if 'Linux' in sample.skills %}selected{% endif %}>Linux</option>
-                    <option value="Machine Learning" {% if 'Machine Learning' in sample.skills %}selected{% endif %}>Machine Learning</option>
-                    <option value="MongoDB" {% if 'MongoDB' in sample.skills %}selected{% endif %}>MongoDB</option>
-                    <option value="MySQL" {% if 'MySQL' in sample.skills %}selected{% endif %}>MySQL</option>
-                    <option value="NLP" {% if 'NLP' in sample.skills %}selected{% endif %}>NLP</option>
-                    <option value="Node.js" {% if 'Node.js' in sample.skills %}selected{% endif %}>Node.js</option>
-                    <option value="PostgreSQL" {% if 'PostgreSQL' in sample.skills %}selected{% endif %}>PostgreSQL</option>
-                    <option value="Power BI" {% if 'Power BI' in sample.skills %}selected{% endif %}>Power BI</option>
-                    <option value="Python" {% if 'Python' in sample.skills %}selected{% endif %}>Python</option>
-                    <option value="React" {% if 'React' in sample.skills %}selected{% endif %}>React</option>
-                    <option value="SQL" {% if 'SQL' in sample.skills %}selected{% endif %}>SQL</option>
-                    <option value="Tableau" {% if 'Tableau' in sample.skills %}selected{% endif %}>Tableau</option>
-                </select>
-                <div class="hint">Hold Ctrl (Windows/Linux) or Cmd (Mac) to select multiple skills</div>
-                <div class="selected-skills" id="selectedSkillsDisplay">
-                    <!-- Selected skills will appear here -->
+                <label>Skills (select all that apply)</label>
+                <div class="multi-select-wrapper" id="skillsWrapper">
+                    <div class="multi-select-trigger" onclick="toggleDropdown('skillsDropdown')">
+                        <span class="selected-text" id="skillsSelectedText">Select skills...</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="multi-select-dropdown" id="skillsDropdown">
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_aws" value="AWS" onchange="updateSelection('skills')">
+                            <label for="skill_aws">AWS</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_azure" value="Azure" onchange="updateSelection('skills')">
+                            <label for="skill_azure">Azure</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_cpp" value="C++" onchange="updateSelection('skills')">
+                            <label for="skill_cpp">C++</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_dl" value="Deep Learning" onchange="updateSelection('skills')">
+                            <label for="skill_dl">Deep Learning</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_docker" value="Docker" onchange="updateSelection('skills')">
+                            <label for="skill_docker">Docker</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_java" value="Java" onchange="updateSelection('skills')">
+                            <label for="skill_java">Java</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_js" value="JavaScript" onchange="updateSelection('skills')">
+                            <label for="skill_js">JavaScript</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_k8s" value="Kubernetes" onchange="updateSelection('skills')">
+                            <label for="skill_k8s">Kubernetes</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_linux" value="Linux" onchange="updateSelection('skills')">
+                            <label for="skill_linux">Linux</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_ml" value="Machine Learning" onchange="updateSelection('skills')">
+                            <label for="skill_ml">Machine Learning</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_mongodb" value="MongoDB" onchange="updateSelection('skills')">
+                            <label for="skill_mongodb">MongoDB</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_mysql" value="MySQL" onchange="updateSelection('skills')">
+                            <label for="skill_mysql">MySQL</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_nlp" value="NLP" onchange="updateSelection('skills')">
+                            <label for="skill_nlp">NLP</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_node" value="Node.js" onchange="updateSelection('skills')">
+                            <label for="skill_node">Node.js</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_pg" value="PostgreSQL" onchange="updateSelection('skills')">
+                            <label for="skill_pg">PostgreSQL</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_pbi" value="Power BI" onchange="updateSelection('skills')">
+                            <label for="skill_pbi">Power BI</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_python" value="Python" onchange="updateSelection('skills')">
+                            <label for="skill_python">Python</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_react" value="React" onchange="updateSelection('skills')">
+                            <label for="skill_react">React</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_sql" value="SQL" onchange="updateSelection('skills')">
+                            <label for="skill_sql">SQL</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="skill_tableau" value="Tableau" onchange="updateSelection('skills')">
+                            <label for="skill_tableau">Tableau</label>
+                        </div>
+                    </div>
                 </div>
+                <div class="selected-tags" id="skillsTags"></div>
             </div>
 
-            <!-- Certifications: Multi-select dropdown -->
+            <!-- Certifications: Custom multi-select dropdown -->
             <div class="form-group">
-                <label for="certifications">Certifications (select all that apply)</label>
-                <select id="certifications" name="certifications" multiple>
-                    <option value="AWS Solutions Architect" {% if 'AWS Solutions Architect' in sample.certifications %}selected{% endif %}>AWS Solutions Architect</option>
-                    <option value="Azure Solutions Architect" {% if 'Azure Solutions Architect' in sample.certifications %}selected{% endif %}>Azure Solutions Architect</option>
-                    <option value="Azure Administrator" {% if 'Azure Administrator' in sample.certifications %}selected{% endif %}>Azure Administrator</option>
-                    <option value="Google Cloud Professional" {% if 'Google Cloud Professional' in sample.certifications %}selected{% endif %}>Google Cloud Professional</option>
-                    <option value="Oracle Java" {% if 'Oracle Java' in sample.certifications %}selected{% endif %}>Oracle Java</option>
-                    <option value="Salesforce Administrator" {% if 'Salesforce Administrator' in sample.certifications %}selected{% endif %}>Salesforce Administrator</option>
-                    <option value="Salesforce Developer" {% if 'Salesforce Developer' in sample.certifications %}selected{% endif %}>Salesforce Developer</option>
-                    <option value="Cisco CCNA" {% if 'Cisco CCNA' in sample.certifications %}selected{% endif %}>Cisco CCNA</option>
-                    <option value="PMP" {% if 'PMP' in sample.certifications %}selected{% endif %}>PMP</option>
-                    <option value="Scrum Master" {% if 'Scrum Master' in sample.certifications %}selected{% endif %}>Scrum Master</option>
-                </select>
-                <div class="hint">Hold Ctrl (Windows/Linux) or Cmd (Mac) to select multiple certifications</div>
+                <label>Certifications (select all that apply)</label>
+                <div class="multi-select-wrapper" id="certsWrapper">
+                    <div class="multi-select-trigger" onclick="toggleDropdown('certsDropdown')">
+                        <span class="selected-text" id="certsSelectedText">Select certifications...</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="multi-select-dropdown" id="certsDropdown">
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_aws_sa" value="AWS Solutions Architect" onchange="updateSelection('certs')">
+                            <label for="cert_aws_sa">AWS Solutions Architect</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_azure_sa" value="Azure Solutions Architect" onchange="updateSelection('certs')">
+                            <label for="cert_azure_sa">Azure Solutions Architect</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_azure_admin" value="Azure Administrator" onchange="updateSelection('certs')">
+                            <label for="cert_azure_admin">Azure Administrator</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_gcp" value="Google Cloud Professional" onchange="updateSelection('certs')">
+                            <label for="cert_gcp">Google Cloud Professional</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_oracle" value="Oracle Java" onchange="updateSelection('certs')">
+                            <label for="cert_oracle">Oracle Java</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_sf_admin" value="Salesforce Administrator" onchange="updateSelection('certs')">
+                            <label for="cert_sf_admin">Salesforce Administrator</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_sf_dev" value="Salesforce Developer" onchange="updateSelection('certs')">
+                            <label for="cert_sf_dev">Salesforce Developer</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_ccna" value="Cisco CCNA" onchange="updateSelection('certs')">
+                            <label for="cert_ccna">Cisco CCNA</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_pmp" value="PMP" onchange="updateSelection('certs')">
+                            <label for="cert_pmp">PMP</label>
+                        </div>
+                        <div class="option-item">
+                            <input type="checkbox" id="cert_scrum" value="Scrum Master" onchange="updateSelection('certs')">
+                            <label for="cert_scrum">Scrum Master</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="selected-tags" id="certsTags"></div>
             </div>
 
             <!-- Row 2: Internship Quality & Location -->
@@ -282,21 +473,104 @@
     </div>
 
     <script>
-        // Display selected skills as tags
-        document.getElementById('skills').addEventListener('change', function() {
-            const display = document.getElementById('selectedSkillsDisplay');
-            const selected = Array.from(this.selectedOptions).map(opt => opt.value);
-            if (selected.length === 0) {
-                display.innerHTML = '';
-                return;
-            }
-            display.innerHTML = selected.map(s => `<span class="skill-tag">${s}</span>`).join('');
+        // Toggle dropdown visibility
+        function toggleDropdown(dropdownId) {
+            const dropdown = document.getElementById(dropdownId);
+            const trigger = dropdown.parentElement.querySelector('.multi-select-trigger');
+            
+            // Close other dropdowns
+            document.querySelectorAll('.multi-select-dropdown').forEach(d => {
+                if (d.id !== dropdownId) {
+                    d.classList.remove('open');
+                    d.parentElement.querySelector('.multi-select-trigger').classList.remove('active');
+                }
+            });
+            
+            dropdown.classList.toggle('open');
+            trigger.classList.toggle('active');
+        }
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(event) {
+            const wrappers = document.querySelectorAll('.multi-select-wrapper');
+            wrappers.forEach(wrapper => {
+                if (!wrapper.contains(event.target)) {
+                    const dropdown = wrapper.querySelector('.multi-select-dropdown');
+                    const trigger = wrapper.querySelector('.multi-select-trigger');
+                    dropdown.classList.remove('open');
+                    trigger.classList.remove('active');
+                }
+            });
         });
 
-        // Trigger on page load to show pre-selected skills
+        // Update selected items display
+        function updateSelection(type) {
+            const wrapper = document.getElementById(type === 'skills' ? 'skillsWrapper' : 'certsWrapper');
+            const checkboxes = wrapper.querySelectorAll('input[type="checkbox"]');
+            const selectedText = document.getElementById(type === 'skills' ? 'skillsSelectedText' : 'certsSelectedText');
+            const tagsContainer = document.getElementById(type === 'skills' ? 'skillsTags' : 'certsTags');
+            
+            const selected = [];
+            checkboxes.forEach(cb => {
+                if (cb.checked) {
+                    selected.push(cb.value);
+                }
+            });
+            
+            // Update selected text
+            if (selected.length === 0) {
+                selectedText.textContent = type === 'skills' ? 'Select skills...' : 'Select certifications...';
+            } else if (selected.length <= 2) {
+                selectedText.textContent = selected.join(', ');
+            } else {
+                selectedText.textContent = selected.length + ' selected';
+            }
+            
+            // Update tags
+            tagsContainer.innerHTML = '';
+            selected.forEach(value => {
+                const tag = document.createElement('span');
+                tag.className = 'selected-tag';
+                tag.innerHTML = `${value} <span class="remove-tag" onclick="removeTag('${type}', '${value}')">×</span>`;
+                tagsContainer.appendChild(tag);
+            });
+        }
+
+        // Remove a tag
+        function removeTag(type, value) {
+            const wrapper = document.getElementById(type === 'skills' ? 'skillsWrapper' : 'certsWrapper');
+            const checkbox = wrapper.querySelector(`input[value="${value}"]`);
+            if (checkbox) {
+                checkbox.checked = false;
+                updateSelection(type);
+            }
+        }
+
+        // Initialize with sample values
         document.addEventListener('DOMContentLoaded', function() {
-            const event = new Event('change');
-            document.getElementById('skills').dispatchEvent(event);
+            // Pre-select sample skills
+            const sampleSkills = {{ sample.skills|tojson }};
+            const sampleCerts = {{ sample.certifications|tojson }};
+            
+            if (sampleSkills) {
+                const skillCheckboxes = document.querySelectorAll('#skillsWrapper input[type="checkbox"]');
+                skillCheckboxes.forEach(cb => {
+                    if (sampleSkills.includes(cb.value)) {
+                        cb.checked = true;
+                    }
+                });
+                updateSelection('skills');
+            }
+            
+            if (sampleCerts) {
+                const certCheckboxes = document.querySelectorAll('#certsWrapper input[type="checkbox"]');
+                certCheckboxes.forEach(cb => {
+                    if (sampleCerts.includes(cb.value)) {
+                        cb.checked = true;
+                    }
+                });
+                updateSelection('certs');
+            }
         });
     </script>
 </body>
