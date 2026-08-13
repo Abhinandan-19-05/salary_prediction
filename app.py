@@ -102,6 +102,18 @@ def index():
             # Predict
             pred = model.predict(input_df)[0]
             prediction = round(pred, 2)
+            
+            # Reset sample values after successful prediction
+            sample = {
+                'degree': 'B.Tech',
+                'college_tier': 'Tier 1',
+                'skills': [],
+                'certifications': [],
+                'internship_quality': 'Good',
+                'location': 'Bangalore',
+                'experience_years': 0.0,
+                'projects': 0
+            }
 
         except Exception as e:
             error = str(e)
